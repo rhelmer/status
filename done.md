@@ -5,6 +5,7 @@
 ** continued puppet and basic setup in vagrant VM
 * socorro
 ** reviewed https://github.com/mozilla/socorro/pull/1370
+** reviewed https://github.com/mozilla/socorro/pull/1373
 * graphserver
 ** sent email to dev-planning about upcoming y-axis feature
 *** has been in the pipeline for months, recently unblocked
