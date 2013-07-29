@@ -1,12 +1,12 @@
 TODO
 ===============
-* eddy (3 days)
+* l10n tools (Mon-Tue)
+  * help set up new VM w/ puppet
+  * continue setting up tools locally
+* eddy (Wed-Fri)
   * set up test jobs on QA jenkins
   * attend/report back to SfN
   * talk w/ marketplace folks about patch
-* l10n tools (2 days)
-  * help set up new VM w/ puppet
-  * continue setting up tools locally
 * pushlog
   * load testing for bug 827123
   * reading hg docs
@@ -14,6 +14,7 @@ TODO
   * compare/contrast hg/tryserver/etc.
 * graphs
   * ship default branch on July 31st (wednesday)
+    * send followup email to dev-planning
 
 * etherpad
   * work on migrating data to postgres
@@ -21,6 +22,7 @@ TODO
   * remaining security blockers
 
 STABILITY WORKWEEK TOPICS
+---------------
 
 * "lack of data" problem
 * deprecating socorro-dev in favor of tools-socorro@ and stability@
