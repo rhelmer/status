@@ -3,6 +3,7 @@ TODO
 - l10n tools (Mon-Tue)
     - help set up new VM w/ puppet
     - continue setting up a10n locally
+        - poke about setting problems on a10n
 - eddy (Wed-Fri)
     - set up test jobs on QA jenkins
     - attend/report back to SfN
@@ -37,6 +38,7 @@ DONE
     - helped look at jenkins test failure, filed https://bugzil.la/899160
     - continued puppet and basic setup in vagrant VM
         - plan to hand this basic puppet setup off to IT for new prod VM setup
+        - does not start up - seems to not be finding settings.local
 - eddy
     - merged perfcharts branch to latest https://github.com/rhelmer/zamboni
     - got zamboni running on new laptop
