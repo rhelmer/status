@@ -26,6 +26,8 @@ TODO
     - work on migrating data to postgres
     - figure out URL redirects for old team sites
     - remaining security blockers
+- socorro
+    - fix regression https://bugzil.la/898432
 
 - make video of webtools workflow
     - compare/contrast hg/tryserver/etc.
