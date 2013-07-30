@@ -2,11 +2,12 @@ TODO
 ===============
 - l10n tools (Mon-Tue)
     - help set up new VM w/ puppet
-    - continue setting up tools locally
+    - continue setting up a10n locally
 - eddy (Wed-Fri)
     - set up test jobs on QA jenkins
     - attend/report back to SfN
     - talk w/ marketplace folks about patch
+    - chat with jeads about /marketapps datazilla endpoint
 - pushlog
     - load testing for http://bugzil.la/827123
     - reading hg docs
@@ -35,9 +36,14 @@ DONE
     - weekly meeting
     - helped look at jenkins test failure, filed https://bugzil.la/899160
     - continued puppet and basic setup in vagrant VM
+        - plan to hand this basic puppet setup off to IT for new prod VM setup
+- eddy
+    - merged perfcharts branch to latest https://github.com/rhelmer/zamboni
+    - got zamboni running on new laptop
 - socorro
-    - reviewed https://github.com/mozilla/socorro/pull/1370
-    - reviewed https://github.com/mozilla/socorro/pull/1373
+    - reviews
+        - https://github.com/mozilla/socorro/pull/1370
+        - https://github.com/mozilla/socorro/pull/1373
 - graphserver
     - sent email to dev-planning about upcoming y-axis feature
         - has been in the pipeline for months, recently unblocked
