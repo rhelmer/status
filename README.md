@@ -1,27 +1,34 @@
 TODO
 ===============
 - l10n tools (Mon-Tue)
+    - https://github.com/rhelmer/a10n/compare/puppet
     - help set up new VM w/ puppet
     - continue setting up a10n locally
         - poke about setting problems on a10n
 - eddy (Wed-Fri)
+    - https://github.com/rhelmer/zamboni/compare/perfcharts
     - set up test jobs on QA jenkins
     - attend/report back to SfN
     - talk w/ marketplace folks about patch
     - chat with jeads about /marketapps datazilla endpoint
 - pushlog
+    - http://hg.mozilla.org/users/rhelmer\_mozilla.com/pushlog
     - load testing for http://bugzil.la/827123
-    - reading hg docs
-- make video of webtools workflow
-    - compare/contrast hg/tryserver/etc.
+    - reag hg docs
+        - http://mercurial.selenic.com/wiki/Revlog
+        - http://mercurial.selenic.com/wiki/WritingExtensions
 - graphs
+    - https://hg.mozilla.org/graphs
     - ship default branch on July 31st (wednesday)
         - send followup email to dev-planning
-
 - etherpad
+    - https://github.com/rhelmer/etherpad-lite
     - work on migrating data to postgres
     - figure out URL redirects for old team sites
     - remaining security blockers
+
+- make video of webtools workflow
+    - compare/contrast hg/tryserver/etc.
 
 STABILITY WORKWEEK TOPICS
 ---------------
