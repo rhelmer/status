@@ -14,7 +14,7 @@ TODO
     - compare/contrast hg/tryserver/etc.
 - graphs
     - ship default branch on July 31st (wednesday)
-      - send followup email to dev-planning
+        - send followup email to dev-planning
 
 - etherpad
     - work on migrating data to postgres
@@ -40,7 +40,7 @@ DONE
     - reviewed https://github.com/mozilla/socorro/pull/1373
 - graphserver
     - sent email to dev-planning about upcoming y-axis feature
-      - has been in the pipeline for months, recently unblocked
+        - has been in the pipeline for months, recently unblocked
 - pushlog
     - did some analysis on access logs for load-testing purposes
 
@@ -48,7 +48,7 @@ DONE
 ---------------
 - socorro
     - chatted w/ socorro installer
-      - got them interested in my Go collector/processor :)
+        - got them interested in my Go collector/processor :)
 
 2013-07-26
 ---------------
@@ -61,9 +61,9 @@ DONE
     - picked up bad fix of mine https://bugzil.la/898432
 - graphserver
     - helped mbrubeck pick up some volunteer tasks, until datazilla is ready
-      - removed index page https://bugzil.la/898640
-      - finished out https://bugzil.la/835751 for sheeri
-      - pushed three releases (v2.3.8, v2.3.9 and v2.3.10)
+        - removed index page https://bugzil.la/898640
+        - finished out https://bugzil.la/835751 for sheeri
+        - pushed three releases (v2.3.8, v2.3.9 and v2.3.10)
 
 2013-07-25
 ---------------
