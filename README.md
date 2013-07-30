@@ -50,7 +50,8 @@ DONE
   * chatted w/ socorro installer
     * got them interested in my Go collector/processor :)
 
-* 2013-07-26
+2013-07-26
+---------------
 * elmo
   * more work on a10n VM puppet manifests
 * eddy
