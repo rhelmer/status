@@ -43,6 +43,8 @@ DONE
 - elmo
     - got working settings/local.py from Pike, will contribute fixes
       for local.py-dev so others do not trip on yesterday's problems
+- socorro
+    - reviewed https://github.com/mozilla/socorro/pull/1375
 
 2013-07-29
 ---------------
