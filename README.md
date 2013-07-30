@@ -27,7 +27,7 @@ STABILITY WORKWEEK TOPICS
 ---------------
 
 - "lack of data" problem
-- deprecating socorro-dev in favor of tools-socorro@ and stability@
+- deprecating socorro-dev@ in favor of tools-socorro@ and stability@
 
 DONE
 ===============
