@@ -4,7 +4,7 @@ TODO
     - https://github.com/rhelmer/a10n/compare/puppet
     - help set up new VM w/ puppet
     - continue setting up a10n locally
-        - poke about setting problems on a10n
+        - contribue settings fixes to local.py-dev
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - set up test jobs on QA jenkins
@@ -38,6 +38,12 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-07-30
+---------------
+- elmo
+    - got working settings/local.py from Pike, will contribute fixes
+      for local.py-dev so others do not trip on yesterday's problems
+
 2013-07-29
 ---------------
 - elmo
@@ -45,7 +51,7 @@ DONE
     - helped look at jenkins test failure, filed https://bugzil.la/899160
     - continued puppet and basic setup in vagrant VM
         - plan to hand this basic puppet setup off to IT for new prod VM setup
-        - does not start up - seems to not be finding settings.local
+        - does not start up - seems to not be finding settings/local.py
 - eddy
     - merged perfcharts branch to latest https://github.com/rhelmer/zamboni
     - got zamboni running on new laptop
