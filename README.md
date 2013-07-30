@@ -8,7 +8,7 @@ TODO
   * attend/report back to SfN
   * talk w/ marketplace folks about patch
 * pushlog
-  * load testing for bug 827123
+  * load testing for http://bugzil.la/827123
   * reading hg docs
 * make video of webtools workflow
   * compare/contrast hg/tryserver/etc.
@@ -33,7 +33,7 @@ DONE
 ---------------
 * elmo
   * weekly meeting
-  * helped look at jenkins test failure, filed bug 899160
+  * helped look at jenkins test failure, filed https://bugzil.la/899160
   * continued puppet and basic setup in vagrant VM
 * socorro
   * reviewed https://github.com/mozilla/socorro/pull/1370
@@ -57,11 +57,11 @@ DONE
   * started beating zamboni patch into shape
 * socorro
   * helped mjrosenb w/ ad-hoc query
-  * picked up bad fix of mine bug 898432
+  * picked up bad fix of mine https://bugzil.la/898432
 * graphserver
   * helped mbrubeck pick up some volunteer tasks, until datazilla is ready
-    * bug 898640
-    * finished out bug 835751 for sheeri
+    * https://bugzil.la/898640
+    * finished out https://bugzil.la/835751 for sheeri
     * pushed three releases (v2.3.8, v2.3.9 and v2.3.10)
 
 2013-07-25
@@ -75,7 +75,7 @@ DONE
   * looking at JSON encoding issue w/ kairo
   * helped external user w/ install (oleavr)
 * graphserver
-  * put up patch for review on perf problems (bug 835751)
+  * put up patch for review on perf problems (https://bugzil.la/835751)
 
 2013-07-24
 ---------------
@@ -84,10 +84,10 @@ DONE
 * eddy
   * tunnelblick/
 * socorro
-  * followed up on dev and vagrant problems (bug 892271)
+  * followed up on dev and vagrant problems (https://bugzil.la/892271)
 * graphserver
-  * followed up on perf problems bug 835751
-  * sec bug 897580
+  * followed up on perf problems https://bugzil.la/835751
+  * https://bugzil.la/897580
 * etherpad
   * discussions with jakem
-  * bug 897693
+  * https://bugzil.la/897693
