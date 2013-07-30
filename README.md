@@ -12,7 +12,7 @@ TODO
     - talk w/ marketplace folks about patch
     - chat with jeads about /marketapps datazilla endpoint
 - pushlog
-    - http://hg.mozilla.org/users/rhelmer\_mozilla.com/pushlog
+    - http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog
     - load testing for http://bugzil.la/827123
     - reag hg docs
         - http://mercurial.selenic.com/wiki/Revlog
