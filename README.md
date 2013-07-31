@@ -47,6 +47,7 @@ DONE
       for local.py-dev so others do not trip on yesterday's problems
 - socorro
     - reviewed https://github.com/mozilla/socorro/pull/1375
+    - investigated https://bugzil.la/898432
 
 2013-07-29
 ---------------
