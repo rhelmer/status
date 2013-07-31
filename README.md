@@ -17,10 +17,6 @@ TODO
     - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
         - http://mercurial.selenic.com/wiki/WritingExtensions
-- graphs
-    - https://hg.mozilla.org/graphs
-    - ship default branch on July 31st (wednesday)
-        - send followup email to dev-planning
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
     - work on migrating data to postgres
@@ -40,6 +36,11 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-07-31
+---------------
+- graphserver
+    - shipped y-axis patch (https://bugzil.la/641413)
+
 2013-07-30
 ---------------
 - elmo
