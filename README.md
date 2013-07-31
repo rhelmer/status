@@ -14,7 +14,7 @@ TODO
 - pushlog
     - http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog
     - load testing for http://bugzil.la/827123
-    - reag hg docs
+    - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
         - http://mercurial.selenic.com/wiki/WritingExtensions
 - graphs
