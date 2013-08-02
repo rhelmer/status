@@ -8,9 +8,8 @@ TODO
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - set up test jobs on QA jenkins
-    - attend/report back to SfN
-    - talk w/ marketplace folks about patch
-    - chat with jeads about /marketapps datazilla endpoint
+        - bug stephend/davehunt on Mondy
+    - talk w/ marketplace folks about perfcharts branch
 - pushlog
     - http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog
     - load testing for http://bugzil.la/827123
@@ -36,6 +35,15 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-08-02
+---------------
+- eddy
+    - chatted w/ ctalbert about running tests
+        - followup w/ stephend + davehunt on Monday
+    - reviewed info jeads sent a while back for testing /marketapps endpoint
+- socorro
+    - helped peterbe w/ webapp-django -> devdb
+
 2013-07-31
 ---------------
 - graphserver
