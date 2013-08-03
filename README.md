@@ -32,6 +32,8 @@ STABILITY WORKWEEK TOPICS
 
 - "lack of data" problem
 - deprecating socorro-dev@ in favor of tools-socorro@ and stability@
+- making dev env better
+    - strip down vagrant/puppet, add multi-machine support
 
 DONE
 ===============
@@ -43,6 +45,7 @@ DONE
     - reviewed info jeads sent a while back for testing /marketapps endpoint
 - socorro
     - helped peterbe w/ webapp-django -> devdb
+    - helped out w/ configman mware setup
 
 2013-07-31
 ---------------
