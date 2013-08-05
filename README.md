@@ -39,6 +39,14 @@ DONE
 ===============
 2013-08-02
 ---------------
+- elmo
+    - attended elmo meeting
+    - went over a10n test setup w/ axel 
+        - http://pike.github.io/a10n/test-setup/
+        - now working locally
+
+2013-08-02
+---------------
 - eddy
     - chatted w/ ctalbert about running tests
         - followup w/ stephend + davehunt on Monday
