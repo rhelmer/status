@@ -37,6 +37,13 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-08-03
+---------------
+- elmo
+- socorro
+    - PR to speed up socorro-vagrant jenkins job
+        - https://github.com/mozilla/socorro/pull/1387
+
 2013-08-02
 ---------------
 - elmo
