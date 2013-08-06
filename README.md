@@ -44,6 +44,8 @@ DONE
     - went over a10n test setup w/ axel 
         - http://pike.github.io/a10n/test-setup/
         - now working locally
+- socorro
+    - reviewed https://github.com/mozilla/socorro/pull/1382
 
 2013-08-02
 ---------------
