@@ -39,10 +39,18 @@ DONE
 ===============
 2013-08-03
 ---------------
+- eddy
 - elmo
+
+2013-08-03
+---------------
+- elmo
+    - discussed deployment strategy w/ solarce
+    - local VM issues, plowed through
 - socorro
     - PR to speed up socorro-vagrant jenkins job
         - https://github.com/mozilla/socorro/pull/1387
+        - 1h20m -> ~40m
 
 2013-08-02
 ---------------
