@@ -37,12 +37,13 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
-2013-08-03
+2013-08-07
 ---------------
-- eddy
 - elmo
+    - figuring out bugs in test setup script
+    - worked out plan for standard deployment script w/ ErikRose
 
-2013-08-03
+2013-08-06
 ---------------
 - elmo
     - discussed deployment strategy w/ solarce
@@ -52,7 +53,7 @@ DONE
         - https://github.com/mozilla/socorro/pull/1387
         - 1h20m -> ~40m
 
-2013-08-02
+2013-08-05
 ---------------
 - elmo
     - attended elmo meeting
