@@ -42,6 +42,9 @@ DONE
 - elmo
     - figuring out bugs in test setup script
     - worked out plan for standard deployment script w/ ErikRose
+- socorro
+    - weekly meeting
+    - answer random irc queries :)
 
 2013-08-06
 ---------------
