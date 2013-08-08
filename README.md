@@ -4,7 +4,7 @@ TODO
     - https://github.com/rhelmer/a10n/compare/puppet
     - help set up new VM w/ puppet
     - continue setting up a10n locally
-        - contribue settings fixes to local.py-dev
+        - contribute settings fixes to local.py-dev
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - set up test jobs on QA jenkins
