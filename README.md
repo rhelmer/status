@@ -11,7 +11,7 @@ TODO
         - bug stephend/davehunt on Mondy
     - talk w/ marketplace folks about perfcharts branch
 - pushlog
-    - http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog
+    - http://hg.mozilla.org/users/rhelmer\_mozilla.com/pushlog
     - load testing for http://bugzil.la/827123
     - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
@@ -37,6 +37,14 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-08-08
+---------------
+- eddy
+    - submitted test data via datazilla\_client
+- socorro
+    - email/irc chatter about dev/stage data sync issues
+
+
 2013-08-07
 ---------------
 - elmo
