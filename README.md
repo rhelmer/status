@@ -1,7 +1,7 @@
 TODO
 ===============
 - l10n tools (Mon-Tue)
-    - https://github.com/rhelmer/a10n/compare/puppet
+    - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
     - help set up new VM w/ puppet
     - continue setting up a10n locally
         - contribute settings fixes to local.py-dev
@@ -37,6 +37,15 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-08-08
+---------------
+- elmo
+    - got a10n starting under supervisord
+    - filed bugs to track changes so far
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=903667
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=903670
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=903673
+
 2013-08-08
 ---------------
 - eddy
