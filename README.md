@@ -42,7 +42,8 @@ DONE
 - eddy
     - submitted test data via `datazilla_client`
 - elmo
-    -
+    - got a10n working in local dev env
+    - working on startup scripts (supervisord)
 - socorro
     - email/irc chatter about dev/stage data sync issues
 
