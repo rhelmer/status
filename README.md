@@ -44,7 +44,11 @@ DONE
     - filed bugs to track changes so far
         - https://bugzilla.mozilla.org/show_bug.cgi?id=903667
         - https://bugzilla.mozilla.org/show_bug.cgi?id=903670
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=903673
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=903672
+    - filed bug to track (continuous) deployment script
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=903701
+    - filed bug about puppetizing a10n VM
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=903702
 
 2013-08-08
 ---------------
