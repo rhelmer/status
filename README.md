@@ -2,6 +2,8 @@ TODO
 ===============
 - l10n tools (Mon-Tue)
     - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
+    - tracking bug
+        - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - help set up new VM w/ puppet
     - continue setting up a10n locally
         - contribute settings fixes to local.py-dev
