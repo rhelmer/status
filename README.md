@@ -47,6 +47,14 @@ DONE
         - turns out was failing on jenkins too but reported as passed!
     - followed up on bugs from Friday w/ Axel
     - testing a10n setup
+        - discussed deploy script w/ erikrose
+            - https://bugzilla.mozilla.org/show_bug.cgi?id=903701
+- socorro
+    - worked on table count bug
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=898432
+- graphserver
+    - followed up on contribution
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=688534
 
 2013-08-09
 ---------------
