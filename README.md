@@ -39,7 +39,16 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
-2013-08-08
+2013-08-12
+---------------
+- elmo
+    - weekly meeting
+    - looked into elmo test failure
+        - turns out was failing on jenkins too but reported as passed!
+    - followed up on bugs from Friday w/ Axel
+    - testing a10n setup
+
+2013-08-09
 ---------------
 - elmo
     - got a10n starting under supervisord
