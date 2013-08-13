@@ -49,6 +49,7 @@ DONE
     - testing a10n setup
         - discussed deploy script w/ erikrose
             - https://bugzilla.mozilla.org/show_bug.cgi?id=903701
+            - erik forked out https://github.com/erikrose/shiva
 - socorro
     - worked on table count bug
         - https://bugzilla.mozilla.org/show_bug.cgi?id=898432
