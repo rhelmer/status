@@ -39,13 +39,9 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
-2013-08-12
+2013-08-13
 ---------------
 - elmo
-    - weekly meeting
-    - looked into elmo test failure
-        - turns out was failing on jenkins too but reported as passed!
-    - followed up on bugs from Friday w/ Axel
     - testing a10n setup
         - discussed deploy script w/ erikrose
             - https://bugzilla.mozilla.org/show_bug.cgi?id=903701
@@ -56,6 +52,14 @@ DONE
 - graphserver
     - followed up on contribution
         - https://bugzilla.mozilla.org/show_bug.cgi?id=688534
+
+2013-08-12
+---------------
+- elmo
+    - weekly meeting
+    - looked into elmo test failure
+        - turns out was failing on jenkins too but reported as passed!
+    - followed up on bugs from Friday w/ Axel
 
 2013-08-09
 ---------------
