@@ -49,6 +49,7 @@ DONE
 - socorro
     - worked on table count bug
         - https://bugzilla.mozilla.org/show_bug.cgi?id=898432
+        - put up PR https://github.com/mozilla/socorro/pull/1401
     - helped out with missing ADI backfill
         - https://bugzilla.mozilla.org/show_bug.cgi?id=904091
 - graphserver
