@@ -10,7 +10,7 @@ TODO
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - set up test jobs on QA jenkins
-        - bug stephend/davehunt on Mondy
+        - bug stephend/davehunt
     - talk w/ marketplace folks about perfcharts branch
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
