@@ -1,12 +1,5 @@
 TODO
 ===============
-- l10n tools (Mon-Tue)
-    - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
-    - tracking bug
-        - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
-    - help set up new VM w/ puppet
-    - continue setting up a10n locally
-        - contribute settings fixes to local.py-dev
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - set up test jobs on QA jenkins
@@ -18,16 +11,25 @@ TODO
     - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
         - http://mercurial.selenic.com/wiki/WritingExtensions
+- l10n tools (Mon-Tue)
+    - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
+    - tracking bug
+        - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
+    - help set up new VM w/ puppet
+    - continue setting up a10n locally
+        - contribute settings fixes to local.py-dev
+- socorro
+    - fix regression https://bugzil.la/898432
+
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
     - work on migrating data to postgres
     - figure out URL redirects for old team sites
     - remaining security blockers
-- socorro
-    - fix regression https://bugzil.la/898432
 
-- make video of webtools workflow
-    - compare/contrast hg/tryserver/etc.
+misc
+    - make video of webtools workflow
+        - compare/contrast hg/tryserver/etc.
 
 STABILITY WORKWEEK TOPICS
 ---------------
