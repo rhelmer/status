@@ -41,6 +41,12 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-08-14
+---------------
+- socorro
+    - followup bug from yesterday's PR
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=905642
+
 2013-08-13
 ---------------
 - elmo
