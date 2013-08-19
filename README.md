@@ -41,6 +41,11 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-08-19
+---------------
+- socorro
+    - stability workweek
+
 2013-08-14
 ---------------
 - socorro
