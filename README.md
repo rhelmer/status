@@ -41,10 +41,26 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
-2013-08-19
+2013-08-26
+---------------
+- socorro
+    - filed followup bugs from workweek
+    - promoted split-out ftp scraper to other teams, #ateam is interested
+        - https://github.com/rhelmer/releases
+- etherpad-lite
+    - investigated spellcheck request
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=909352
+        - https://github.com/ether/etherpad-lite/issues/1863
+        - https://github.com/mozilla/pad/pull/3
+    - chatted about hand-off, launching MVP etc.
+
+2013-08-19 - 2013-08-23
 ---------------
 - socorro
     - stability workweek
+    - extracted ftpscraper from socorro to standalone service
+        - http://releases.paas.allizom.org/
+        - https://github.com/rhelmer/releases
 
 2013-08-14
 ---------------
