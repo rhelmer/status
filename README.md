@@ -46,6 +46,8 @@ DONE
 - eddy
     - start testing b2gperf with third-party packaged apps
         - https://github.com/mozilla/b2gperf
+        - flashed unagi w/ marionette
+        - still working on getting b2gperf going
 
 - graphserver
     - reviewed sorting patch
