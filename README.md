@@ -3,7 +3,7 @@ TODO
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - set up test jobs on QA jenkins
-        - bug stephend/davehunt
+        - start by testing b2gperf w/ packaged apps
     - talk w/ marketplace folks about perfcharts branch
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
@@ -37,10 +37,20 @@ STABILITY WORKWEEK TOPICS
 - "lack of data" problem
 - deprecating socorro-dev@ in favor of tools-socorro@ and stability@
 - making dev env better
-    - strip down vagrant/puppet, add multi-machine support
+    - strip down vagrant/puppet, use centos to be more like mozilla production
 
 DONE
 ===============
+2013-08-27
+---------------
+- eddy
+    - start testing b2gperf with third-party packaged apps
+        - https://github.com/mozilla/b2gperf
+
+- graphserver
+    - reviewed sorting patch
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=641414
+
 2013-08-26
 ---------------
 - socorro
