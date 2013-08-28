@@ -45,6 +45,13 @@ DONE
 ---------------
 - eddy
     - got b2gperf running w/ andym's stopwatch app
+    - sent email re: next steps
+- socorro
+    - put up PR for fakedata bug
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=909469
+- graphserver
+    - chatted w/ bz about graphserver feature request
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=910282
 
 2013-08-27
 ---------------
