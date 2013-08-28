@@ -51,6 +51,9 @@ DONE
         - https://bugzilla.mozilla.org/show_bug.cgi?id=909469
     - put up PR to fix b2g scraping problem
         - https://bugzilla.mozilla.org/show_bug.cgi?id=910385
+- release-api
+    - solarce working on putting standalone scraper on generic cluster
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=909902
 - graphserver
     - chatted w/ bz about graphserver feature request
         - https://bugzilla.mozilla.org/show_bug.cgi?id=910282
