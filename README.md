@@ -41,6 +41,11 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-08-28
+---------------
+- eddy
+    - got b2gperf running w/ andym's stopwatch app
+
 2013-08-27
 ---------------
 - eddy
