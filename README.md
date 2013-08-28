@@ -49,6 +49,8 @@ DONE
 - socorro
     - put up PR for fakedata bug
         - https://bugzilla.mozilla.org/show_bug.cgi?id=909469
+    - put up PR to fix b2g scraping problem
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=910385
 - graphserver
     - chatted w/ bz about graphserver feature request
         - https://bugzilla.mozilla.org/show_bug.cgi?id=910282
