@@ -41,6 +41,27 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+
+2013-09-00
+---------------
+- eddy
+    - worked on REST service for launching b2gperf tests from marketplace
+- socorro
+    - worked on "corrupted modulelist output" bug with harsha
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=907280 
+
+2013-08-30
+---------------
+- graphserver
+    - helped with graphserver db archiving
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=911215
+
+2013-08-29
+---------------
+- socorro
+    - filed bug on update tcbs problem
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=910820
+
 2013-08-28
 ---------------
 - eddy
