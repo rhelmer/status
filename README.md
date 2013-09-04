@@ -41,6 +41,15 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+2013-09-00
+---------------
+- eddy
+    - published repo with eddy-specific work so far
+        - https://github.com/rhelmer/eddy
+- socorro
+    - meeting, post-mortem
+    - backfilling for "corrupted modulelist output" bug
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=907280
 
 2013-09-00
 ---------------
