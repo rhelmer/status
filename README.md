@@ -46,6 +46,12 @@ STABILITY WORKWEEK TOPICS
 DONE
 ===============
 
+2013-09-06
+---------------
+- graphserver
+    - pushed minor fix for b2g-inbound hg repo links
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=913636
+
 2013-09-05
 ---------------
 - eddy
