@@ -1,10 +1,14 @@
 TODO
 ===============
 - eddy (Wed-Fri)
+    - https://github.com/rhelmer/eddy
     - https://github.com/rhelmer/zamboni/compare/perfcharts
-    - set up test jobs on QA jenkins
-        - start by testing b2gperf w/ packaged apps
     - talk w/ marketplace folks about perfcharts branch
+    - figure out why b2gperf will not publish to datazilla
+        - cannot find build_revision?
+    - actually load downloaded apps onto phone
+    - find out how to get manifest for unapproved apps in marketplace
+    - add button in marketplace patch to submit jobs to new eddy webservice
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
     - load testing for http://bugzil.la/827123
@@ -41,7 +45,18 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
-2013-09-00
+
+2013-09-05
+---------------
+- eddy
+    - added flask+celery+rabbitmq support to eddy
+        - simple endpoint for marketplace reviewer dashboard to hit
+        - celery worker runs test and submits to datazilla
+    - trying to figure out why b2gperf does not like my unagi build
+        - missing build_revision so will not report to datazilla :/
+- socorro
+
+2013-09-04
 ---------------
 - eddy
     - published repo with eddy-specific work so far
@@ -51,7 +66,7 @@ DONE
     - backfilling for "corrupted modulelist output" bug
         - https://bugzilla.mozilla.org/show_bug.cgi?id=907280
 
-2013-09-00
+2013-09-03
 ---------------
 - eddy
     - worked on REST service for launching b2gperf tests from marketplace
