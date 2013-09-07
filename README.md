@@ -3,12 +3,12 @@ TODO
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/eddy
     - https://github.com/rhelmer/zamboni/compare/perfcharts
-    - talk w/ marketplace folks about perfcharts branch
+    - add button in perfcharts branch to submit jobs to new eddy webservice
+    - talk w/ marketplace folks about reviewing perfcharts branch
     - figure out why b2gperf will not publish to datazilla
-        - cannot find build_revision?
+        - cannot find build/gaia/etc revision?
     - actually load downloaded apps onto phone
-    - find out how to get manifest for unapproved apps in marketplace
-    - add button in marketplace patch to submit jobs to new eddy webservice
+    - figure out how eddy should use auth against API to get manifest/zip
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
     - load testing for http://bugzil.la/827123
@@ -23,8 +23,6 @@ TODO
     - continue setting up a10n locally
         - contribute settings fixes to local.py-dev
 - socorro
-    - fix regression https://bugzil.la/898432
-
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
     - work on migrating data to postgres
@@ -34,6 +32,8 @@ TODO
 misc
     - make video of webtools workflow
         - compare/contrast hg/tryserver/etc.
+    - public version of eddy
+    - get socorro working in little docker containers
 
 STABILITY WORKWEEK TOPICS
 ---------------
@@ -48,6 +48,8 @@ DONE
 
 2013-09-06
 ---------------
+- eddy
+    - started marketplace review dashboard integration
 - graphserver
     - pushed minor fix for b2g-inbound hg repo links
         - https://bugzilla.mozilla.org/show_bug.cgi?id=913636
