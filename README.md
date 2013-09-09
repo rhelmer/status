@@ -46,6 +46,12 @@ STABILITY WORKWEEK TOPICS
 DONE
 ===============
 
+2013-09-09
+---------------
+- l10n
+    - meeting
+    - working on finishing up a10n deploy
+
 2013-09-06
 ---------------
 - eddy
