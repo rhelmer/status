@@ -3,12 +3,12 @@ TODO
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/eddy
     - https://github.com/rhelmer/zamboni/compare/perfcharts
-    - add button in perfcharts branch to submit jobs to new eddy webservice
     - talk w/ marketplace folks about reviewing perfcharts branch
     - figure out why b2gperf will not publish to datazilla
         - cannot find build/gaia/etc revision?
     - actually load downloaded apps onto phone
     - figure out how eddy should use auth against API to get manifest/zip
+        - getting back 'You do not own that app.' for unreviewed apps
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
     - load testing for http://bugzil.la/827123
@@ -46,8 +46,17 @@ STABILITY WORKWEEK TOPICS
 DONE
 ===============
 
+2013-09-10
+---------------
+- socorro
+    - helped installer on mailing list
+    - filed bug about simplifying vagrant
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=914727
+
 2013-09-09
 ---------------
+- eddy
+    - added basic "test app" button to perfcharts branch
 - l10n
     - meeting
     - working on finishing up a10n deploy
