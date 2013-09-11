@@ -48,6 +48,10 @@ DONE
 
 2013-09-10
 ---------------
+- eddy
+    - hooked up "perf test app" button properly
+    - made web service take POST for submissions not GET
+    - researched actually loading phone onto device
 - socorro
     - helped installer on mailing list
     - filed bug about simplifying vagrant
