@@ -6,7 +6,6 @@ TODO
     - talk w/ marketplace folks about reviewing perfcharts branch
     - figure out why b2gperf will not publish to datazilla
         - cannot find build/gaia/etc revision?
-    - actually load downloaded apps onto phone
     - figure out how eddy should use auth against API to get manifest/zip
         - getting back 'You do not own that app.' for unreviewed apps
 - pushlog
