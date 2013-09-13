@@ -46,6 +46,21 @@ STABILITY WORKWEEK TOPICS
 DONE
 ===============
 
+2013-09-12
+---------------
+- eddy
+    - get download app loading on device \o/
+    - lots of testing with random apps
+        - seems to work!
+
+2013-09-11
+---------------
+- eddy
+    - provide way to query if job is already in the queue
+- socorro
+    - meeting
+    - reviews
+
 2013-09-10
 ---------------
 - eddy
