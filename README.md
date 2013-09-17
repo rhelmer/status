@@ -54,8 +54,10 @@ DONE
 ---------------
 - socorro
     - reviews
-    - worked on install docs + vagrant reboot
+    - landed install docs + vagrant reboot
         - https://github.com/mozilla/socorro/pull/1508
+    - started working on socorro/b2g release channel bug
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=869905
 
 2013-09-16
 ---------------
