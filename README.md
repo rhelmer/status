@@ -9,6 +9,10 @@ TODO
         - hacked around for now
     - figure out how eddy should use auth against API to get manifest/zip
         - getting back 'You do not own that app.' for unreviewed apps
+    - zamboni needs app slug, and b2gperf only handles app name
+        - there may be multiple apps w/ same name but different slugs
+        - not sure what happens if there are multiple such apps on the phone?
+            - try stopwatch
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
     - load testing for http://bugzil.la/827123
