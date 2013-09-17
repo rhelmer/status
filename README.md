@@ -45,6 +45,16 @@ STABILITY WORKWEEK TOPICS
 DONE
 ===============
 
+2013-09-16
+---------------
+- eddy
+    - chatted w/ andym re: auth for marketplace API
+        - need to set up oauth review user for eddy
+- socorro
+    - reviews
+    - worked on install docs + vagrant reboot
+        - https://github.com/mozilla/socorro/pull/1508
+
 2013-09-12
 ---------------
 - eddy
