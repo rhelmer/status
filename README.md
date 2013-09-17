@@ -6,6 +6,7 @@ TODO
     - talk w/ marketplace folks about reviewing perfcharts branch
     - figure out why b2gperf will not publish to datazilla
         - cannot find build/gaia/etc revision?
+        - hacked around for now
     - figure out how eddy should use auth against API to get manifest/zip
         - getting back 'You do not own that app.' for unreviewed apps
 - pushlog
@@ -50,6 +51,7 @@ DONE
 - eddy
     - chatted w/ andym re: auth for marketplace API
         - need to set up oauth review user for eddy
+    - made marketplace-datazilla JS able to load arbitrary apps
 - socorro
     - reviews
     - worked on install docs + vagrant reboot
