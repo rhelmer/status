@@ -50,6 +50,13 @@ STABILITY WORKWEEK TOPICS
 DONE
 ===============
 
+2013-09-17
+---------------
+- socorro
+    - reviews
+    - worked on install docs + vagrant reboot
+        - https://github.com/mozilla/socorro/pull/1508
+
 2013-09-16
 ---------------
 - eddy
