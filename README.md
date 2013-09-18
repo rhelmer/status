@@ -3,16 +3,20 @@ TODO
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/eddy
     - https://github.com/rhelmer/zamboni/compare/perfcharts
-    - talk w/ marketplace folks about reviewing perfcharts branch
+    - open bug/PR on zamboni/marketplace on perfcharts branch
+    - talk to clint about using new phones
     - figure out why b2gperf will not publish to datazilla
         - cannot find build/gaia/etc revision?
-        - hacked around for now
+        - hacked around for now, probably my test phone
     - figure out how eddy should use auth against API to get manifest/zip
         - getting back 'You do not own that app.' for unreviewed apps
+        - chatted w/ andym, can add a oauth review user for this
     - zamboni needs app slug, and b2gperf only handles app name
         - there may be multiple apps w/ same name but different slugs
         - not sure what happens if there are multiple such apps on the phone?
             - try stopwatch
+        - chat w/ b2gperf folks (like davehunt) about this..
+
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
     - load testing for http://bugzil.la/827123
