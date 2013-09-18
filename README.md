@@ -20,6 +20,8 @@ TODO
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
     - load testing for http://bugzil.la/827123
+    - profile existing hg setup, why is it slow?
+        - post this plan on bug
     - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
         - http://mercurial.selenic.com/wiki/WritingExtensions
