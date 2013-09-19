@@ -5,6 +5,7 @@ TODO
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - open bug/PR on zamboni/marketplace on perfcharts branch
     - talk to clint about using new phones
+        - still on order
     - figure out why b2gperf will not publish to datazilla
         - cannot find build/gaia/etc revision?
         - hacked around for now, probably my test phone
@@ -16,6 +17,7 @@ TODO
         - not sure what happens if there are multiple such apps on the phone?
             - try stopwatch
         - chat w/ b2gperf folks (like davehunt) about this..
+            - made PR for b2gperf
 
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
