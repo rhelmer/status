@@ -12,12 +12,6 @@ TODO
     - figure out how eddy should use auth against API to get manifest/zip
         - getting back 'You do not own that app.' for unreviewed apps
         - chatted w/ andym, can add a oauth review user for this
-    - zamboni needs app slug, and b2gperf only handles app name
-        - there may be multiple apps w/ same name but different slugs
-        - not sure what happens if there are multiple such apps on the phone?
-            - try stopwatch
-        - chat w/ b2gperf folks (like davehunt) about this..
-            - made PR for b2gperf
 
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
@@ -57,6 +51,18 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+
+2013-09-18
+---------------
+- eddy
+    - patched b2gperf to handle overriding app name
+        - this makes it work with mkt "app_slug" names \o/
+
+2013-09-18
+---------------
+- socorro
+    - meeting
+    - reviews
 
 2013-09-17
 ---------------
