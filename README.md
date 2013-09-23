@@ -12,6 +12,9 @@ TODO
     - figure out how eddy should use auth against API to get manifest/zip
         - getting back 'You do not own that app.' for unreviewed apps
         - chatted w/ andym, can add a oauth review user for this
+    - clone inari build
+        - copy artifact from most recent successful download build
+            - override, go back a week
 
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
@@ -23,6 +26,7 @@ TODO
         - http://mercurial.selenic.com/wiki/WritingExtensions
 - l10n tools (Mon-Tue)
     - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
+    - file bug to add a10n user to elmo database
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - help set up new VM w/ puppet
@@ -51,6 +55,14 @@ STABILITY WORKWEEK TOPICS
 
 DONE
 ===============
+
+2013-09-23
+---------------
+- eddy
+    - meeting w/ davehunt and stephend
+- elmo
+    - meeting
+        - need to finish up a10n VM install
 
 2013-09-20
 ---------------
