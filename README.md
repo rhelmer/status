@@ -56,6 +56,47 @@ STABILITY WORKWEEK TOPICS
 DONE
 ===============
 
+2013-09-26
+---------------
+- eddy
+    - chatted w/ andym about adding new eddy API to marketplace
+        - https://github.com/mozilla/zamboni/commit/88e1236d4ac997b5434bc053538183fdcec0d3ba
+        - https://github.com/mozilla/zamboni/blob/88e1236d4ac997b5434bc053538183fdcec0d3ba/mkt/stats/api.py#L190-L194
+
+2013-09-25
+---------------
+2013-09-24
+---------------
+2013-09-23
+---------------
+- eddy
+    - meeting w/ davehunt and stephend
+- elmo
+    - meeting
+        - need to finish up a10n VM install
+
+2013-09-20
+---------------
+- eddy
+    - apps show-and-tell
+        - https://vreplay.mozilla.com/replay/showRecordingExternal.html?key=hs9K5MBSw9SIYHm
+        - feedback generall positive
+        - probably more useful to surface to app developers
+            - simple to do, working on adjusting PR
+    - chatted w/ stephend re: new phones 
+        - incoming "hamachi" phones are not working w/ b2gperf yet
+        - no way to queue incoming requests to jenkins, yet
+- socorro
+    - reviews
+
+2013-09-19
+---------------
+- eddy
+    - patched b2gperf to handle overriding app name
+        - this makes it work with mkt "app_slug" names \o/
+- socorro
+    - reviews
+
 2013-09-23
 ---------------
 - eddy
