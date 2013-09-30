@@ -24,37 +24,42 @@ TODO
     - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
         - http://mercurial.selenic.com/wiki/WritingExtensions
+
 - l10n tools (Mon-Tue)
     - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
     - file bug to add a10n user to elmo database
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=922194
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - help set up new VM w/ puppet
     - continue setting up a10n locally
         - contribute settings fixes to local.py-dev
+
 - socorro
+
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
     - work on migrating data to postgres
     - figure out URL redirects for old team sites
     - remaining security blockers
-
-misc
+    - look into etherpad bug
+        - https://github.com/ether/etherpad-lite/issues/1910
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=281409 misc
     - make video of webtools workflow
         - compare/contrast hg/tryserver/etc.
     - public version of eddy
     - get socorro working in little docker containers
 
-STABILITY WORKWEEK TOPICS
----------------
-
-- "lack of data" problem
-- deprecating socorro-dev@ in favor of tools-socorro@ and stability@
-- making dev env better
-    - strip down vagrant/puppet, use centos to be more like mozilla production
-
 DONE
 ===============
+
+2013-09-30
+---------------
+- l10n
+    - meeting
+    - finish up a10n install
+        - filed bugs to get access to elmo DB
+        - installed packages and set up test environment on VM
 
 2013-09-26
 ---------------
