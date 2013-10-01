@@ -3,15 +3,10 @@ TODO
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/eddy
     - https://github.com/rhelmer/zamboni/compare/perfcharts
-    - open bug/PR on zamboni/marketplace on perfcharts branch
-    - talk to clint about using new phones
-        - still on order
-    - figure out why b2gperf will not publish to datazilla
-        - cannot find build/gaia/etc revision?
-        - hacked around for now, probably my test phone
-    - figure out how eddy should use auth against API to get manifest/zip
-        - getting back 'You do not own that app.' for unreviewed apps
-        - chatted w/ andym, can add a oauth review user for this
+    - tracking bug
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=918398
+    - add support to zamboni API and stats page
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=918562
     - clone inari build
         - copy artifact from most recent successful download build
             - override, go back a week
@@ -29,13 +24,9 @@ TODO
     - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
     - file bug to add a10n user to elmo database
         - https://bugzilla.mozilla.org/show_bug.cgi?id=922194
+            - blocked on netops ACL request
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
-    - help set up new VM w/ puppet
-    - continue setting up a10n locally
-        - contribute settings fixes to local.py-dev
-
-- socorro
 
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
@@ -45,6 +36,8 @@ TODO
     - look into etherpad bug
         - https://github.com/ether/etherpad-lite/issues/1910
         - https://bugzilla.mozilla.org/show_bug.cgi?id=281409 misc
+
+- misc
     - make video of webtools workflow
         - compare/contrast hg/tryserver/etc.
     - public version of eddy
