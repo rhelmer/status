@@ -53,6 +53,14 @@ TODO
 DONE
 ===============
 
+2013-10-01
+---------------
+- l10n
+    - followup on a10n VM install (almost done)
+- graphserver
+    - reviewed and pushed graphserver feature
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=903914
+
 2013-09-30
 ---------------
 - l10n
