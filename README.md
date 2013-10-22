@@ -48,6 +48,20 @@ TODO
 DONE
 ===============
 
+2013-10-21
+---------------
+- socorro
+    - reviews
+- l10n
+    - following up on a10n server warnings
+
+2013-10-22
+---------------
+- socorro
+    - reviews
+- l10n
+    - a10n server up and running
+
 2013-10-14
 ---------------
 - l10n
