@@ -21,6 +21,8 @@ TODO
         - http://mercurial.selenic.com/wiki/WritingExtensions
 
 - l10n tools (Mon-Tue)
+    - look at queues etc. w/ rabbitmq admin tool
+        - are things ending up in the queue, not making it in etc
     - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
     - file bug to add a10n user to elmo database
         - https://bugzilla.mozilla.org/show_bug.cgi?id=922194
@@ -45,6 +47,17 @@ TODO
 
 DONE
 ===============
+
+2013-10-14
+---------------
+- l10n
+    - followed up on why a10n is not queueing/working as expected
+    - filed bug to set up a10n user
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=926543
+
+2013-10-07
+---------------
+Summit recovery - got some Socorro refactoring and other misc work in.
 
 2013-10-01
 ---------------
