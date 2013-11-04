@@ -29,6 +29,9 @@ TODO
             - blocked on netops ACL request
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
+    - production a10n
+        - talk to shyam about hardware
+        - prod nfs mount
 
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
