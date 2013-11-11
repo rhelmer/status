@@ -19,6 +19,7 @@ TODO
     - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
         - http://mercurial.selenic.com/wiki/WritingExtensions
+    - look into mysql port feasibility
 
 - l10n tools (Mon-Tue)
     - look at queues etc. w/ rabbitmq admin tool
@@ -30,7 +31,6 @@ TODO
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - production a10n
-        - talk to shyam about hardware
         - prod nfs mount
 
 - etherpad
@@ -50,6 +50,23 @@ TODO
 
 DONE
 ===============
+
+2013-11-11
+---------------
+- socorro
+    - reviews
+        - https://github.com/mozilla/socorro/pull/1664
+        - https://github.com/mozilla/socorro/pull/1663
+    - PRs
+        - automate setup/run of socorro dev mode
+            - https://github.com/mozilla/socorro/pull/1665
+
+- l10n
+    - meeting
+    - chatted w/ shyam about prod hardware for a10n
+        - he is checking into it, seamicro nodes
+        - might be different group now
+    - set up meeting with hd, pike, rhelmer
 
 2013-10-21
 ---------------
