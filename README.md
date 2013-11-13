@@ -51,6 +51,16 @@ TODO
 DONE
 ===============
 
+2013-11-13
+---------------
+
+2013-11-12
+---------------
+- l10n
+    - meeting w/ jd and pike, finalizing stage and planning production
+        - https://etherpad.mozilla.org/a10n-puppet
+        - jd is working on it, will let us know in the next few weeks
+
 2013-11-11
 ---------------
 - socorro
