@@ -53,6 +53,10 @@ DONE
 
 2013-11-13
 ---------------
+- socorro
+    - meeting
+    - tracked down probable cause of signature history bug
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=789526
 
 2013-11-12
 ---------------
