@@ -22,12 +22,7 @@ TODO
     - look into mysql port feasibility
 
 - l10n tools (Mon-Tue)
-    - look at queues etc. w/ rabbitmq admin tool
-        - are things ending up in the queue, not making it in etc
     - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
-    - file bug to add a10n user to elmo database
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=922194
-            - blocked on netops ACL request
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - production a10n
@@ -50,6 +45,12 @@ TODO
 
 DONE
 ===============
+
+2013-11-18
+---------------
+- socorro
+    - worked on review on automatically install/run script
+    - helped w/ stackwalker rollout
 
 2013-11-13
 ---------------
