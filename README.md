@@ -26,7 +26,8 @@ TODO
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - production a10n
-        - prod nfs mount
+        - follow up w/ jd
+    - file bug to track hg upgrade
 
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
@@ -45,6 +46,22 @@ TODO
 
 DONE
 ===============
+
+2013-11-25
+---------------
+- l10n
+    - meeting
+        - coordinate downtime/hg upgrade
+        - ping jd re: prod a10n
+
+- socorro
+    - reviews
+
+2013-11-19
+---------------
+- socorro
+    - worked on review on automatically install/run script
+    - static build of stackwalker
 
 2013-11-18
 ---------------
