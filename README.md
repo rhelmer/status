@@ -7,9 +7,7 @@ TODO
         - https://bugzilla.mozilla.org/show_bug.cgi?id=918398
     - add support to zamboni API and stats page
         - https://bugzilla.mozilla.org/show_bug.cgi?id=918562
-    - clone inari build
-        - copy artifact from most recent successful download build
-            - override, go back a week
+    - clone hamachi builds
 
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
@@ -27,7 +25,6 @@ TODO
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - production a10n
         - follow up w/ jd
-    - file bug to track hg upgrade
 
 - etherpad
     - https://github.com/rhelmer/etherpad-lite
@@ -46,6 +43,15 @@ TODO
 
 DONE
 ===============
+
+2013-12-03
+---------------
+
+2013-12-02
+---------------
+- l10n
+    - meeting
+    - enabled sentry for a10n
 
 2013-11-25
 ---------------
