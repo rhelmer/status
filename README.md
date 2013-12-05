@@ -44,8 +44,16 @@ TODO
 DONE
 ===============
 
+2013-12-04
+---------------
+- eddy
+    - now working (w/ hardcoded app), publishing to datazilla
+        - https://datazilla.mozilla.org/?start=1385580857&stop=1386185657&product=B2G&repository=v1.2&test=stopwatch&page=cold_load_time&graph_search=06ce3291f3e843d4&tr_id=37&graph=Firefox%20OS%201.2.0.0-prerelease&project=marketapps
+
 2013-12-03
 ---------------
+- eddy
+    - work on hooking up jenkins hamachi b2g testers
 
 2013-12-02
 ---------------
