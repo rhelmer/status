@@ -47,6 +47,12 @@ DONE
 2013-12-10
 ---------------
 - socorro
+    - meeting
+    - working on SQL query for "topcrash ranks for all signatures of a bug"
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+2013-12-10
+---------------
+- socorro
     - reviews
 
 2013-12-04
