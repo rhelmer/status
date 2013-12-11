@@ -1,5 +1,11 @@
 TODO
 ===============
+- socorro
+    - SQL query for "topcrash ranks for all signatures of a bug"
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+    - review
+        - https://github.com/mozilla/socorro/pull/1727
+
 - eddy (Wed-Fri)
     - https://github.com/rhelmer/eddy
     - https://github.com/rhelmer/zamboni/compare/perfcharts
