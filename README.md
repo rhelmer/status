@@ -50,12 +50,49 @@ TODO
 DONE
 ===============
 
-2013-12-10
+2013-12-18
+---------------
+- socorro
+    - meeting
+    - discussed bouncer issue
+    - worked on UI for "topcrash ranks for all signatures of a bug"
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+
+2013-12-17
+---------------
+- socorro
+    - landed new service + model for "topcrash rank for all signatures of a bug"
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+
+2013-12-17
+---------------
+- socorro
+    - worked on service + model for "topcrash rank for all signatures of a bug"
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+
+2013-12-13
+---------------
+- socorro
+    - worked on service + model for "topcrash rank for all signatures of a bug"
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+- out part of day w/ dentist appt
+
+2013-12-12
+---------------
+- socorro
+    - meeting
+    - working on "topcrash ranks for all signatures of a bug"
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+        - not possible to do w/ SQL alone at this time
+        - working on composing using existing API + new SignaturesByBugs
+
+2013-12-11
 ---------------
 - socorro
     - meeting
     - working on SQL query for "topcrash ranks for all signatures of a bug"
         - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
+
 2013-12-10
 ---------------
 - socorro
