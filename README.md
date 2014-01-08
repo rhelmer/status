@@ -50,6 +50,24 @@ TODO
 DONE
 ===============
 
+2014-01-07
+---------------
+- socorro
+    - worked on "topcrash for all signatures of a bug" followups
+        - landed one, made progress on another
+- bouncer
+    - met with brandonsavage re: handover
+    - set up CI job for bouncer
+        - needs some work to go green https://ci.mozilla.org/job/bouncer/
+
+2014-01-06
+---------------
+- l10n
+    - meeting
+        - follow up w/ IT on new a10n server
+        - look into potential hg leak
+        - think about goals
+
 2013-12-18
 ---------------
 - socorro
