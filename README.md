@@ -50,6 +50,29 @@ TODO
 DONE
 ===============
 
+2014-01-10
+---------------
+- bouncer
+    - worked on getting tests running on jenkins
+        - chatted w/ wenzel, got the basic infra going
+        - need to get test data, filed bug 958756 to get current prod DB dump
+- socorro
+    - reviews
+
+2014-01-09
+---------------
+- class
+- socorro
+    - reviews
+
+2014-01-08
+---------------
+- bouncer
+    - worked on getting tests running on jenkins
+- socorro
+    - meeting
+    - reviews
+
 2014-01-07
 ---------------
 - socorro
@@ -58,7 +81,7 @@ DONE
 - bouncer
     - met with brandonsavage re: handover
     - set up CI job for bouncer
-        - needs some work to go green https://ci.mozilla.org/job/bouncer/
+        - needs some work to go green https://ci.mozilla.org/job/tuxedo/
 
 2014-01-06
 ---------------
