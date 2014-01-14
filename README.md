@@ -50,6 +50,25 @@ TODO
 DONE
 ===============
 
+2014-01-14
+---------------
+- bouncer
+    - more work on tuxedo tests
+        - most API test failures seem to be due to auth problem
+- etherpad-lite
+    - got ep+mysql working on stackato stage
+    - soft-launch empty install on prod?
+
+2014-01-13
+---------------
+- bouncer
+    - got access to prod data snapshot
+    - got bouncer+tuxedo working locally
+
+- etherpad-lite
+    - updated stackato stage/prod to latest release
+    - worked on getting to mysql (only supported prod option right now)
+
 2014-01-10
 ---------------
 - bouncer
