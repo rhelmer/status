@@ -55,6 +55,9 @@ DONE
 - bouncer
     - more work on tuxedo tests
         - most API test failures seem to be due to auth problem
+    - fixed issue w/ unreadable API docs
+        - missing markup
+        - vendor lib needs some work, pretty out of date
 - etherpad-lite
     - got ep+mysql working on stackato stage
     - soft-launch empty install on prod?
@@ -64,7 +67,8 @@ DONE
 - bouncer
     - got access to prod data snapshot
     - got bouncer+tuxedo working locally
-
+    - reviewed/merged tuxedo patch from rail to set SSL via API
+        - currently on stage
 - etherpad-lite
     - updated stackato stage/prod to latest release
     - worked on getting to mysql (only supported prod option right now)
