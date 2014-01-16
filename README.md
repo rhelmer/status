@@ -33,13 +33,8 @@ TODO
         - follow up w/ jd
 
 - etherpad
-    - https://github.com/rhelmer/etherpad-lite
-    - work on migrating data to postgres
-    - figure out URL redirects for old team sites
+    - https://github.com/rhelmer/etherpad-lite (mozilla branch)
     - remaining security blockers
-    - look into etherpad bug
-        - https://github.com/ether/etherpad-lite/issues/1910
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=281409 misc
 
 - misc
     - make video of webtools workflow
@@ -49,6 +44,17 @@ TODO
 
 DONE
 ===============
+
+2014-01-14
+---------------
+- etherpad
+    - working on unblocking
+
+- socorro
+    - meeting
+        - decided to take PR 1762
+            - needs moar testing
+    - reviews
 
 2014-01-14
 ---------------
