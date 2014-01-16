@@ -47,8 +47,18 @@ DONE
 
 2014-01-14
 ---------------
+- class
 - etherpad
-    - working on unblocking
+    - shipping bug unblocked
+    - finding out if current sec review is sufficient to skip
+- socorro
+    - looking into correlations problems
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=947021
+
+2014-01-14
+---------------
+- etherpad
+    - waiting for sec/ops clearance to launch
 
 - socorro
     - meeting
