@@ -45,7 +45,7 @@ TODO
 DONE
 ===============
 
-2014-01-14
+2014-01-16
 ---------------
 - class
 - etherpad
@@ -55,7 +55,7 @@ DONE
     - looking into correlations problems
         - https://bugzilla.mozilla.org/show_bug.cgi?id=947021
 
-2014-01-14
+2014-01-15
 ---------------
 - etherpad
     - waiting for sec/ops clearance to launch
