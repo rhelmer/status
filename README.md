@@ -1,40 +1,37 @@
 TODO
 ===============
 - socorro
-    - SQL query for "topcrash ranks for all signatures of a bug"
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=915373
-    - review
-        - https://github.com/mozilla/socorro/pull/1727
+    - move correlations into socorro
+        - waiting for processed JSON to be in postgres
+    - put rank into tcbs matview
+        - per product/version, also per-duration
 
-- eddy (Wed-Fri)
+- eddy
     - https://github.com/rhelmer/eddy
     - https://github.com/rhelmer/zamboni/compare/perfcharts
     - tracking bug
         - https://bugzilla.mozilla.org/show_bug.cgi?id=918398
     - add support to zamboni API and stats page
         - https://bugzilla.mozilla.org/show_bug.cgi?id=918562
-    - clone hamachi builds
+    - waiting on eddy scheduling VM
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=948711
 
 - pushlog
     - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
-    - load testing for http://bugzil.la/827123
-    - profile existing hg setup, why is it slow?
-        - post this plan on bug
+    - profile/load-test existing hg setup, why is it slow?
     - read hg docs
         - http://mercurial.selenic.com/wiki/Revlog
         - http://mercurial.selenic.com/wiki/WritingExtensions
-    - look into mysql port feasibility
 
-- l10n tools (Mon-Tue)
+- l10n tools
     - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
     - tracking bug
         - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
     - production a10n
-        - follow up w/ jd
+        - waiting for puppetizing and ES
 
 - etherpad
     - https://github.com/rhelmer/etherpad-lite (mozilla branch)
-    - remaining security blockers
 
 - misc
     - make video of webtools workflow
@@ -44,6 +41,42 @@ TODO
 
 DONE
 ===============
+
+2014-01-28
+---------------
+
+2014-01-27
+---------------
+- socorro
+    - landed UI fixes for topcrasher-by-bug report
+- elmo
+    - followed up w/ jd about new a10n server
+        - posted more detailed into to bug
+
+2014-01-24
+---------------
+
+2014-01-23
+---------------
+- socorro
+    - fixed TCBS cache problem
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=963236
+
+2014-01-22
+---------------
+- dashcon
+- socorro
+    - fixed correlation reports
+
+2014-01-21
+---------------
+- dashcon 
+
+2014-01-20
+---------------
+
+2014-01-17
+---------------
 
 2014-01-16
 ---------------
