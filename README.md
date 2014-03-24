@@ -5,6 +5,12 @@ TODO
         - waiting for processed JSON to be in postgres
     - put rank into tcbs matview
         - per product/version, also per-duration
+    - b2g reporting
+        - (needs bug) Remove dependence on ADI to calculate topcrashers for FxOS builds
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=928051 Make data from B2G partner builds appear in reports_clean and friends
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=883169 Signature Summary doesn't contain B2G data
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=860762 URLs tab in report/list doesn't show B2G's app:// URLs
+
 
 - eddy
     - https://github.com/rhelmer/eddy
@@ -42,8 +48,17 @@ TODO
 DONE
 ===============
 
+2014-03-24
+---------------
+- start of webeng workweek
+- l10n/elmo meeting
+    - fix logging in a10n https://bugzil.la/987203
+    - look on/work on http://pike.github.io/a10n/design/
+
 2014-01-28
 ---------------
+- socorro
+    - fix regression in topcrasher-by-bug report
 
 2014-01-27
 ---------------
