@@ -2,44 +2,24 @@ TODO
 ===============
 - socorro
     - move correlations into socorro
-    - b2g reporting
-        - fix reports tab in /report/list
+    - Graphs of crashes/ADU for individual signatures 
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=915246
 
-- eddy
-    - https://github.com/rhelmer/eddy
-    - https://github.com/rhelmer/zamboni/compare/perfcharts
-    - tracking bug
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=918398
-    - add support to zamboni API and stats page
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=918562
-    - waiting on eddy scheduling VM
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=948711
+- l10n tools (elmo, a10n)
+    - remove dependency on buildbot
 
-- pushlog
-    - `http://hg.mozilla.org/users/rhelmer_mozilla.com/pushlog`
-    - profile/load-test existing hg setup, why is it slow?
-    - read hg docs
-        - http://mercurial.selenic.com/wiki/Revlog
-        - http://mercurial.selenic.com/wiki/WritingExtensions
-
-- l10n tools
-    - https://github.com/rhelmer/a10n/compare/bug903673-puppetize-a10n
-    - tracking bug
-        - https://bugzilla.mozilla.org/showdependencytree.cgi?id=903705
-    - production a10n
-        - waiting for puppetizing and ES
+- bouncer/tuxedo
+    - get tests working
 
 - etherpad
     - https://github.com/rhelmer/etherpad-lite (mozilla branch)
 
-- misc
-    - make video of webtools workflow
-        - compare/contrast hg/tryserver/etc.
-    - public version of eddy
-    - get socorro working in little docker containers
-
 DONE
 ===============
+
+2014-04-28
+---------------
+- worked on getting tests going for tuxedo/bouncer
 
 2014-03-24
 ---------------
