@@ -2,15 +2,8 @@ TODO
 ===============
 - socorro
     - move correlations into socorro
-        - waiting for processed JSON to be in postgres
-    - put rank into tcbs matview
-        - per product/version, also per-duration
     - b2g reporting
-        - (needs bug) Remove dependence on ADI to calculate topcrashers for FxOS builds
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=928051 Make data from B2G partner builds appear in reports_clean and friends
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=883169 Signature Summary doesn't contain B2G data
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=860762 URLs tab in report/list doesn't show B2G's app:// URLs
-
+        - fix reports tab in /report/list
 
 - eddy
     - https://github.com/rhelmer/eddy
