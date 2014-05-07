@@ -7,6 +7,7 @@ TODO
 
 - l10n tools (elmo, a10n)
     - remove dependency on buildbot
+    - write up downtime process for l10n
 
 - bouncer/tuxedo
     - get tests working
@@ -17,9 +18,24 @@ TODO
 DONE
 ===============
 
+2014-05-07
+---------------
+- migrated a10n to new database
+    - http://bugzil.la/915732
+
+2014-05-05
+---------------
+- fixed bug in correlations
+
 2014-04-28
 ---------------
-- worked on getting tests going for tuxedo/bouncer
+- more progress on getting tests going for tuxedo/bouncer
+- landed correlations
+- landed adu-by-signature middleware
+
+2014-04-26
+---------------
+- start of releng workweek
 
 2014-03-24
 ---------------
