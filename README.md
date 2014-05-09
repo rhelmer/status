@@ -18,6 +18,23 @@ TODO
 DONE
 ===============
 
+2014-05-09
+---------------
+- intro to inventory from uberj
+- looked into why some b2g signatures have empty reports tab
+    - http://bugzil.la/1002492
+- started working on adu-by-signature followup
+    - http://bugzil.la/1007379
+- started working on middleware for new correlations tables
+    - http://bugzil.la/984960
+
+2014-05-08
+---------------
+- reviewed raven rollback bug
+    - http://bugzil.la/960304
+- filed follow on adu-by-signature bug
+    - http://bugzil.la/1007379
+
 2014-05-07
 ---------------
 - migrated a10n to new database
