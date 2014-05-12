@@ -18,6 +18,12 @@ TODO
 DONE
 ===============
 
+2014-05-12
+---------------
+- elmo meeting
+- roll back raven on a10n
+    - https://bugzil.la/960304
+
 2014-05-09
 ---------------
 - intro to inventory from uberj
