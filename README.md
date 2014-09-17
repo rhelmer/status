@@ -1,22 +1,23 @@
 TODO
 ===============
 - socorro
-    - move correlations into socorro
-    - Graphs of crashes/ADU for individual signatures 
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=915246
+    - help w/ AWS move
 
 - l10n tools (elmo, a10n)
     - remove dependency on buildbot
-    - write up downtime process for l10n
+    - land buildbot -> ES patch
 
 - bouncer/tuxedo
     - get tests working
 
-- etherpad
-    - https://github.com/rhelmer/etherpad-lite (mozilla branch)
-
 DONE
 ===============
+
+2014-09-17
+---------------
+- elmo meeting (canceled)
+- helped test bouncer innodb transition
+- socorro reviews
 
 2014-05-12
 ---------------
