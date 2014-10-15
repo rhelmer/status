@@ -2,16 +2,26 @@ TODO
 ===============
 - socorro
     - help w/ AWS move
+        - symbol store -> S3
+        - crash collection -> S3
 
 - l10n tools (elmo, a10n)
     - remove dependency on buildbot
-    - land buildbot -> ES patch
 
 - bouncer/tuxedo
-    - get tests working
+    - get all tests working on CI
 
 DONE
 ===============
+
+2014-10-16
+---------------
+- Elmo meeting
+
+2014-10-14
+---------------
+- helped w/ graphserver reviews+release
+- moving bbot to a10n workers
 
 2014-09-17
 ---------------
