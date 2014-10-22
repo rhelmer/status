@@ -14,6 +14,11 @@ TODO
 DONE
 ===============
 
+2014-10-22
+---------------
+- Socorro meeting
+- watched lars make the collector config transition
+
 2014-10-16
 ---------------
 - Elmo meeting
