@@ -14,6 +14,15 @@ TODO
 DONE
 ===============
 
+2014-11-04
+---------------
+- finished up bug 1093289
+
+2014-11-04
+---------------
+- worked on broken correlations (broken by pipe-dump-to-JSON switch)
+    - bug 1093289
+
 2014-10-22
 ---------------
 - Socorro meeting
