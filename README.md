@@ -14,9 +14,17 @@ TODO
 DONE
 ===============
 
+2014-11-05
+---------------
+- worked on graphserver issue w/ jmaher
+
 2014-11-04
 ---------------
 - finished up bug 1093289
+- 1:1
+    - took on encrypt/decrypt blobs bug
+- graphserver blow-up
+
 
 2014-11-04
 ---------------
