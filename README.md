@@ -17,13 +17,16 @@ DONE
 2014-11-05
 ---------------
 - worked on graphserver issue w/ jmaher
+    - data problem, jmaher fixed
+    - graphserver no longer blows up on invalid data, bug 1094029
+        - pushed in bug 1094308
 
 2014-11-04
 ---------------
 - finished up bug 1093289
 - 1:1
     - took on encrypt/decrypt blobs bug
-- graphserver blow-up
+- graphserver blow-up, bug 1094029
 
 
 2014-11-04
