@@ -2,10 +2,11 @@ TODO
 ===============
 - socorro
     - help w/ AWS move
-        - symbol store -> S3
         - crash collection -> S3
+        - symbol store -> S3
 
 - l10n tools (elmo, a10n)
+    - push ES live
     - remove dependency on buildbot
 
 - bouncer/tuxedo
@@ -13,6 +14,24 @@ TODO
 
 DONE
 ===============
+
+2014-11-11
+---------------
+- elmo meeting
+    - worked out plan for pushing ES live today/tomorrow
+- socorro meeting
+- starting working on enabling S3 in Socorro stage (bug 1097916)
+
+2014-11-10
+---------------
+- met with ted/lonnen about symbol storage in S3
+    - decided to tackle crashstorage this q, symbols next
+        - symbols have longer, more complex dependency chain
+
+2014-11-09
+---------------
+- worked on and withdrew Socorro encryption class
+    - boto should be able to handle encryption in transit
 
 2014-11-05
 ---------------
