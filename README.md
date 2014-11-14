@@ -17,6 +17,13 @@ DONE
 
 2014-11-11
 ---------------
+- worked on getting S3 going on socorro stage
+- look into a10n hang (prod)
+    - ended up restarting, should try debugging w/ gdb next time
+        - https://wiki.python.org/moin/DebuggingWithGdb
+
+2014-11-11
+---------------
 - elmo meeting
     - worked out plan for pushing ES live today/tomorrow
 - socorro meeting
