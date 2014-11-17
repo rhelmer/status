@@ -15,7 +15,23 @@ TODO
 DONE
 ===============
 
-2014-11-11
+2014-11-17
+---------------
+- worked on blockers to making S3 live
+    - bug 948644
+    - bug 1098954
+
+2014-11-14
+---------------
+- collection + processing using S3 is live on socorro stage
+
+2014-11-13
+---------------
+- worked on debugging socorro S3 stage
+- looked into why ES knapsack plugin isn't working for l10n
+    - looks like zeus timeouts
+
+2014-11-12
 ---------------
 - worked on getting S3 going on socorro stage
 - look into a10n hang (prod)
