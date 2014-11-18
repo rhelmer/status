@@ -17,6 +17,15 @@ DONE
 
 2014-11-17
 ---------------
+- continued work on blockers to making S3 live
+    - bug 948644 PR# 2487
+    - bug 1098954 PR# 2485
+- worked with cyliang on using knapsack to copy l10n ES indexes
+- reviewed graphserver patch to enable geometric mean in UI
+    - bug 1077177
+
+2014-11-17
+---------------
 - worked on blockers to making S3 live
     - bug 948644
     - bug 1098954
