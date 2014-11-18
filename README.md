@@ -21,8 +21,11 @@ DONE
     - bug 948644 PR# 2487
     - bug 1098954 PR# 2485
 - worked with cyliang on using knapsack to copy l10n ES indexes
+    - now working \o/
 - reviewed graphserver patch to enable geometric mean in UI
     - bug 1077177
+- deployed graphserver code for above
+    - bug 1101156
 
 2014-11-17
 ---------------
