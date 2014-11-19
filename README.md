@@ -17,6 +17,15 @@ DONE
 
 2014-11-17
 ---------------
+- elmo meeting
+    - pushed bbot-ES change live \o/
+- socorro meeting
+- continued work on blockers to making S3 live
+    - reviewed bug 1093888 to get middleware+S3 working
+        - worked on related config
+
+2014-11-17
+---------------
 - continued work on blockers to making S3 live
     - bug 948644 PR# 2487
     - bug 1098954 PR# 2485
