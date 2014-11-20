@@ -17,6 +17,12 @@ DONE
 
 2014-11-19
 ---------------
+- helped review+test AUS patch in bug 1102283
+    - first had to spin up new staging box, bug 1102413
+- moar reviews+discussion on S3 for socorro blockers
+
+2014-11-19
+---------------
 - elmo meeting
     - pushed bbot-ES change live \o/
 - socorro meeting
