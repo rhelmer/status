@@ -15,7 +15,7 @@ TODO
 DONE
 ===============
 
-2014-11-17
+2014-11-19
 ---------------
 - elmo meeting
     - pushed bbot-ES change live \o/
@@ -24,7 +24,7 @@ DONE
     - reviewed bug 1093888 to get middleware+S3 working
         - worked on related config
 
-2014-11-16
+2014-11-18
 ---------------
 - continued work on blockers to making S3 live
     - bug 948644 PR# 2487
@@ -36,7 +36,7 @@ DONE
 - deployed graphserver code for above
     - bug 1101156
 
-2014-11-15
+2014-11-17
 ---------------
 - worked on blockers to making S3 live
     - bug 948644
