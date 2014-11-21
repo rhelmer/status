@@ -14,6 +14,10 @@ TODO
 DONE
 ===============
 
+2014-11-21
+---------------
+- interviewed potential DXR interns
+
 2014-11-20
 ---------------
 - helped review+test AUS patch in bug 1102283
