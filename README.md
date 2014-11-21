@@ -6,7 +6,6 @@ TODO
         - symbol store -> S3
 
 - l10n tools (elmo, a10n)
-    - push ES live
     - remove dependency on buildbot
 
 - bouncer/tuxedo
