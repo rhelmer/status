@@ -14,9 +14,18 @@ TODO
 DONE
 ===============
 
+2014-11-26
+---------------
+- reviewed AUS patch
+    - bug 1102283
+- skipped elmo meeting
+- socorro meeting
+- tested new "missing symbols" table on stage
+    - still a few followups, bug 948644
+
 2014-11-25
 ---------------
-    - PTO
+- PTO
 
 2014-11-24
 ---------------
