@@ -14,9 +14,20 @@ TODO
 DONE
 ===============
 
+2014-11-25
+---------------
+    - PTO
+
+2014-11-24
+---------------
+- tested S3 sync w/ tmary
+    - Socorro expects a "dump names" object as well
+    - researched compression options
+
 2014-11-21
 ---------------
 - interviewed potential DXR interns
+- discussed S3 sync w/ tmary
 
 2014-11-20
 ---------------
