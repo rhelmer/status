@@ -14,6 +14,24 @@ TODO
 DONE
 ===============
 
+2014-12-09
+----------
+- worked on Socorro HBase-to-S3 move
+    - configured Socorro staging to use HBase as crash source
+        - bug 1108974
+    - configured Socorro prod to store in S3 alongside hbase
+        - bug 1108977
+    - asked tmary to start sync/backfill (ETA ~1 week)
+    - worked on test plan+scripts for when backfill is complete
+
+2014-12-08
+----------
+- PTO
+
+2014-12-01 through 2014-12-06
+-----------------------------
+- mozlandia workweek
+
 2014-11-26
 ---------------
 - reviewed AUS patch
