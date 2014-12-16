@@ -14,6 +14,28 @@ TODO
 DONE
 ===============
 
+2014-12-15
+----------
+- worked on Socorro HBase-to-S3 move
+    - pushed production config live
+
+2014-12-15
+----------
+- worked on Socorro HBase-to-S3 move
+    - production sync finished
+
+2014-12-12
+----------
+- PTO
+
+2014-12-11
+----------
+- worked on Socorro HBase-to-S3 move
+
+2014-12-10
+----------
+- worked on Socorro HBase-to-S3 move
+
 2014-12-09
 ----------
 - worked on Socorro HBase-to-S3 move
