@@ -14,10 +14,12 @@ TODO
 DONE
 ===============
 
-2014-12-15
+2014-12-16
 ----------
 - worked on Socorro HBase-to-S3 move
     - pushed production config live
+- pushed graphserver update
+    - bug 1021842
 
 2014-12-15
 ----------
