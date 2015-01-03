@@ -14,6 +14,11 @@ TODO
 DONE
 ===============
 
+2015-01-02
+----------
+- tracked down date-dependent unittest bug
+    - bug 1117250
+
 2014-12-16
 ----------
 - worked on Socorro HBase-to-S3 move
