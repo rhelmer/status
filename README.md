@@ -1,8 +1,7 @@
 TODO
 ===============
 - socorro
-    - help w/ AWS move
-        - crash collection -> S3
+    - drive AWS move
         - symbol store -> S3
 
 - l10n tools (elmo, a10n)
@@ -13,6 +12,21 @@ TODO
 
 DONE
 ===============
+
+2015-01-06
+----------
+- found small % of crashes not being processed
+    - bug 1118269
+    - reviewed fix https://github.com/mozilla/socorro/pull/2549
+- looked into FTP scraping problem
+    - bug 1118224
+- filed bug(s) to move Socorro to AWS
+    - tracking bug 1118288
+
+2015-01-05
+----------
+- shut down hbase, on S3 only now \o/
+- shipped release to fix logging issue that was breaking nagios monitor
 
 2015-01-02
 ----------
