@@ -4,14 +4,14 @@ TODO
     - drive AWS move
         - symbol store -> S3
 
-- l10n tools (elmo, a10n)
-    - remove dependency on buildbot
-
-- bouncer/tuxedo
-    - get all tests working on CI
-
 DONE
 ===============
+
+2015-02-24
+----------
+- progress on S3 symbol storage
+    - packaged snappy (symbolapi.m.o)
+    - tested S3 symbol upload on stage w/ ted
 
 2015-01-06
 ----------
