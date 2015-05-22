@@ -2,10 +2,20 @@ TODO
 ===============
 - socorro
     - drive AWS move
-        - symbol store -> S3
+        - migrate datastores
+        - get AWS crash-stats running in parallel to PHX
+        - switch DNS when ready
 
 DONE
 ===============
+
+2015-05-21
+----------
+- reviewed phrawzty's ES AWS PR
+- practiced RDS migration (stage)
+    - going to turn off access until "core" transfer is done
+        - current partitions are now part of "core"
+    - PHX processors can write to AWS rabbitmq when datastores are sync'd enough
 
 2015-02-24
 ----------
