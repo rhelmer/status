@@ -9,6 +9,17 @@ TODO
 DONE
 ===============
 
+2015-05-26
+----------
+- tested RDS migration (production)
+- fought fires
+    - bug 1168511 - bad JSON causing trouble in Postgres, blocking crontabber
+    - bug 1156961 - put up PR, so ftpscraper handles 38.0.5b99
+- landed a few socorro-infra PRs
+    - https://github.com/mozilla/socorro-infra/pull/133
+    - https://github.com/mozilla/socorro-infra/pull/124
+- went into office, replaced Macbook power adapter
+
 2015-05-21
 ----------
 - reviewed phrawzty's ES AWS PR
