@@ -9,6 +9,14 @@ TODO
 DONE
 ===============
 
+2015-05-27
+----------
+- Socorro meeting
+    - went over AWS migration and current PHX production issues
+- tested RDS migration (production)
+- fought fires
+    - bug 1156961 - put up PR, so ftpscraper handles 38.0.5b99
+
 2015-05-26
 ----------
 - tested RDS migration (production)
