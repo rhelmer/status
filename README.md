@@ -1,13 +1,17 @@
 TODO
 ===============
-- socorro
-    - drive AWS move
-        - migrate datastores
-        - get AWS crash-stats running in parallel to PHX
-        - switch DNS when ready
+- prototype browser features as system add-ons
+    - loop
 
 DONE
 ===============
+
+2015-08-04
+----------
+- Go Faster meeting
+- add-ons manager review for https://bugzil.la/1190966
+- PG disk space getting low in Socorro, commented in https://bugzil.la/1191006
+- chatted w/ standard8 and mossop about loop prototype
 
 2015-05-27
 ----------
