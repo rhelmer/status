@@ -6,6 +6,24 @@ TODO
 DONE
 ===============
 
+2015-08-07
+----------
+- checked on Socorro ADI - working for prod, not for stage still
+    - manually copied ADI over for now
+
+2015-08-06
+----------
+- meeting about go faster + l10n
+- basic chrome override approach working in loop prototype
+    - doesn't work yet for JS which expects navigator.{mozLoop, L10n}
+- Socorro stage ADI push still not working, loaded config for peterbe
+
+2015-08-05
+----------
+- worked on loop prototype, uploaded to github 
+    - https://github.com/rhelmer/loop-addon
+- Socorro meeting
+
 2015-08-04
 ----------
 - Go Faster meeting
