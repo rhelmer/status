@@ -10,6 +10,9 @@ DONE
 ----------
 - checked on Socorro ADI - working for prod, not for stage still
     - manually copied ADI over for now
+- helped out with a few urgent Socorro bugs
+    - https://bugzil.la/1192386
+    - https://bugzil.la/1192380
 
 2015-08-06
 ----------
