@@ -6,6 +6,19 @@ TODO
 DONE
 ===============
 
+2015-08-10
+----------
+- investigated what's needed to get prototype loop add-on totally working
+    - can we override about: handlers?
+    - if not:
+        - chrome overrides
+        - replace button
+            - I think this is needed, to inject mozLoopAPI
+- filed Socorro bug 1192869
+- looked into Socorro stage issues, blocking ADI work
+    - Django just needed to allow crash-stats.allizom.org 
+- ADI still not working for Socorro stage
+
 2015-08-07
 ----------
 - checked on Socorro ADI - working for prod, not for stage still
