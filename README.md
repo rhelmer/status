@@ -6,6 +6,12 @@ TODO
 DONE
 ===============
 
+2015-08-11
+----------
+- Go Faster meeting
+- 1:1
+- reviewed https://github.com/mozilla/socorro/pull/2945
+
 2015-08-10
 ----------
 - investigated what's needed to get prototype loop add-on totally working
