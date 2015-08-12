@@ -6,6 +6,14 @@ TODO
 DONE
 ===============
 
+2015-08-12
+----------
+- Socorro meeting
+- urgent symbols bug https://bugzil.la/1193841
+- moar stage Socorro ADI work
+    - hopefully the last of it - socorro-adi needs code update
+        - this is RHEL6 and can't use the standard Socorro RPM :/
+
 2015-08-11
 ----------
 - Go Faster meeting
