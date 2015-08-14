@@ -8,6 +8,9 @@ DONE
 
 2015-08-13
 ----------
+- crash-analysis node needed some attention
+    - https://bugzil.la/1193946
+    - https://bugzil.la/1194331
 - moar stage Socorro ADI work
     - hopefully the last of it - socorro-adi needs code update
         - this is RHEL6 and can't use the standard Socorro RPM :/
