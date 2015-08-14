@@ -2,9 +2,17 @@ TODO
 ===============
 - prototype browser features as system add-ons
     - loop
+- support/training on Socorro as needed
 
 DONE
 ===============
+
+2015-08-14
+----------
+- helped out w/ Socorro bugs
+    - got peterbe access to run ./manage.py
+    - ADI now works on stage \o/
+    - restored prod DB snapshot on stage
 
 2015-08-13
 ----------
