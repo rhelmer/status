@@ -7,6 +7,13 @@ TODO
 DONE
 ===============
 
+2015-08-17
+----------
+- helped out w/ symbols/reprocessing for Firefox iOS crashes
+    - https://bugzil.la/1178888
+- reprocessed Thunderbird crashes for missing symbols
+    - https://bugzil.la/1194989#c5
+
 2015-08-14
 ----------
 - helped out w/ Socorro bugs
