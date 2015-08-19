@@ -7,6 +7,19 @@ TODO
 DONE
 ===============
 
+2015-08-19
+----------
+- patch for add-on manager bug (prefer install.rdf to manifest.json)
+    - https://bugzil.la/1196301
+- worked on setting up hg+bz+rb integration
+
+2015-08-18
+----------
+- self-triage (unassigned and closed old self-assigned bugs)
+- investigated add-on manager bug (possible signing bug w/ proxy add-on)
+    - https://bugzil.la/1195353
+- Go Faster meeting
+
 2015-08-17
 ----------
 - helped out w/ symbols/reprocessing for Firefox iOS crashes
