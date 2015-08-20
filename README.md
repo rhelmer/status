@@ -7,6 +7,15 @@ TODO
 DONE
 ===============
 
+2015-08-20
+----------
+- looked into why MozReview didn't work for https://bugzil.la/1196301
+    - was because I uploaded patch view review board web interface
+- set up hg tools like mozreview/bugzilla plugins
+- crash correlations not running
+    - https://bugzil.la/1196598
+    - turned out that analysis node is under-spec'd, causing other troubles
+
 2015-08-19
 ----------
 - patch for add-on manager bug (prefer install.rdf to manifest.json)
