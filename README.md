@@ -7,6 +7,16 @@ TODO
 DONE
 ===============
 
+2015-08-21
+----------
+- patch for install.rdf preference landed
+    - first patch in mozilla-central/toolkit authored by me \o/
+    - https://bugzil.la/1196301
+- backfill for correlations being broken
+    - discussed monitoring options w/ jp, maybe consul service check?
+- worked on removing loop from browser, reimplementing as add-on
+    - I think this is a better approach than the "chrome override" add-on
+
 2015-08-20
 ----------
 - started google doc exploring external libraries/frameworks/etc.
