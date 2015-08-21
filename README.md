@@ -9,6 +9,8 @@ DONE
 
 2015-08-20
 ----------
+- started google doc exploring external libraries/frameworks/etc.
+    - found some preliminary answers about react.js in particular
 - looked into why MozReview didn't work for https://bugzil.la/1196301
     - was because I uploaded patch view review board web interface
 - set up hg tools like mozreview/bugzilla plugins
