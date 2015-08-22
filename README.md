@@ -16,6 +16,7 @@ DONE
     - discussed monitoring options w/ jp, maybe consul service check?
 - worked on removing loop from browser, reimplementing as add-on
     - I think this is a better approach than the "chrome override" add-on
+    - updated https://bugzil.la/1186172#c6 with latest thoughts
 
 2015-08-20
 ----------
