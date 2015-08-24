@@ -7,6 +7,14 @@ TODO
 DONE
 ===============
 
+2015-08-23
+----------
+- put up patch for removing #ifdefs from UITour.jsm
+    - https://bugzil.la/1195962
+    - r+!, waiting for it to be landed
+- worked on moving loop code to add-on, monorepo-style
+    - https://bitbucket.org/rhelmer/mozilla-central
+
 2015-08-21
 ----------
 - patch for install.rdf preference landed
