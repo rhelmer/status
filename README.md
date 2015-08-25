@@ -11,9 +11,13 @@ DONE
 ----------
 - put up patch for removing #ifdefs from UITour.jsm
     - https://bugzil.la/1195962
-    - r+!, waiting for it to be landed
+    - r+ and landed!
 - worked on moving loop code to add-on, monorepo-style
     - https://bitbucket.org/rhelmer/mozilla-central
+    - no longer using SDK
+    - re-using pretty much all the existing code
+    - button appears but doesn't quite work yet
+        - just need to inject mozLoopAPI
 
 2015-08-21
 ----------
