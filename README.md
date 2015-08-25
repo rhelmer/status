@@ -7,7 +7,13 @@ TODO
 DONE
 ===============
 
-2015-08-23
+2015-08-25
+----------
+- Go Faster meeting
+- Loop Add-on button works, panel opens
+    - something still off about the about: -> chrome:// hookup
+
+2015-08-24
 ----------
 - put up patch for removing #ifdefs from UITour.jsm
     - https://bugzil.la/1195962
