@@ -7,11 +7,33 @@ TODO
 DONE
 ===============
 
+2015-08-27
+----------
+- Updated Loop prototype bug with progress
+    - https://bugzil.la/1186172
+- Worked on moving final bits from ./browser to add-on
+    - browser/theme/loop
+        - mostly done, need to put in a bunch of OS version-specific overrides
+    - about:loop page registration
+        - getting a crash in about:loopconversation :/
+            - generated symbols and got a stack, may have to bust out lldb
+- finally got around to making a test case and filing max-tabs add-on crash
+    - https://github.com/cheeaun/max-tabs/issues/21
+
+2015-08-26
+----------
+- Loop Add-on totally working \o/
+    - shared a video with interested folks
+    - spent most of the day testing
+- sent and responded to email on go-faster list
+
 2015-08-25
 ----------
 - Go Faster meeting
 - Loop Add-on button works, panel opens
     - something still off about the about: -> chrome:// hookup
+- circulated doc on challenges of Loop-as-addon
+    - lots of follow-up discussion
 
 2015-08-24
 ----------
