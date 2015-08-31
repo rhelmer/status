@@ -7,6 +7,15 @@ TODO
 DONE
 ===============
 
+2015-08-31
+----------
+- Worked on review for system add-ons changes
+    - https://bugzil.la/1192921
+
+2015-08-28
+----------
+- PTO
+
 2015-08-27
 ----------
 - Updated Loop prototype bug with progress
