@@ -7,6 +7,16 @@ TODO
 DONE
 ===============
 
+2015-09-01
+----------
+- Still working on system add-ons review
+    - https://bugzil.la/1192921
+    - re-read PRD, following update discussion
+    - testing with a dumb simple add-on
+        - going to test w/ the prototype Loop add-on once that's working
+- Go Faster meeting
+- 1:1
+
 2015-08-31
 ----------
 - Worked on review for system add-ons changes
