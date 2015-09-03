@@ -7,6 +7,24 @@ TODO
 DONE
 ===============
 
+2015-09-03
+----------
+- PTO
+
+2015-09-02
+----------
+- Done with system add-ons review
+    - https://bugzil.la/1192921
+    - r+, nothing serious, testing all went fine
+- Reviewed Socorro symbol re-encoding PR
+    - https://github.com/mozilla/socorro/pull/2978
+
+2015-09-02
+----------
+- Still working on system add-ons review
+    - https://bugzil.la/1192921
+    - finished reviewing code, mostly testing
+
 2015-09-01
 ----------
 - Still working on system add-ons review
