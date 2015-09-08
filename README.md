@@ -15,6 +15,16 @@ DONE
     - discussed getting deploy steps right on stage
     - backfilling ongoing
         - https://bugzil.la/1196598
+- review for system add-on signing
+    - https://bugzil.la/1192930
+- ported a test add-on to Web Extensions API
+    - noticed panel is in the wrong place, same as current Add-on SDK
+        - https://bugzil.la/1199052
+        - discussed w/ billm in IRC - probably should make opening in menu
+          the default for browserAction API if the button has been moved into
+          the menu, with an optional argument to have a custom panel
+    - found bug with browserAction API (missing context menu entries)
+        - filed https://bugzil.la/1202862
 
 2015-09-03
 ----------
