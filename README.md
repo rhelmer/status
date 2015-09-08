@@ -25,6 +25,8 @@ DONE
           the menu, with an optional argument to have a custom panel
     - found bug with browserAction API (missing context menu entries)
         - filed https://bugzil.la/1202862
+- started working on bug about Firefox deleting invalid proxy add-ons
+    - https://bugzil.la/1195353
 
 2015-09-03
 ----------
