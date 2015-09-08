@@ -7,6 +7,15 @@ TODO
 DONE
 ===============
 
+2015-09-08
+----------
+- Go Faster meeting
+- helped out with Socorro correlations reports being late
+    - came up with plan for monitoring w/ peterbe+jp
+    - discussed getting deploy steps right on stage
+    - backfilling ongoing
+        - https://bugzil.la/1196598
+
 2015-09-03
 ----------
 - PTO
