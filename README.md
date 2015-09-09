@@ -7,6 +7,19 @@ TODO
 DONE
 ===============
 
+2015-09-09
+----------
+- Worked on Hello prototype add-on
+    - moved themes into add-on
+        - still some OS-specific work to do, seems OK on Mac now
+    - pushed to bitbucket
+        - https://bitbucket.org/rhelmer/mozilla-central
+    - updated bug
+        - https://bugzil.la/1186172
+- cleaned up local hg workspace
+- worked on bug about Firefox deleting invalid proxy add-ons
+    - https://bugzil.la/1195353
+
 2015-09-08
 ----------
 - Go Faster meeting
