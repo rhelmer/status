@@ -7,6 +7,17 @@ TODO
 DONE
 ===============
 
+2015-09-10
+----------
+- Started helping out with system add-on build pipeline prototype
+    - worked on getting loop tests working in browser/extensions/loop
+    - looked into what we want taskcluster to do:
+        - regular firefox build + upload
+        - run loop marionette tests
+        - if test pass:
+            - upload to AMO for signing+hosting
+            - update balrog with update info
+
 2015-09-09
 ----------
 - Worked on Hello prototype add-on
