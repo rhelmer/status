@@ -17,6 +17,8 @@ DONE
         - if test pass:
             - upload to AMO for signing+hosting
             - update balrog with update info
+- Took a look at crash correlations
+    - https://bugzil.la/1196598
 
 2015-09-09
 ----------
