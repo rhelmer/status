@@ -7,6 +7,18 @@ TODO
 DONE
 ===============
 
+2015-09-14
+----------
+- sick today, sort-of working
+- worked w/ jp on 
+- graded python tests
+- reviewed patch to fix themes being disabled after addon update/install
+    - https://bugzil.la/1204012
+
+2015-09-11
+----------
+- PTO
+
 2015-09-10
 ----------
 - Started helping out with system add-on build pipeline prototype
