@@ -6,11 +6,20 @@ TODO
 
 DONE
 ===============
+- still getting over cold
+- helped out with Socorro reports problem
+    - https://bugzil.la/1205336
+- graded more python tests
+
+2015-09-15
+----------
+- Go Faster meeting
+- out sick in afternoon
 
 2015-09-14
 ----------
 - sick today, sort-of working
-- worked w/ jp on 
+- worked w/ jp on build pipeline 
 - graded python tests
 - reviewed patch to fix themes being disabled after addon update/install
     - https://bugzil.la/1204012
