@@ -14,6 +14,8 @@ DONE
 2015-09-15
 ----------
 - Go Faster meeting
+- reviewed system add-on update patch
+    - https://bugzil.la/1192924
 - out sick in afternoon
 
 2015-09-14
