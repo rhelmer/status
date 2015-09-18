@@ -6,6 +6,20 @@ TODO
 
 DONE
 ===============
+2015-09-18
+----------
+- advised on reports monitoring
+    - https://bugzil.la/1205336
+
+2015-09-17
+----------
+- 1:1
+- helped out w/ Socorro reporting and monitoring
+    - monitoring set up before the AWS move is being phased out
+    - making more things that work under simple third-party monitoring svcs
+
+2015-09-16
+----------
 - still getting over cold
 - helped out with Socorro reports problem
     - https://bugzil.la/1205336
