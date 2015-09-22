@@ -1,4 +1,4 @@
-TODO
+jODO
 ===============
 - prototype browser features as system add-ons
     - loop
@@ -6,10 +6,21 @@ TODO
 
 DONE
 ===============
+2015-09-21
+----------
+
+2015-09-21
+----------
+- worked on build pipeline prototype for Go Faster
+    - using taskcluster-github integration
+    - pushed my repo + patch to https://github.com/mozilla/system-addons
+- TAG meeting
+
 2015-09-18
 ----------
 - advised on reports monitoring
     - https://bugzil.la/1205336
+- started working on getting my moz-central fork building under taskcluster
 
 2015-09-17
 ----------
