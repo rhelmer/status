@@ -1,4 +1,4 @@
-jODO
+TODO
 ===============
 - prototype browser features as system add-ons
     - loop
@@ -6,8 +6,25 @@ jODO
 
 DONE
 ===============
-2015-09-21
+2015-09-24
 ----------
+- worked on Loop theme issues
+    - figured out w/ mossop's help, missing trailing / in manifest :/
+- got working x-platform firefox desktop builds w/o built-in loop
+    - https://ftp.mozilla.org/pub/mozilla.org/firefox/try-builds/rhelmer@mozilla.com-150066c728b3/
+- wrestled with getting loop through the AMO validator
+
+2015-09-23
+----------
+- put aside taskcluster-github for now
+    - it'll be really handy, when it supports x-platform firefox desktop builds
+- worked on getting my patch going under try server
+
+2015-09-22
+----------
+- got a working desktop build from taskcluster-github
+    - standard firefox-desktop docker image not quite working
+        - symbol upload failing etc.
 
 2015-09-21
 ----------
