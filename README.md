@@ -10,7 +10,7 @@ DONE
 ----------
 - loop add-on passes validation, but still no automated signing :/
     - working with folks in #addons
-    - turned out to be a bug in the display or errors+warnings
+    - turned out to be a bug in the display of errors+warnings
         - https://bugzil.la/1208588
 - started google doc to describe/track system-addons build pipeline status
 - working on reviewing several new system add-on features
