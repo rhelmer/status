@@ -6,6 +6,19 @@ TODO
 
 DONE
 ===============
+2015-09-25
+----------
+- loop add-on passes validation, but still no automated signing :/
+    - working with folks in #addons
+- started google doc to describe/track system-addons build pipeline status
+- working on reviewing several new system add-on features
+    - https://bugzil.la/1192926
+        - done
+    - https://bugzil.la/1193973
+    - https://bugzil.la/1204159
+    - https://bugzil.la/1207772
+- graded more python tests
+
 2015-09-24
 ----------
 - worked on Loop theme issues
