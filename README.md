@@ -11,6 +11,10 @@ DONE
 ----------
 - met with jgriffin/catlee/jp about build + test
     - https://docs.google.com/document/d/13QdD5LQWvjoP1HbMI605HZFW8xhthwnzBPgVJueNJ_0
+- reviewed https://bugzil.la/1193973
+- rebased loop add-on prototype for mbanner to review
+    - put on gh to make it easier
+        - https://github.com/mozilla/system-addons/pull/6
 
 2015-09-30
 ----------
