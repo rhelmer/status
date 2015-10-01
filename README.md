@@ -6,6 +6,34 @@ TODO
 
 DONE
 ===============
+2015-10-01
+----------
+- met with jgriffin/catlee/jp about build + test
+    - https://docs.google.com/document/d/13QdD5LQWvjoP1HbMI605HZFW8xhthwnzBPgVJueNJ\_0
+
+2015-09-30
+----------
+- met with mbanner re: loop-as-addon
+    - https://docs.google.com/document/d/107M5HH9bb7ARfbh2uVVeMoMe2\_\_dM7mXMIsQAGsOnq0/
+- investigated allowing unsigned restartless add-ons for dev purposes
+    - https://bugzil.la/1209341
+
+2015-09-29
+----------
+- Go Faster meeting
+- PTO in the afternoon
+- finished reviewing remaining system-addons bugs
+    - https://bugzil.la/1193973
+    - https://bugzil.la/1204159
+    - https://bugzil.la/1207772
+
+2015-09-28
+----------
+- reviewed remaining system-addons bugs
+    - https://bugzil.la/1193973
+    - https://bugzil.la/1204159
+    - https://bugzil.la/1207772
+
 2015-09-25
 ----------
 - loop add-on passes validation, but still no automated signing :/
