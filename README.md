@@ -1,7 +1,8 @@
 TODO
 ===============
-- prototype browser features as system add-ons
-    - loop
+- get loop prototype ready for review
+    - mbanner to review code changes
+    - get try test run for jgriffin to review
 - support/training on Socorro as needed
 
 DONE
