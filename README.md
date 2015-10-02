@@ -7,6 +7,15 @@ TODO
 
 DONE
 ===============
+2015-10-02
+----------
+- discussed config/secrets mgmt w/ peterbe for socorro
+    - https://bugzil.la/1210888
+- tryserver run for jgriffin to review
+    - https://treeherder.mozilla.org/#/jobs?repo=try&revision=57d024388131
+- started working on loading unsigned restartless add-ons at runtime
+    - https://bugzil.la/1209341
+
 2015-10-01
 ----------
 - met with jgriffin/catlee/jp about build + test
