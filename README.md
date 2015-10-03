@@ -15,6 +15,8 @@ DONE
     - https://treeherder.mozilla.org/#/jobs?repo=try&revision=57d024388131
 - started working on loading unsigned restartless add-ons at runtime
     - https://bugzil.la/1209341
+- let devtools folks know about "system add-ons" plans
+    - https://bugzil.la/1203159#c8
 
 2015-10-01
 ----------
