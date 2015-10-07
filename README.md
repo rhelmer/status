@@ -7,13 +7,18 @@ TODO
 
 DONE
 ===============
-2015-10-03
+2015-10-07
+----------
+- helped look at Socorro collector permissions problem
+- discussed build/release strategy for system-addons
+
+2015-10-06
 ----------
 - Go Faster meeting
 - finished reviewing "purge outdated system add-ons" bug
     - https://bugzil.la/1192928
 
-2015-10-02
+2015-10-05
 ----------
 - met w/ dmose in SF about Hello
 - TAG meeting
