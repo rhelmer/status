@@ -7,6 +7,19 @@ TODO
 
 DONE
 ===============
+2015-10-03
+----------
+- Go Faster meeting
+- finished reviewing "purge outdated system add-ons" bug
+    - https://bugzil.la/1192928
+
+2015-10-02
+----------
+- met w/ dmose in SF about Hello
+- TAG meeting
+- reviewed bug for purging outdated system add-ons
+    - https://bugzil.la/1192928
+
 2015-10-02
 ----------
 - discussed config/secrets mgmt w/ peterbe for socorro
