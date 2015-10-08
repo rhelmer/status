@@ -7,6 +7,14 @@ TODO
 
 DONE
 ===============
+2015-10-08
+----------
+- met w/ mossop regarding system-addon build+deploy pipeline
+    - notes: http://etherpad.io/p/system-addons-build-deploy
+- looked at Socorro collector permissions problem a bit more
+    - just started happening on staging, jp to file bug if it keeps happening
+    - probably a bug in RPM packaging
+
 2015-10-07
 ----------
 - helped look at Socorro collector permissions problem
