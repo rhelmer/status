@@ -11,12 +11,17 @@ DONE
 ----------
 - helped look at Socorro collector permissions problem
 - discussed build/release strategy for system-addons
+    - planning on installing system add-on unpacked in appdir
+    - shipping xpi in final build for startup/runtime perf
+    - this seems to work already \o/
 
 2015-10-06
 ----------
 - Go Faster meeting
 - finished reviewing "purge outdated system add-ons" bug
     - https://bugzil.la/1192928
+- rebased system-addons fork, tested loop
+    - works but requires signing currently
 
 2015-10-05
 ----------
