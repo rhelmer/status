@@ -14,6 +14,8 @@ DONE
 - looked at Socorro collector permissions problem a bit more
     - just started happening on staging, jp to file bug if it keeps happening
     - probably a bug in RPM packaging
+- made progress on porting over loop skin
+    - wrestling with CSS - used CPP #include in ./browser :/
 
 2015-10-07
 ----------
