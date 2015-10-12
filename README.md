@@ -9,6 +9,10 @@ DONE
 ===============
 2015-10-13
 ----------
+- pushed latest loop-as-addon changes to system-addons fork
+    - https://github.com/mozilla/system-addons/pull/6
+    - only outstanding issue is toolbar icon size
+        - mbanner is going to help take a look
 - worked on loading unsigned restartless add-ons at runtime
     - https://bugzil.la/1209341
 - took a look at current Places UI
