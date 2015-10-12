@@ -7,6 +7,21 @@ TODO
 
 DONE
 ===============
+2015-10-13
+----------
+- worked on loading unsigned restartless add-ons at runtime
+    - https://bugzil.la/1209341
+- took a look at current Places UI
+    - chrome uses (much simpler) separate UIs for bookmarks, history, etc.
+        - implemented in HTML
+
+2015-10-09
+----------
+- figured out Socorro permissions problem
+    - crashmover was not running as proper user, if it ran first it'd
+      create a directory that socorro user could not write to
+- PTO afternoon (out sick)
+
 2015-10-08
 ----------
 - met w/ mossop regarding system-addon build+deploy pipeline
