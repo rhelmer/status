@@ -1,5 +1,6 @@
 TODO
 ===============
+- file bug for armen/ted for uploading XPIs as part of build
 - get loop prototype ready for review
     - mbanner to review code changes
     - get try test run for jgriffin to review
@@ -9,9 +10,10 @@ DONE
 ===============
 2015-10-19
 ----------
-- worked on skinning proble with loop add-on
+- worked on skinning problem with loop add-on
     - toolbar icon is 36px but needs to be resized to 24px
         - now a user stylesheet, used to be done in browser.css somewhere
+    - finally figured this out, thanks to gijs and dolske in #fx-team
 
 2015-10-16
 ----------
