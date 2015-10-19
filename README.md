@@ -7,13 +7,37 @@ TODO
 
 DONE
 ===============
+2015-10-19
+----------
+- worked on skinning proble with loop add-on
+    - toolbar icon is 36px but needs to be resized to 24px
+        - now a user stylesheet, used to be done in browser.css somewhere
+
+2015-10-16
+----------
+- more work on loading unsigned restartless add-ons at runtime
+    - https://bugzil.la/1209341
+
+2015-10-15
+----------
+- more work on loading unsigned restartless add-ons at runtime
+    - https://bugzil.la/1209341
+    - tests work OK but not working from actual runtime yet
+
+2015-10-14
+----------
+- more work on loading unsigned restartless add-ons at runtime
+    - https://bugzil.la/1209341
+    - made substantial progress - working through some test failures
+- PTO in the afternoon
+
 2015-10-13
 ----------
 - worked on loading unsigned restartless add-ons at runtime
     - https://bugzil.la/1209341
-    - made substantial progress - working through some test failures
+- PTO in the afternoon
  
-2015-10-13
+2015-10-12
 ----------
 - pushed latest loop-as-addon changes to system-addons fork
     - https://github.com/mozilla/system-addons/pull/6
