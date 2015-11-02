@@ -8,6 +8,14 @@ TODO
 
 DONE
 ===============
+2015-11-02
+----------
+- chatted w/ mixedpuppy regarding pocket-as-addon
+    - https://bugzil.la/1215694
+- put up "loading unsigned restartless add-ons at runtime" patch for review
+    - https://bugzil.la/1209341
+    - a few FIXME/TODOs in there, expect to have to resolve before landing
+
 2015-10-19
 ----------
 - worked on skinning problem with loop add-on
