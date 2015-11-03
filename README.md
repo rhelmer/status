@@ -8,6 +8,18 @@ TODO
 
 DONE
 ===============
+2015-11-03
+----------
+- work through review comments on unsigned restartless add-on patch
+    - https://bugzil.la/1209341
+- met w/ phrawzty
+- met w/ Hello team about landing add-on
+    - discussed what it would take to land, planned a few followups:
+    - pinged glandium about moz-central add-on packaging
+        - https://bugzil.la/1216371
+    - worked on rebasing system-addons repo against master
+        - https://github.com/mozilla/system-addons/tree/bug1186172-loop-as-addon
+
 2015-11-02
 ----------
 - chatted w/ mixedpuppy regarding pocket-as-addon
