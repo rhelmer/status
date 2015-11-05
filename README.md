@@ -8,6 +8,16 @@ TODO
 
 DONE
 ===============
+2015-11-04
+----------
+- discussed Socorro Fennec problem w/ peterbe
+    - reviewed+merged peterbe's fix https://bugzil.la/1221624
+- all but one review comments done on unsigned restartless add-on patch
+    - https://bugzil.la/1209341
+- started addressing review comments from Standard8 on Hello-as-addon
+    - https://github.com/mozilla/system-addons/tree/bug1186172-loop-as-addon
+    - a few more to go...
+
 2015-11-03
 ----------
 - work through review comments on unsigned restartless add-on patch
