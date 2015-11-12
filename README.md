@@ -1,6 +1,7 @@
 TODO
 ===============
 - file bug for armen/ted for uploading XPIs as part of build
+- help mixedpuppy with pocket
 - get loop prototype ready for review
     - mbanner to review code changes
     - get try test run for jgriffin to review
