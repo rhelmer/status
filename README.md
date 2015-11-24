@@ -1,14 +1,33 @@
 TODO
 ===============
-- file bug for armen/ted for uploading XPIs as part of build
-- help mixedpuppy with pocket
+- help mixedpuppy with pocket add-on
 - get loop prototype ready for review
-    - mbanner to review code changes
-    - get try test run for jgriffin to review
 - support/training on Socorro as needed
 
 DONE
 ===============
+2015-11-24
+----------
+- reviewed a bunch of patches
+    - https://bugzil.la/1226386
+- gofaster meeting
+
+2015-11-23
+----------
+- restartless add-on patch merged to fx-team
+    - https://bugzil.la/1209341
+- worked on Hello-as-addon blockers
+
+2015-11-18
+----------
+- r+ on restartless add-on patch \o/
+    - https://bugzil.la/1209341
+- reviewed signature verification for hotfixes
+    - https://bugzil.la/1225629
+- reviewed removal special casing of experiments
+    - https://bugzil.la/1220911
+- working with Hello team on landing Hello-as-addon
+
 2015-11-04
 ----------
 - discussed Socorro Fennec problem w/ peterbe
