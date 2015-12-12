@@ -1,11 +1,18 @@
 TODO
 ===============
+- file bug in toolkit::telemetry to add system addon status to
+  https://dxr.mozilla.org/mozilla-central/source/toolkit/components/telemetry/TelemetryEnvironment.jsm#519-533 :gritzsche
+- make sure we have telemetry probes (real time?) for system addon upgrades
 - help mixedpuppy with pocket add-on
 - get loop prototype ready for review
 - support/training on Socorro as needed
 
 DONE
 ===============
+2015-12-07 -> 2015-12-11
+------------------------
+- Mozlando
+
 2015-11-24
 ----------
 - reviewed a bunch of patches
