@@ -1,14 +1,35 @@
 TODO
 ===============
-- file bug in toolkit::telemetry to add system addon status to
-  https://dxr.mozilla.org/mozilla-central/source/toolkit/components/telemetry/TelemetryEnvironment.jsm#519-533 :gritzsche
-- make sure we have telemetry probes (real time?) for system addon upgrades
-- help mixedpuppy with pocket add-on
-- get loop prototype ready for review
-- support/training on Socorro as needed
+- support Go Faster
+  - telemetry, restartless add-ons, etc.
 
 DONE
 ===============
+2016-01-11
+----------
+- worked on providing AddonManager API to support delaying restartless updates
+  - https://bugzil.la/1231172
+  - web extensions need this too, e.g. https://bugzil.la/1213473
+- responded to question about real-time telemetry for system add-ons
+  - https://bugzil.la/1232569
+
+2016-01-08
+----------
+- PTO
+
+2016-01-07
+----------
+- Meetings in SF
+
+2016-01-06
+----------
+- made some progress on https://bugzil.la/1232222 and https://bugzil.la/1230688
+
+2016-01-05
+----------
+- Go Faster meeting
+- Landed Bug 1209344 - Link to about:debugging from about:addons
+
 2015-12-07 -> 2015-12-11
 ------------------------
 - Mozlando
@@ -95,7 +116,7 @@ DONE
 - worked on loading unsigned restartless add-ons at runtime
     - https://bugzil.la/1209341
 - PTO in the afternoon
- 
+
 2015-10-12
 ----------
 - pushed latest loop-as-addon changes to system-addons fork
@@ -265,7 +286,7 @@ DONE
 2015-09-14
 ----------
 - sick today, sort-of working
-- worked w/ jp on build pipeline 
+- worked w/ jp on build pipeline
 - graded python tests
 - reviewed patch to fix themes being disabled after addon update/install
     - https://bugzil.la/1204012
@@ -478,7 +499,7 @@ DONE
             - I think this is needed, to inject mozLoopAPI
 - filed Socorro bug 1192869
 - looked into Socorro stage issues, blocking ADI work
-    - Django just needed to allow crash-stats.allizom.org 
+    - Django just needed to allow crash-stats.allizom.org
 - ADI still not working for Socorro stage
 
 2015-08-07
@@ -498,7 +519,7 @@ DONE
 
 2015-08-05
 ----------
-- worked on loop prototype, uploaded to github 
+- worked on loop prototype, uploaded to github
     - https://github.com/rhelmer/loop-addon
 - Socorro meeting
 
@@ -815,7 +836,7 @@ DONE
 
 2014-01-21
 ---------------
-- dashcon 
+- dashcon
 
 2014-01-20
 ---------------
@@ -1098,7 +1119,7 @@ Summit recovery - got some Socorro refactoring and other misc work in.
         - feedback generall positive
         - probably more useful to surface to app developers
             - simple to do, working on adjusting PR
-    - chatted w/ stephend re: new phones 
+    - chatted w/ stephend re: new phones
         - incoming "hamachi" phones are not working w/ b2gperf yet
         - no way to queue incoming requests to jenkins, yet
 - socorro
@@ -1128,7 +1149,7 @@ Summit recovery - got some Socorro refactoring and other misc work in.
         - feedback generall positive
         - probably more useful to surface to app developers
             - simple to do, working on adjusting PR
-    - chatted w/ stephend re: new phones 
+    - chatted w/ stephend re: new phones
         - incoming "hamachi" phones are not working w/ b2gperf yet
         - no way to queue incoming requests to jenkins, yet
 - socorro
@@ -1236,7 +1257,7 @@ Summit recovery - got some Socorro refactoring and other misc work in.
     - worked on REST service for launching b2gperf tests from marketplace
 - socorro
     - worked on "corrupted modulelist output" bug with harsha
-        - https://bugzilla.mozilla.org/show_bug.cgi?id=907280 
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=907280
 
 2013-08-30
 ---------------
@@ -1383,7 +1404,7 @@ Summit recovery - got some Socorro refactoring and other misc work in.
 ---------------
 - elmo
     - attended elmo meeting
-    - went over a10n test setup w/ axel 
+    - went over a10n test setup w/ axel
         - http://pike.github.io/a10n/test-setup/
         - now working locally
 - socorro
