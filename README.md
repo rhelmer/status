@@ -5,6 +5,33 @@ TODO
 
 DONE
 ===============
+2016-01-19
+----------
+- Object.values() isn't riding the trains, put up a review request to modify
+  some ESLint-related refactoring
+  - https://bugzil.la/1239484
+- worked on providing AddonManager API to support delaying restartless updates
+  - https://bugzil.la/1231172
+- gofaster meeting
+
+2016-01-13
+----------
+- worked on providing AddonManager API to support delaying restartless updates
+  - https://bugzil.la/1231172
+- portland meetings
+
+2016-01-13
+----------
+- flew to portland for meetings
+- worked on providing AddonManager API to support delaying restartless updates
+  - https://bugzil.la/1231172
+
+2016-01-12
+----------
+- worked on providing AddonManager API to support delaying restartless updates
+  - https://bugzil.la/1231172
+- prep for portland trip
+
 2016-01-11
 ----------
 - worked on providing AddonManager API to support delaying restartless updates
