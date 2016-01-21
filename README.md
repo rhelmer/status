@@ -5,6 +5,26 @@ TODO
 
 DONE
 ===============
+2016-01-22
+----------
+- PTO
+
+2016-01-21
+----------
+- PTO except for:
+  - early-morning Balrog+Hello meeting
+    - https://public.etherpad-mozilla.org/p/gofaster-balrog
+  - took misbehaving laptop to SF office
+  - Rust meetup in SF office
+2016-01-20
+----------
+- landed Object.values() removal, asked for approval to uplift to aurora
+  - https://bugzil.la/1239484
+- worked on providing AddonManager API to support delaying restartless updates
+  - https://bugzil.la/1231172
+- took a look at https://github.com/brave/browser-laptop
+  - `LICENSE.txt` says MPL, uses http://electron.atom.io/
+
 2016-01-19
 ----------
 - Object.values() isn't riding the trains, put up a review request to modify
