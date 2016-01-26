@@ -5,6 +5,14 @@ TODO
 
 DONE
 ===============
+2016-01-25
+----------
+- Put up review for adding system add-on status to telemetry environment
+  - https://bugzil.la/1232222
+  - addressed first round of review comments
+- reviewed bug tracking whether a user has been offered side-loaded add-on
+  - https://bugzil.la/1237820
+
 2016-01-22
 ----------
 - PTO
