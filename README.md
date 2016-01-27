@@ -1,10 +1,27 @@
 TODO
 ===============
 - support Go Faster
-  - telemetry, restartless add-ons, etc.
+  - telemetry, enable restartless feature updates, etc.
 
 DONE
 ===============
+2016-01-26
+----------
+- 1:1
+- addressed review comments on bug adding system add-on status to telemetry
+  - https://bugzil.la/1232222
+- reviewed sideloading bug
+  - https://bugzil.la/1237820
+- learned more about service workers
+  - https://serviceworke.rs
+- researched Electron (the shell Atom and Brave use)
+  - uses node.js and brightray (not CEF)
+    - "thin shim over Chromium's Content module"
+    - https://github.com/atom/brightray
+  - not if it has process separation, or at least chrome/content distinction
+    - looks like the chromium content module embedding supports sandboxing
+      - http://www.chromium.org/developers/content-module
+
 2016-01-25
 ----------
 - Put up review for adding system add-on status to telemetry environment
@@ -12,6 +29,7 @@ DONE
   - addressed first round of review comments
 - reviewed bug tracking whether a user has been offered side-loaded add-on
   - https://bugzil.la/1237820
+- informal code review for mythmon
 
 2016-01-22
 ----------
