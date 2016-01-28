@@ -5,6 +5,14 @@ TODO
 
 DONE
 ===============
+2016-01-28
+----------
+PTO
+
+2016-01-27
+----------
+- worked on adding test to telemetry side of https://bugzil.la/1232222
+
 2016-01-26
 ----------
 - 1:1
