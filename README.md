@@ -12,6 +12,10 @@ PTO
 2016-01-27
 ----------
 - worked on adding test to telemetry side of https://bugzil.la/1232222
+  - the way telemetry tests add-ons makes this a little more difficult
+    than what we do for add-ons manager, as there's no simple way to
+    restart the AddonManager and the system add-on must be present in
+    the features dir when the add-ons manager starts up
 
 2016-01-26
 ----------
