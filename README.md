@@ -5,6 +5,12 @@ TODO
 
 DONE
 ===============
+2016-01-29
+----------
+- reviews
+- worked on adding test to telemetry side of https://bugzil.la/1232222
+- meeting
+
 2016-01-28
 ----------
 PTO
