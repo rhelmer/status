@@ -2,9 +2,28 @@ TODO
 ===============
 - support Go Faster
   - telemetry, enable restartless feature updates, etc.
+- misc Add-ons Manager and Web Extension related work
+- learning
+  - Rust
+  - ES6
+  - React
+- investigating
+  - Electron
 
 DONE
 ===============
+2016-02-01
+----------
+- starting reviewing cert DB shim
+  - https://bugzil.la/1244357
+- worked on adding test to telemetry side of https://bugzil.la/1232222
+- gave some guidance in symbolapi outage bug
+  - https://bugzil.la/1244589
+  - vladan was managing this and has left
+  - shout-out to my rust replacement
+    - https://github.com/rhelmer/symbolapi
+    - works on heroku!
+
 2016-01-29
 ----------
 - reviews
