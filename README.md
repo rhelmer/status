@@ -15,10 +15,14 @@ DONE
 ===============
 2016-02-05
 ----------
-- reviewed bug 1246151
-  - fixed heroku token so auto-land works for symbols.m.o again
-- responded to review comments on telemetry environment bug
+- finished reviews
+  - https://bugzil.la/1246151
+    - fixed heroku token so auto-land works for symbols.m.o again
+  - https://bugzil.la/1244357
+  - https://bugzil.la/1244302
+- r+ on telemetry environment bug
   - https://bugzil.la/1232222
+  - addressed final review suggestions
   - added "checkin-needed" keyword, as autoland is disabled at the moment
 
 2016-02-04
