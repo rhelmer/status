@@ -8,10 +8,39 @@ TODO
   - ES6
   - React
 - investigating
-  - Electron
+  - Electron (used by brave)
+    - Chrome Content library used via brightray
 
 DONE
 ===============
+2016-02-05
+----------
+- reviewed bug 1246151
+  - fixed heroku token so auto-land works for symbols.m.o again
+- responded to review comments on telemetry environment bug
+  - https://bugzil.la/1232222
+  - added "checkin-needed" keyword, as autoland is disabled at the moment
+
+2016-02-04
+----------
+- PTO
+
+2016-02-03
+----------
+- put telemetry environment patch up for review
+  - now blocking pocket/hello, needs uplift
+  - https://bugzil.la/1232222
+- reviews
+  - https://bugzil.la/1244357
+
+2016-02-02
+----------
+- continued working on telemetry environment patch up for review
+  - need to inject system add-on before startup
+  - https://bugzil.la/1232222
+- reviews
+  - https://bugzil.la/1244357
+
 2016-02-01
 ----------
 - starting reviewing cert DB shim
