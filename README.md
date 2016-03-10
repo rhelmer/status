@@ -13,6 +13,14 @@ TODO
 
 DONE
 ===============
+2016-03-10
+----------
+- looked into Socorro issue since everbody else is out today
+  - https://bugzil.la/1255444
+- worked on tracking protection add-on
+  - https://github.com/rhelmer/stop-tracking
+  - quick informal UX review from bwinton
+
 2016-02-05
 ----------
 - finished reviews
