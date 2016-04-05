@@ -13,6 +13,22 @@ TODO
 
 DONE
 ===============
+2016-04-05
+----------
+- meetings
+  - chatted w/ luke about tracking protection
+  - chatted with bbell about UX for tracking protection addon
+  - Go Faster meeting
+  - 1:1
+- pushed latest UX changes for stop-tracking addon
+
+2016-04-04
+----------
+- review bug exposing addons to web content (for AMO only)
+  - https://bugzil.la/1245571
+- worked on providing AddonManager API to support delaying restartless updates
+  - https://bugzil.la/1231172
+
 2016-03-10
 ----------
 - looked into Socorro issue since everbody else is out today
