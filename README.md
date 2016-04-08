@@ -13,6 +13,11 @@ TODO
 
 DONE
 ===============
+2016-04-07
+----------
+- reviews
+  - finished review for bug exposing addons to web content
+    - https://bugzil.la/1245571
 2016-04-05
 ----------
 - meetings
