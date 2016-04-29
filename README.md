@@ -13,11 +13,34 @@ TODO
 
 DONE
 ===============
+2016-04-28
+----------
+- pushed review for stub for webcompat fix system add-on
+  - https://bugzil.la/1268197
+  - landed
+- pushed request for feedback for delaying add-on upgrade patch
+  - https://bugzil.la/1231172
+- reviewed stackwalker changes to expose symbol URLs
+  - https://github.com/mozilla/socorro/pull/3306
+- reviewed adding telemetry count for addon compat dialog
+  - https://bugzil.la/1268548
+
+2016-04-19
+----------
+- looking into converting hello and pocket to web extensions
+
+2016-04-18
+----------
+- reviews
+  - filling in for mossop
+- in MV for the day
+
 2016-04-07
 ----------
 - reviews
   - finished review for bug exposing addons to web content
     - https://bugzil.la/1245571
+
 2016-04-05
 ----------
 - meetings
