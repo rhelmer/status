@@ -11,7 +11,10 @@ Currently working on
     - services which could probably use this:
       - Blocklist
       - Safebrowsing
-      - Add-ons (system and from AMO, probably not external-hosted updates)
+      - Add-ons (system and from AMO, probably not author-hosted updates)
+        - "author-hosted updates" being non-AMO external sites that add-on
+          authors can host themselves - these probably would not use the
+          push service.
       - Application
   - telemetry for system add-ons
     - Why not UITelemetry from inside extensions?
@@ -35,6 +38,14 @@ Currently working on
       Rather than having Rust code call into Gecko directly, do anything which
       Rust code will need in C++ and then pass to the Rust function to do the
       work.
+
+      For example AddonManager could be a ChromeOnly DOM API, which is used
+      by browser chrome to build UI, and/or exposed to addons.mozilla.org
+      (this is currently the case, but the current JSM impl is exposed).
+
+      Features that are not exposed as a DOM API could use a similar approach,
+      use C++ working with Gecko XPCOM and such, and call out to Rust to
+      do the actual work as if it was an external C library.
 
 Daily(ish) log
 ==============
