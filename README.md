@@ -1,18 +1,56 @@
-TODO
-===============
+Currently working on
+=====================
 - support Go Faster
-  - telemetry, enable restartless feature updates, etc.
-- misc Add-ons Manager and Web Extension related work
+  - restartless feature updates
+    - landed for regular add-ons, working on system add-ons and webextensions
+  - push notifications for available updates
+    - publish a message via the Firefox Push service that update is available
+      for a particular service, e.g. "Blocklist"
+    - keep current (generally 24h poll) approach in-place, but also check early
+      if an update message comes through.
+    - services which could probably use this:
+      - Blocklist
+      - Safebrowsing
+      - Add-ons (system and from AMO, probably not external-hosted updates)
+      - Application
+  - telemetry for system add-ons
+    - Why not UITelemetry from inside extensions?
+      - http://gecko.readthedocs.io/en/latest/browser/browser/UITelemetry.html
+      - Used by Fennec
+      - Used by Desktop, example:
+        - https://dxr.mozilla.org/mozilla-central/source/browser/modules/BrowserUITelemetry.jsm
+- Add-ons Manager and Web Extension related work and reviews
 - learning
+  - C++
   - Rust
   - ES6
   - React
 - investigating
-  - Electron (used by brave)
-    - Chrome Content library used via brightray
+  - using Rust to replace internal Firefox JS/C++
+    - for instance, export new JS APIs (web or chromeonly) via WebIDL.
+      It's easier to call Rust from C++ as if it was C code, than the inverse.
+      So, to be able to interop with Gecko, probably need to generate C++
+      code from the webIDL and then call into Rust from there where appropriate.
 
-DONE
-===============
+      Rather than having Rust code call into Gecko directly, do anything which
+      Rust code will need in C++ and then pass to the Rust function to do the
+      work.
+
+Daily(ish) log
+==============
+2016-06-19
+----------
+- chatted w/ add-on author nt1m about extending an API to control themes,
+  so extensions can do dynamic theming in a way that will work for themes
+  like CTR, VivaldiFox, colored tabs, etc.
+
+  - https://github.com/nt1m/WebExtensions-Theming-API
+  - https://github.com/nt1m/vivaldi-fox/issues/24
+
+2016-06-13 -> 2016-06-17
+------------------------
+- Mozlondon
+
 2016-04-28
 ----------
 - pushed review for stub for webcompat fix system add-on
