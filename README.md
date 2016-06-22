@@ -3,9 +3,10 @@ Currently working on
 - support Go Faster
   - restartless feature updates
     - landed for regular add-ons, working on system add-ons and webextensions
-  - push notifications for available updates
+  - faster notifications for available updates
     - publish a message via the Firefox Push service that update is available
       for a particular service, e.g. "Blocklist"
+    - Push may not be appropriate here - a faster TCP/UDP poll might be doable
     - keep current (generally 24h poll) approach in-place, but also check early
       if an update message comes through.
     - services which could probably use this:
@@ -49,6 +50,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-06-22
+----------
+- Helped out w/ Brotli system add-on hotfix
+  - https://bugzil.la/1273547
+  - lack of XPI provider debugging made this harder than it should be
+    - filed https://bugzil.la/1281547 and pushed patch for review
+
+2016-06-21
+----------
+- about:performance allows disabling system add-ons
+  - attached patch to https://bugzil.la/1260450, needs tests
+  - AddonManager should just ignore userDisabled state too, for system addons
+    - https://bugzil.la/1281077
+- 1:1
+
 2016-06-19
 ----------
 - chatted w/ add-on author nt1m about extending an API to control themes,
