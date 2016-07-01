@@ -1,6 +1,6 @@
 Currently working on
 =====================
-- support Go Faster
+- Go Faster
   - restartless feature updates
     - landed for regular add-ons, working on system add-ons and webextensions
   - faster notifications for available updates
@@ -50,6 +50,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-01
+----------
+- investigated and added patch for reloading temporary web extensions
+  - https://bugzil.la/1283897
+- worked on allowing system add-ons to delay upgrade
+  - https://bugzil.la/1204156
+
 2016-06-30
 ----------
 - landed bug preventing users from disabling hidden/system add-ons
