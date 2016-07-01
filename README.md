@@ -50,6 +50,45 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-06-30
+----------
+- landed bug preventing users from disabling hidden/system add-ons
+  - https://bugzil.la/1281077
+- worked on allowing system add-ons to delay upgrade
+  - https://bugzil.la/1204156
+  - this requires making them install more like normal add-ons, and
+    removing a lot of the current hard-coding.
+  - mostly working now, getting tests to pass and need to make some
+    decisions like what to do if a set fails to upgrade. Also, one 
+    add-on delaying needs to delay upgrade for the whole set...
+- looked into about:debugging temporary add-on loader issue w/ billm and kmag
+  - https://bugzil.la/1283676
+  - this is really a platform bug in nsIFilePicker, filed a bug to look into
+    that
+    - https://bugzil.la/1283680
+      - looks dead easy on Mac: https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSOpenPanel\_Class/index.html
+      - Windows (Vista+) and GTK would need more work, might be more than this feature warrants :/
+      - given that, might make sense to have a better workaround in the UI
+
+2016-06-29
+----------
+- worked on bug preventing users from disabling hidden/system add-ons
+  - https://bugzil.la/1281077
+
+2016-06-28
+----------
+- PTO
+
+2016-06-27
+----------
+- pushed willkg's patch for snappy symbolication server
+  - https://github.com/mozilla/Snappy-Symbolication-Server/issues/25
+
+2016-06-23 -> 2016-06-24
+------------------------
+- mostly out sick
+- a few small reviews
+
 2016-06-22
 ----------
 - Helped out w/ Brotli system add-on hotfix
@@ -69,9 +108,9 @@ Daily(ish) log
 ----------
 - chatted w/ add-on author nt1m about extending an API to control themes,
   so extensions can do dynamic theming in a way that will work for themes
-  like CTR, VivaldiFox, colored tabs, etc.
+  like CTR, VivaldiFox, Colorful Tabs, etc.
 
-  - https://github.com/nt1m/WebExtensions-Theming-API
+  - https://github.com/nt1m/WebExtensions-Theming-API/blob/master/Proposal.md
   - https://github.com/nt1m/vivaldi-fox/issues/24
 
 2016-06-13 -> 2016-06-17
