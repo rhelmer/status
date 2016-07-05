@@ -50,6 +50,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-05
+----------
+- filed bug with doc fix for system add-on spec
+  - https://bugzil.la/1284564
+  - also tested this and noticed a potential bug in the "default" case, may
+    need a followup - see https://bugzil.la/1284564#c2
+
 2016-07-01
 ----------
 - investigated and added patch for reloading temporary web extensions
@@ -66,7 +73,7 @@ Daily(ish) log
   - this requires making them install more like normal add-ons, and
     removing a lot of the current hard-coding.
   - mostly working now, getting tests to pass and need to make some
-    decisions like what to do if a set fails to upgrade. Also, one 
+    decisions like what to do if a set fails to upgrade. Also, one
     add-on delaying needs to delay upgrade for the whole set...
 - looked into about:debugging temporary add-on loader issue w/ billm and kmag
   - https://bugzil.la/1283676
