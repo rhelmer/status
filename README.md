@@ -50,6 +50,15 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-06
+----------
+- early morning telemetry meeting
+- starting reviewing patch to avoid syncing hidden/system add-ons
+  - https://bugzil.la/1275139
+  - chatted w/ markh about this in London, plan is to only sync add-ons
+    in the profile, and have an isSyncable getter in the AddonManager API for
+    Sync to use.
+
 2016-07-05
 ----------
 - filed bug with doc fix for system add-on spec
