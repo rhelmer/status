@@ -50,6 +50,15 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-11
+----------
+- reviewed add-on manager sync bug
+  - https://bugzil.la/1275139
+- responded to needinfo (testing needed) on new balrog throttle feature
+  - https://bugzil.la/1281347
+- looked at snappy service strace output we added to watchdog script last week
+  - looks like it is stuck trying to read past the end of a cache file...
+
 2016-07-06
 ----------
 - early morning telemetry meeting
