@@ -58,6 +58,9 @@ Daily(ish) log
   - https://bugzil.la/1281347
 - looked at snappy service strace output we added to watchdog script last week
   - looks like it is stuck trying to read past the end of a cache file...
+- started fleshing out DETH prototype 
+  - https://github.com/rhelmer/deth-proto
+  - basic GET, DELETE, POST now work with local zone file
 
 2016-07-06
 ----------
