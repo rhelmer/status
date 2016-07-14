@@ -50,6 +50,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-13
+----------
+- chatted w/ Osmose about r-
+  - just mozreview misunderstanding
+  - https://bugzil.la/1284564
+- chatted w/ markh about "only sync AMO hosted add-ons" woes
+  - https://bugzil.la/1285866
+  - going to do something like `addon.isHosted` in AddonManager API probably
+    - https://bugzil.la/1285866#c3
+
+2016-07-12
+----------
+- did a little symbolapi investigation
+  - looking at strace output w/ ddurst, race condition with files seems possible
+  - concurrency model is a bit baffling - there's tornado and concurrent.futures in use, and there are two processes. Need to figure this out before we can determine the problem for sure and make appropriate fix.
+- PTO in the afternoon
+
 2016-07-11
 ----------
 - reviewed add-on manager sync bug
