@@ -50,6 +50,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-14
+----------
+- reviewed patch to further lock down navigator.mozAddonManager
+  - https://bugzil.la/1287125
+- responded to standard8's gofaster email with more details about process
+  changes/improvements in-progress
+
 2016-07-13
 ----------
 - chatted w/ Osmose about r-
