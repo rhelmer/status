@@ -50,6 +50,16 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-18
+----------
+- reviewed bug to treat corrupt addons.json in AddonRepo as if it were missing
+  - https://bugzil.la/1286785
+- drafted email about DETH proto progress
+- chatted w/ ddurst+willkg about what it'd take to fix snappy
+- follow up on backout on patch landed for aswan
+  - https://bugzil.la/1287125
+  - he is back and can finish investigating
+
 2016-07-14
 ----------
 - reviewed patch to further lock down navigator.mozAddonManager
