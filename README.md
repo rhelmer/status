@@ -54,11 +54,14 @@ Daily(ish) log
 ----------
 - reviewed bug to treat corrupt addons.json in AddonRepo as if it were missing
   - https://bugzil.la/1286785
-- drafted email about DETH proto progress
+- drafted+sent email about DETH proto progress
 - chatted w/ ddurst+willkg about what it'd take to fix snappy
 - follow up on backout on patch landed for aswan
   - https://bugzil.la/1287125
   - he is back and can finish investigating
+- chatted about symbolapi woes with various folks
+- chatted about webextensions dynamic theming in #webextensions
+  - https://github.com/nt1m/WebExtensions-Theming-API/blob/master/Proposal.md#dynamic-theming-theming-elements-globally
 
 2016-07-14
 ----------
