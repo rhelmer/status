@@ -50,6 +50,36 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-22
+----------
+- review
+- made sure we can re-enable disabled hidden/system add-ons via update
+  - they can no longer be disabled as of https://bugzil.la/1281077 
+    but wanted to ensure that they will be re-enabled
+  - was working on https://bugzil.la/1283963 but maybe not needed?
+
+2016-07-21
+----------
+- worked on ensuring system add-ons are enabled during updates
+  - https://bugzil.la/1279012
+- worked on postponed upgrade support for system add-ons
+  - https://bugzil.la/1204156
+
+2016-07-20
+----------
+- review for lock down on mozAddonManager.install()
+  - https://bugzil.la/1287125
+- worked on ensuring system add-ons are enabled during updates
+  - https://bugzil.la/1279012
+- PTO in the afternoon
+
+2016-07-19
+----------
+- helped flesh out dynamic theming API for web extensions
+  - https://github.com/nt1m/WebExtensions-Theming-API/blob/master/Proposal.md
+- worked on allowing system add-ons to upgrade w/o restart
+  - https://bugzil.la/303368
+
 2016-07-18
 ----------
 - reviewed bug to treat corrupt addons.json in AddonRepo as if it were missing
