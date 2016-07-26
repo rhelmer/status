@@ -50,6 +50,12 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-25
+----------
+- meeting w/ mixedpuppy about gofaster
+- worked on postponed support for webextensions
+  - https://bugil.la/1279012
+
 2016-07-22
 ----------
 - review
