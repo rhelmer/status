@@ -50,6 +50,11 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-07-26
+----------
+- looked into QA results for "delayed add-on" patch
+  - https://bugzil.la/1231172#c73
+
 2016-07-25
 ----------
 - meeting w/ mixedpuppy about gofaster
