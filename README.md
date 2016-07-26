@@ -54,6 +54,11 @@ Daily(ish) log
 ----------
 - looked into QA results for "delayed add-on" patch
   - https://bugzil.la/1231172#c73
+- worked on postponed support for webextensions
+  - https://bugil.la/1279012
+- added file extension feature to web-ext
+  - https://github.com/mozilla/web-ext/pull/392
+  - this is making it painful to work on postponed support for webextensions
 
 2016-07-25
 ----------
