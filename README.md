@@ -50,6 +50,26 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-08-02
+----------
+- worked on postponed support for webextensions
+  - https://bugil.la/1279012
+  - pushed patch for review
+- worked on making WebExtension tests better
+  - https://bugzil.la/1290617
+  - merged to inbound (needed for https://bugzil.la/1279012)
+
+2016-07-29
+----------
+- worked on postponed support for webextensions
+  - https://bugil.la/1279012
+  - basically done, making tests nicer
+    - things like message passing from AddonManager -> WebExtension are hard
+    - lots of divergence across AddonManager/WebExt tests
+- worked on making WebExtension tests better
+  - https://bugzil.la/1290617
+  - patch is pushed, waiting for review
+
 2016-07-26
 ----------
 - looked into QA results for "delayed add-on" patch
