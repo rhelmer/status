@@ -60,7 +60,7 @@ Daily(ish) log
     the feature.
       - https://bugzil.la/1287191
 - Added a few bugs to Osmose's system add-on revision tracking bug
-  - Ensure that
+  - Ensure that all default system add-ons are present in Balrog response
     - https://bugzil.la/1292029
   - Use monotonically-increasing revision number from Balrog for each update set
     - https://bugzil.la/1292031
