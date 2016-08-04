@@ -50,6 +50,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-08-03
+----------
+- Existing JS scoping bug was fixed, which caused a system add-on test to fail
+  - https://bugzil.la/1291569
+  - turns out it wasn't running the tests we thought it was, fortunately only
+    one minor feature had a legit broken test (empty add-on set means to remove
+    all updates and to disable all built-in add-ons) - will probably just remove
+    the feature.
+      - https://bugzil.la/1287191
+- Added a few bugs to Osmose's system add-on revision tracking bug
+  - Ensure that
+    - https://bugzil.la/1292029
+  - Use monotonically-increasing revision number from Balrog for each update set
+    - https://bugzil.la/1292031
+
 2016-08-02
 ----------
 - worked on postponed support for webextensions
@@ -90,7 +105,7 @@ Daily(ish) log
 ----------
 - review
 - made sure we can re-enable disabled hidden/system add-ons via update
-  - they can no longer be disabled as of https://bugzil.la/1281077 
+  - they can no longer be disabled as of https://bugzil.la/1281077
     but wanted to ensure that they will be re-enabled
   - was working on https://bugzil.la/1283963 but maybe not needed?
 
@@ -161,7 +176,7 @@ Daily(ish) log
   - https://bugzil.la/1281347
 - looked at snappy service strace output we added to watchdog script last week
   - looks like it is stuck trying to read past the end of a cache file...
-- started fleshing out DETH prototype 
+- started fleshing out DETH prototype
   - https://github.com/rhelmer/deth-proto
   - basic GET, DELETE, POST now work with local zone file
 
