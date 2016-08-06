@@ -50,6 +50,26 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-08-05
+----------
+- looked into issues testing system add-on for Firefox 44 on Windows XP
+  - https://bugzil.la/
+  - turned out AMO was serving a bad update, now fixed
+    - https://github.com/mozilla/addons-server/issues/3228
+- almost done addressing review feedback for browser.runtime.onUpdateAvailable
+  - https://bugzil.la/1279012
+  - should add better test for browser.runtime.reload() too
+
+2016-08-04
+----------
+- in SF office, meetings etc.
+- check if bad manifest (loaded from XPI) is cached
+    - e.g. "strict version" is set then later removed
+- worked on monotonically-increasing revision for system add-ons
+  - https://bugzil.la/1292031
+  - have a patch, needs tests
+    - https://gist.github.com/Osmose/88eb585a302299394a076df11be52fd5
+
 2016-08-03
 ----------
 - Existing JS scoping bug was fixed, which caused a system add-on test to fail
