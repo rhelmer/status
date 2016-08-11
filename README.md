@@ -3,6 +3,11 @@ Currently working on
 - Go Faster
   - restartless feature updates
     - landed for regular add-ons, working on system add-ons and webextensions
+  - working on improving the system add-on process
+    - do not require downloading (or signing+hosting) unless newer than defaults
+      - https://bugzil.la/1273709
+    - use monotonically increasing version number from update server
+      - https://bugzil.la/1292031
   - faster notifications for available updates
     - publish a message via the Firefox Push service that update is available
       for a particular service, e.g. "Blocklist"
@@ -50,6 +55,40 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-08-11
+----------
+- PTO
+
+2016-08-10
+----------
+- helped with system add-on roll-out
+  - Pocket had some l10n issues
+    - version shipped w/ Firefox 
+- fixed bugs from try run on onUpdateAvailable
+  - https://bugzil.la/1279012
+  - re-ran try build
+- took older bug to add better tests for same add-onmultiple install locations
+  - https://bugzil.la/557710
+  - need this for avoiding re-downloading (and signing+hosting) for default 
+    system add-ons
+    - https://bugzil.la/1273709
+
+2016-08-09
+----------
+- addressed review feedback for onUpdateAvailable
+  - https://bugzil.la/1279012
+  - added better test for browser.runtime.reload()
+  - re-ran try build
+
+2016-08-08
+----------
+- helped out with "out of date notification" system add-on
+  - https://bugzil.la/1292562
+- addressed review feedback for onUpdateAvailable
+  - https://bugzil.la/1279012
+  - added better test for browser.runtime.reload()
+  - re-ran try build
+
 2016-08-05
 ----------
 - looked into issues testing system add-on for Firefox 44 on Windows XP
