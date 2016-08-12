@@ -55,6 +55,14 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-08-12
+----------
+- r+ on delayed update for webextensions \o/
+  - https://bugzil.la/1279012
+  - can't land yet, seems to be some mozreview bug :/
+- started working on prereq to system add-on changes
+  - https://bugzil.la/557710
+
 2016-08-11
 ----------
 - PTO
@@ -63,7 +71,7 @@ Daily(ish) log
 ----------
 - helped with system add-on roll-out
   - Pocket had some l10n issues
-    - version shipped w/ Firefox 
+    - xpi shipped w/ Firefox only has en-US, need one with all locales
 - fixed bugs from try run on onUpdateAvailable
   - https://bugzil.la/1279012
   - re-ran try build
