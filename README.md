@@ -36,25 +36,19 @@ Currently working on
   - React
 - investigating
   - using Rust to replace internal Firefox JS/C++
-    - for instance, export new JS APIs (web or chromeonly) via WebIDL.
-      It's easier to call Rust from C++ as if it was C code, than the inverse.
-      So, to be able to interop with Gecko, probably need to generate C++
-      code from the webIDL and then call into Rust from there where appropriate.
-
-      Rather than having Rust code call into Gecko directly, do anything which
-      Rust code will need in C++ and then pass to the Rust function to do the
-      work.
-
-      For example AddonManager could be a ChromeOnly DOM API, which is used
-      by browser chrome to build UI, and/or exposed to addons.mozilla.org
-      (this is currently the case, but the current JSM impl is exposed).
-
-      Features that are not exposed as a DOM API could use a similar approach,
-      use C++ working with Gecko XPCOM and such, and call out to Rust to
-      do the actual work as if it was an external C library.
 
 Daily(ish) log
 ==============
+2016-08-15
+----------
+- landed delayed update for webextensions
+  - https://bugzil.la/1279012
+- working on prereq to system add-on changes
+  - https://bugzil.la/557710
+- reviewed moving AddonManager test helpers to shared module
+  - this is so it can be easily used by webextensions too
+  - https://bugzil.la/1294811
+
 2016-08-12
 ----------
 - r+ on delayed update for webextensions \o/
