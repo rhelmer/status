@@ -39,6 +39,26 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-08-24
+----------
+- started working again on restartless install+update for system add-ons
+  - https://bugzil.la/1204156
+
+2016-08-23
+----------
+- addons triage
+- picked up bug about distribution add-ons not working on Fennec
+  - https://bugzil.la/1296563
+  - turns out was a documentation bug
+- reviewed bug to expose canUninstall flag for AOM-exposed content
+  - https://bugzil.la/1297028
+
+2016-08-19
+----------
+- landed feature to leave built-in system add-ons alone, only specify updates
+  - https://bugzil.la/1295732
+  - requested uplift to aurora+beta
+
 2016-08-15
 ----------
 - landed delayed update for webextensions
