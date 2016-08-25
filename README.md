@@ -39,10 +39,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-08-25
+----------
+- helped merge updates-only system add-ons patch to aurora+beta
+  - https://bugzil.la/1295732
+- worked on prereq to restartless install+update for system add-ons
+  - https://bugzil.la/557710
+
 2016-08-24
 ----------
 - started working again on restartless install+update for system add-ons
   - https://bugzil.la/1204156
+  - posted plan to bug
 
 2016-08-23
 ----------
