@@ -41,6 +41,16 @@ Daily(ish) log
 ==============
 2016-08-25
 ----------
+- put up patch for review on prereq to install+update for system add-ons
+  - https://bugzil.la/557710
+  - filed a few followup bugs
+    - improve testing functions for programmatically creating addons
+      - https://bugzil.la/1298467
+    - temporary add-ons do not reveal overridden add-ons in the correct order
+      - https://bugzil.la/1298545
+
+2016-08-25
+----------
 - helped merge updates-only system add-ons patch to aurora+beta
   - https://bugzil.la/1295732
 - worked on prereq to restartless install+update for system add-ons
