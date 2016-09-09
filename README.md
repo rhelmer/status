@@ -39,7 +39,24 @@ Currently working on
 
 Daily(ish) log
 ==============
-2016-08-25
+2016-09-05 -> 2016-09-09
+------------------------
+- In Portland office for meetings
+  - figured out plan for automating system add-on update signing
+  - helped w/ crash collector transition planning
+- restartless install+update for system add-ons
+  - https://bugzil.la/1204156
+  - working patch locally, needs more testing
+
+2016-09-01
+----------
+- looked at patch backed out of autoland
+  - https://bugzil.la/557710
+  - the test code I refactored is used in more places than I realized
+    - going to refactor this and all callers first
+      - https://bugzil.la/1298467
+
+2016-08-26
 ----------
 - put up patch for review on prereq to install+update for system add-ons
   - https://bugzil.la/557710
