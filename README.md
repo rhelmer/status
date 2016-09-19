@@ -39,6 +39,10 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-09-16
+----------
+- so many meetings
+
 2016-09-05 -> 2016-09-09
 ------------------------
 - In Portland office for meetings
