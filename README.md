@@ -41,7 +41,17 @@ Daily(ish) log
 ==============
 2016-09-16
 ----------
+- landed webcompat system add-on consistency
+  - https://bugzil.la/1303514
+- restartless install+update for system add-ons
+  - https://bugzil.la/1204156
+  - chatted w/ aswan, going to need to move the postponed AddonInstall state
+
+2016-09-16
+----------
 - so many meetings
+- made webcompat system add-ons more consistent
+  - https://bugzil.la/1303514
 
 2016-09-05 -> 2016-09-09
 ------------------------
