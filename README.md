@@ -39,6 +39,11 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-09-29
+----------
+- landed patch for about:crashes to separate un/submitted entries
+  - https://bugzil.la/512479
+
 2016-09-28
 ----------
 - revived patch for about:crashes to separate un/submitted entries
