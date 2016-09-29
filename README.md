@@ -43,6 +43,8 @@ Daily(ish) log
 ----------
 - landed patch for about:crashes to separate un/submitted entries
   - https://bugzil.la/512479
+- started watching the "ES6 For Everyone" training videos
+  - a kind mozillian gifted me a pass
 
 2016-09-28
 ----------
