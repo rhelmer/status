@@ -39,7 +39,20 @@ Currently working on
 
 Daily(ish) log
 ==============
-2016-09-16
+2016-09-28
+----------
+- revived patch for about:crashes to separate un/submitted entries
+  - https://bugzil.la/512479
+  - had more tests already than I realized, mostly working through those
+
+2016-09-27
+----------
+- meetings
+  - gofaster
+  - system addons
+  - addonmanager triage
+
+2016-09-17
 ----------
 - landed webcompat system add-on consistency
   - https://bugzil.la/1303514
