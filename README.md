@@ -45,6 +45,8 @@ Daily(ish) log
   - https://bugzil.la/512479
 - started watching the "ES6 For Everyone" training videos
   - a kind mozillian gifted me a pass
+- fixed bug in onUpdateAvailable that was causing test failures
+  - https://bugzil.la/1306492
 
 2016-09-28
 ----------
