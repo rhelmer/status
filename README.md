@@ -39,6 +39,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-10-11
+----------
+- so many meetings
+- started working on morgoth
+- worked on separating system add-on components in about:support
+  - https://bugzil.la/1308981
+
 2016-09-29
 ----------
 - landed patch for about:crashes to separate un/submitted entries
