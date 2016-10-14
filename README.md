@@ -36,9 +36,31 @@ Currently working on
   - React
 - investigating
   - using Rust to replace internal Firefox JS/C++
+    - for instance WebIDL, JSMs, XPCOM implementations, etc.
+  - Moving Firefox features to React
 
 Daily(ish) log
 ==============
+2016-10-14
+----------
+- starting working on https://github.com/mozilla/morgoth/issues/41
+  - read through morgoth data model
+- reviewed bug regarding bad interaction between Addon SDK and e10srollout
+  - https://bugzil.la/1304392
+
+2016-10-13
+----------
+- reviewed bug: install addons permanently using proxy file from about:debugging
+  - https://bugzil.la/1309288
+
+2016-10-12
+----------
+- morgoth working locally
+  - https://github.com/mozilla/morgoth/pull/47
+- worked more on restartless system addon install+update
+  - patch working locally
+  - going through test failures
+
 2016-10-11
 ----------
 - so many meetings
