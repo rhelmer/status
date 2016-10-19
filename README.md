@@ -41,6 +41,15 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-10-19
+----------
+- met w/ rdalal about https://github.com/mozilla/morgoth/issues/41
+- reviews
+  - mozAddonManager should use frame manager, to work w/ e10s
+    - https://bugzil.la/1311180
+  - fix for unsafe CPOW warnings in xpinstall tests
+    - https://bugzil.la/1311459
+
 2016-10-14
 ----------
 - starting working on https://github.com/mozilla/morgoth/issues/41
