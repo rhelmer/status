@@ -41,6 +41,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-11-02
+----------
+- chatted w/ rdalal on what needs doing in morgoth
+  - https://github.com/mozilla/morgoth/issues/46
+- AddonManager triage w/ aswan
+- filed bug to remove install.rdf and replace w/ manifest.json
+  - basically make all bootstrap.js addons "hybrid" type
+  - https://bugzil.la/1314710
+
+2016-10-31
+----------
+- took a look at error message from theme selector
+  - https://bugzil.la/1313960
+- caught up on email/bugmail
+
 2016-10-19
 ----------
 - met w/ rdalal about https://github.com/mozilla/morgoth/issues/41
