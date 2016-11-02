@@ -49,6 +49,11 @@ Daily(ish) log
 - filed bug to remove install.rdf and replace w/ manifest.json
   - basically make all bootstrap.js addons "hybrid" type
   - https://bugzil.la/1314710
+- got Rust compiling to wasm working locally
+  - maybe can use for Firefox eventually
+    - better type safety/correctness than JS
+    - no GC w/ memory correctness
+    - no parallelism yet, but SharedArrayBuffer coming
 
 2016-10-31
 ----------
