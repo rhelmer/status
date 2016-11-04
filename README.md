@@ -37,10 +37,18 @@ Currently working on
 - investigating
   - using Rust to replace internal Firefox JS/C++
     - for instance WebIDL, JSMs, XPCOM implementations, etc.
+    - wasm might be an option here
+      - Rust has (preliminary) support via emcripten
+      - much easier to hot-reload than binary code (depending on platform)
   - Moving Firefox features to React
 
 Daily(ish) log
 ==============
+2016-11-03
+----------
+- addressed review comments on restartless system addon patch
+  - https://bugzil.la/1204156
+
 2016-11-02
 ----------
 - chatted w/ rdalal on what needs doing in morgoth
@@ -220,7 +228,7 @@ Daily(ish) log
   - re-ran try build
 - took older bug to add better tests for same add-onmultiple install locations
   - https://bugzil.la/557710
-  - need this for avoiding re-downloading (and signing+hosting) for default 
+  - need this for avoiding re-downloading (and signing+hosting) for default
     system add-ons
     - https://bugzil.la/1273709
 
