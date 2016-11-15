@@ -44,6 +44,30 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-11-11
+----------
+- landed restartless system add-on patch \o/
+  - https://bugzil.la/1204156
+
+2016-11-14
+----------
+- reviewed AddonInstall refactoring patch
+- worked on refactoring all of AddonManager to es6 classes
+  - want to increase use of subclasses and tighten design, this is first part
+
+2016-11-14
+----------
+- worked on issue with sync addon DB loading throwing exception when
+  dev edition theme is the default
+  - https://bugzil.la/1313960
+  - the issue of why we are doing sync load here is a tricky one... for now
+    going to settle for making the exception go away (seems to just be a case
+    of a programmer error+no test around interrupting async load when sync
+    load has completed in the meantime.
+
+    Going to split out the "how to make this right" issue from the "make
+    it work as intended"
+
 2016-11-03
 ----------
 - addressed review comments on restartless system addon patch
