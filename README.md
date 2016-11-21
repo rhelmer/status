@@ -44,6 +44,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-11-21
+----------
+- started chatting w/ folks about idea for system addon update experiment
+  - https://bugzil.la/1307568
+  - tl;dr we suspect MITM proxies are breaking different updates, including
+    but not limites to system add-ons, due to cert pinning requirements
+
 2016-11-11
 ----------
 - landed restartless system add-on patch \o/
