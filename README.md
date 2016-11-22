@@ -46,10 +46,23 @@ Daily(ish) log
 ==============
 2016-11-21
 ----------
-- started chatting w/ folks about idea for system addon update experiment
+- started chatting w/ folks about felipe's idea for update experiment
   - https://bugzil.la/1307568
   - tl;dr we suspect MITM proxies are breaking different updates, including
     but not limites to system add-ons, due to cert pinning requirements
+- looked into what happens when balrog sends 404 to GMP/SystemAddon update
+  - currently HTTP status is ignored :/ so XML is read, but will throw if
+    can't be parsed
+    - TODO file bug
+- responded to some needinfos
+  - Firefox for Android sending bad versions in GMP updates
+    - https://bugzil.la/1319200
+  - Addons manager does not store difference between unset multiprocess and
+    set xplicitly false in manifest
+    - https://bugzil.la/1314429
+    - we should be able to do this by bumping the schema version and adding
+      a new property to store this. the schema bump should cause all addon
+      manifests to be re-read.
 
 2016-11-11
 ----------
