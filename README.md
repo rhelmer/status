@@ -44,6 +44,25 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-11-23
+----------
+- helped out w/ getting shield recipe client system add-on build+test in moz-central working
+  - https://github.com/mythmon/normandy-addon/pull/1
+  - https://github.com/mythmon/normandy-addon/pull/2
+
+- GoFaster meeting
+- Felipe ran into an issue with AddonManager and e10srollout where he wants to identify
+  whether add-ons explicitly opted out of multiprocess compatibility, but currently
+  only a boolean is stored after the manifest is parsed.
+
+  Worked on providing a way to cause all manifests to be re-read when the addons DB
+  schema version is bumped - this way Felipe could add a new property to the DB which is
+  set based on the presence of the multiProcessCompatible property, and all add-on
+  manifests will be re-read when a schema version bump comes with the next app update.
+
+  - https://bugzil.la/1272446
+
+
 2016-11-21
 ----------
 - started chatting w/ folks about felipe's idea for update experiment
