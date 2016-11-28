@@ -44,6 +44,19 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-11-28
+----------
+- uplift request for e10srollout-supporting change
+  - https://bugzil.la/1272446
+- reviews
+  - remove string generics
+    - https://bugzil.la/1319939
+  - e10srollout target all addons not explicitly marked non-multiprocess-compatible
+    - https://bugzil.la/1314429
+- checked in with Gijs and mythmon regarding SHIELD client
+  - mythmon is porting over tests and removing SDK, all systems go
+    - https://bugzil.la/1308656
+
 2016-11-23
 ----------
 - helped out w/ getting shield recipe client system add-on build+test in moz-central working
