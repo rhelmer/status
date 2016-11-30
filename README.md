@@ -44,6 +44,20 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-11-29
+----------
+- minor fallout for uplift request for e10srollout-supporting change
+  - https://bugzil.la/1272446
+  - I had forgotten to `hg add` the unit test on the beta branch,
+    so it didn't appear in the diff /o\
+    - also, was wrong that Aurora didn't need its own patch
+  - attached new patches for beta and aurora which stuck \o/
+- did some addons manager triage of existing open bugs w/ aswan
+- responded to webextensions concerns on dev-addons list
+- blogged about a few side projects
+  - http://rhelmer.org/blog/aboutaddons-in-react.html
+  - http://rhelmer.org/blog/toy-add-on-manager-in-rust
+
 2016-11-28
 ----------
 - uplift request for e10srollout-supporting change
