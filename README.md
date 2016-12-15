@@ -1,24 +1,19 @@
 Currently working on
 =====================
-- Go Faster
+- Add-ons Manager and Web Extension related work and reviews
+- Firefox Updates
   - tracking uptake of all Firefox update mechanisms
     - https://bugzil.la/1323547
   - working on improving the system add-on process
     - use monotonically increasing version number from update server
       - https://bugzil.la/1292031
   - faster notifications for available updates
-    - publish a message via the Firefox Push service that update is available
-      for a particular service, e.g. "Blocklist"
-    - Push may not be appropriate here - a faster TCP/UDP poll might be doable
-    - keep current (generally 24h poll) approach in-place, but also check early
-      if an update message comes through.
   - telemetry for system add-ons
     - Why not UITelemetry from inside extensions?
       - http://gecko.readthedocs.io/en/latest/browser/browser/UITelemetry.html
       - Used by Fennec
       - Used by Desktop, example:
         - https://dxr.mozilla.org/mozilla-central/source/browser/modules/BrowserUITelemetry.jsm
-- Add-ons Manager and Web Extension related work and reviews
 - learning
   - C++
   - Rust
