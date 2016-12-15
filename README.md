@@ -1,11 +1,9 @@
 Currently working on
 =====================
 - Go Faster
-  - restartless feature updates
-    - landed for regular add-ons, working on system add-ons and webextensions
+  - tracking uptake of all Firefox update mechanisms
+    - https://bugzil.la/1323547
   - working on improving the system add-on process
-    - do not require downloading (or signing+hosting) unless newer than defaults
-      - https://bugzil.la/1273709
     - use monotonically increasing version number from update server
       - https://bugzil.la/1292031
   - faster notifications for available updates
@@ -14,14 +12,6 @@ Currently working on
     - Push may not be appropriate here - a faster TCP/UDP poll might be doable
     - keep current (generally 24h poll) approach in-place, but also check early
       if an update message comes through.
-    - services which could probably use this:
-      - Blocklist
-      - Safebrowsing
-      - Add-ons (system and from AMO, probably not author-hosted updates)
-        - "author-hosted updates" being non-AMO external sites that add-on
-          authors can host themselves - these probably would not use the
-          push service.
-      - Application
   - telemetry for system add-ons
     - Why not UITelemetry from inside extensions?
       - http://gecko.readthedocs.io/en/latest/browser/browser/UITelemetry.html
@@ -40,10 +30,48 @@ Currently working on
     - wasm might be an option here
       - Rust has (preliminary) support via emcripten
       - much easier to hot-reload than binary code (depending on platform)
+    - toy add-on manager implemented in Rust
+      - http://rhelmer.org/blog/toy-add-on-manager-in-rust
   - Moving Firefox features to React
+    - toy about:addons UI implemented in React
+      - http://rhelmer.org/blog/aboutaddons-in-react.html
 
 Daily(ish) log
 ==============
+2016-12-14
+----------
+- worked on new diagnostic system add-on to ship with Firefox to determine
+  why all System Add-on (incl. GMP) updates are not making it to all
+  users
+  - https://bugzil.la/1307568
+- filed bugs
+  - track uptake of all Firefox updates
+    - https://bugzil.la/1323547
+    - followup from meeting during workweek
+  - use conservative TLS settings for add-on updates
+    - https://bugzil.la/1323538
+    - related to recent concerns about App Update over TLS 1.3
+  - followup about rebuilding missing or corrupt Addon DB (JSON)
+    - https://bugzil/la/1323594
+- reviews
+  - finishd with patch removing support for multipackage XPIs
+    - https://bugzil.a/1323128
+  - started on patch to remove support for multiple XPIs with one InstallTrigger
+    - https://bugzil.la/1323129
+- needinfo
+  - started looking at restored session sync bug
+    - https://bugzil.la/1321119
+
+2016-12-13
+----------
+- PTO
+
+2016-12-12
+----------
+- PTO for most of the day
+- set up a test scenario for QA and restartless system add-ons
+  - https://bugzil.la/1204156#c55
+
 2016-11-29
 ----------
 - minor fallout for uplift request for e10srollout-supporting change
