@@ -1,6 +1,6 @@
 Currently working on
 =====================
-- Add-ons Manager and Web Extension related work and reviews
+- Add-ons Manager and WebExtension related work and reviews
 - Firefox Updates
   - tracking uptake of all Firefox update mechanisms
     - https://bugzil.la/1323547
