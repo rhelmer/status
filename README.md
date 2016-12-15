@@ -54,7 +54,7 @@ Daily(ish) log
   - followup about rebuilding missing or corrupt Addon DB (JSON)
     - https://bugzil/la/1323594
 - reviews
-  - finishd with patch removing support for multipackage XPIs
+  - finished with patch removing support for multipackage XPIs
     - https://bugzil.a/1323128
   - started on patch to remove support for multiple XPIs with one InstallTrigger
     - https://bugzil.la/1323129
