@@ -4,10 +4,11 @@ Currently working on
 - Firefox Updates
   - tracking uptake of all Firefox update mechanisms
     - https://bugzil.la/1323547
-  - working on improving the system add-on process
+  - faster notifications for available updates
+  - improving the system add-on process
     - use monotonically increasing version number from update server
       - https://bugzil.la/1292031
-  - faster notifications for available updates
+    - working with teams on automated signing, better dev process etc.
   - telemetry for system add-ons
     - Why not UITelemetry from inside extensions?
       - http://gecko.readthedocs.io/en/latest/browser/browser/UITelemetry.html
@@ -25,6 +26,8 @@ Currently working on
     - wasm might be an option here
       - Rust has (preliminary) support via emcripten
       - much easier to hot-reload than binary code (depending on platform)
+      - virtual file system access might be good enough for most things
+        - (backed by indexeddb or whatever is good for large blobs)
     - toy add-on manager implemented in Rust
       - http://rhelmer.org/blog/toy-add-on-manager-in-rust
   - Moving Firefox features to React
@@ -33,6 +36,31 @@ Currently working on
 
 Daily(ish) log
 ==============
+2016-12-20
+----------
+- swapped PTO day to look into conservative TLS settings bug
+  - https://bugzil.la/1323538
+  - tl;dr - bleeding edge features like TLS 1.3 are breaking some updates
+  - instead of playing whack-a-mole patching every place in Firefox chrome code
+    that does XHR, consulted w/ ehsan about doing it in the XHR implementations
+    instead. put up patch with f?ehsan
+- finished review for shield system add-on
+  - https://bugzil.la/1308656
+  - was landed this evening \o/
+
+2016-12-16
+----------
+- AddonManager triage
+- reviewed patch to promisify AddonManager
+  - https://bugzil.la/987512
+  - can optionally handle callbacks which is cool
+
+2016-12-15
+----------
+- one-off gofaster meeting to talk about uptake investigation
+  - pretty sure we're having the same problem as GMP and Hotfix have before
+  - diagnostic addon and better telemetry dashboard should give a starting point
+
 2016-12-14
 ----------
 - worked on new diagnostic system add-on to ship with Firefox to determine
