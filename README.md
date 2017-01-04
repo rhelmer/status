@@ -36,6 +36,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-01-03
+----------
+- catching up from PTO
+- rebased ServiceRequest (TLS 1.3 disabling XHR replacement) onto beta
+  - https://bugzil.la/1325501
+  - s/rebased/rewrote/ is more like it :/
+- feedback on aswan removing support for multiple installs via InstallTrigger
+  - https://bugzil.la/1323129
+- feedback on markh's work on getting sync to reliably tell which addons
+  came from AMO and are therefore eligible for syncing
+  - https://bugzil.la/1285866
+  - tl;dr - we should keep the list of add-ons installed from AMO more 
+    consistent, AFAICT we only populate this "DB" (really a JSON file)
+    once per day along with the addons check.
+- 1:1
+- skipped out on addons manager triage due to plumbing-related issues :O
+
 2016-12-20
 ----------
 - swapped PTO day to look into conservative TLS settings bug
