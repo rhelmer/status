@@ -36,6 +36,32 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-01-05
+----------
+- reviewed the first half of webext permission prompt patches
+  - https://bugzil.la/1308295
+- chatted w/ devtools team about upcoming plans
+- fixed even more test failures for ServiceRequest (TLS 1.3 disabling XHR replacement) onto beta
+  - https://bugzil.la/1325501
+  - mostly just minor stuff like imports that haven't made it to beta yet
+  - looks like it stuck this time \o/
+- re-ran try for browser.runtime.oninstalled temporary add-on fix
+  - https://bugzil.la/1323938
+  - should be ready, but hopefully try is less busted now 
+- investigated using re:dash for tracking distribution of system add-on versions
+  - https://bugzil.la/1323547
+
+
+2017-01-04
+----------
+- investigated using re:dash for crashes involving specific add-ons
+- fixed test failures for ServiceRequest (TLS 1.3 disabling XHR replacement) onto beta
+  - https://bugzil.la/1325501
+- reviewed shield addon change (startup pref check shouldn't throw first time)
+  - https://bugzil.la/1325797
+- vouched for level 3 access for mythmon
+  - https://bugzil.la/1328433
+
 2017-01-03
 ----------
 - catching up from PTO
