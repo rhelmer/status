@@ -36,6 +36,24 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-01-18
+----------
+- chatted w/ felipe about diagnostic add-on
+  - https://bugzil.la/1307568
+  - plan is to
+    1. ship as an update and track uptake
+    2. ship built-in and look at diagnostic telemetry
+    3. re-ship update once restartless system add-ons go out in 52
+
+2017-01-17
+----------
+- caught up on reviews and feedback requests
+
+2017-01-09 -> 2017-01-13
+------------------------
+- mostly out due to storm knocking out internet connection
+- responded to review/feedback requests
+
 2017-01-05
 ----------
 - reviewed the first half of webext permission prompt patches
