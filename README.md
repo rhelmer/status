@@ -36,6 +36,16 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-01-23
+----------
+- caught up on review and feedback requests
+  - post-install notification for mozAddonManager installs
+    - https://bugzil.la/1308310
+  - "use strict" violations only logged at LOG level
+    - https://bugzil.la/1096135
+- started working on breaking up test that intermittently times out
+  - https://bugzil.la/1324192
+
 2017-01-18
 ----------
 - chatted w/ felipe about diagnostic add-on
