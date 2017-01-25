@@ -36,6 +36,25 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-01-25
+----------
+- chatted w/ devtools
+- quick chat about graduating add-on to built-in
+- put doc up for data review for diagnostic system add-on
+    - https://bugzil.la/1307568
+
+2017-01-24
+----------
+- worked on diagnostic system add-on
+    - https://bugzil.la/1307568
+    - general approach is:
+        - measure first
+        - ship simple update-only version ASAP
+            - sent "intent to ship" email to r-d and gofaster lists
+        - land more complete version in the tree
+- quick followup review on "your add-on is ready" pop-up
+    - https://bugzil.la/1308310
+
 2017-01-23
 ----------
 - caught up on review and feedback requests
