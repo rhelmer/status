@@ -36,6 +36,66 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-02-15
+----------
+- refining telemetry dashboards to track system add-on rollout
+  - https://sql.telemetry.mozilla.org/queries/2654#4910
+  - https://sql.telemetry.mozilla.org/queries/2683#4994
+    - looking into refining query
+      - excluding clients that have not reported since the update was made available.
+- tested various omni.ja compression improvements
+    - https://bugzil.la/1231379
+    - catlee re-opening bug to ship uncompressed omni.ja, which:
+        - reduces partial diff size (Windows, Release) by ~40%
+        - improves startup time by ~2-3%
+    - known downsides are
+        - seems to cost about ~8 MB RAM
+- investigated other omni.ja improvements
+
+2017-02-06
+----------
+- working on telemetry dashboards to track system add-on rollout
+  - https://sql.telemetry.mozilla.org/queries/2654#4910
+  - https://sql.telemetry.mozilla.org/queries/2683#4994
+    - looking into refining query
+      - excluding clients that have not reported since the update was made available.
+
+2017-02-03
+----------
+- working on telemetry dashboard to track system add-on rollout
+  - https://sql.telemetry.mozilla.org/queries/2654/source#4910
+- responded to review request on webextensions-themes add-on manager integration
+  - https://bugzil.la/1330349
+
+2017-02-02
+----------
+- looked into telemetry for low uptake of hotfix
+  - working on telemetry dashboard to track hotfix uptake
+    - https://sql.telemetry.mozilla.org/queries/2634/source#4903
+
+2017-02-01
+----------
+- shipped system add-on diagnostics update
+  - https://bugzil.la/1307568
+  - working on telemetry dashboard to track system add-on rollout
+    - https://sql.telemetry.mozilla.org/queries/2654/source#4910
+
+2017-01-31
+----------
+- worked on system add-on diagnostics update
+  - https://bugzil.la/1307568
+  - for the update-only, re-submitted fixed version for signing+QA
+
+2017-01-30
+----------
+- worked on system add-on diagnostics add-on
+  - https://bugzil.la/1307568
+  - built-in version got almost-final-r+
+  - update-only version, QA tested and found an issue
+- reviewed data from telemetry/metrics regarding hotfix uptake
+  - 10% of main summary (instead of longitudinal) shows 90% uptake
+    - longitudinal only showed ~55% shortly after release, up to ~77%...
+
 2017-01-25
 ----------
 - chatted w/ devtools
