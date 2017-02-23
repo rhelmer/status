@@ -36,6 +36,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-02-21
+----------
+- reviews
+- PageShot meeting
+- wrote docs on 
+- discussed toolkit/browser split for discopane
+    - update messages must be loaded into browser
+
+2017-02-16
+----------
+- reviews
+- discussed PageShot shipping options w/ ianbicking
+- discussed Active Stream shipping on fx-dev list
+- investigated omni-jar improvements
+    - looks doable to move system add-ons into here
+    - should yield startup time improvement + partial patch reduction
+
 2017-02-15
 ----------
 - refining telemetry dashboards to track system add-on rollout
