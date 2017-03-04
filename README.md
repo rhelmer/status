@@ -36,6 +36,43 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-03-03
+----------
+- pushed PR with proposed fix for tls 1.3 add-on
+    - https://github.com/mozilla/one-off-system-add-ons/pull/20
+    - listens for "loadend"
+    - also sets deadman timer per ekr's suggestion
+- reviews
+- r+ on system add-on update test which is timing out in moz infra
+
+2017-03-02
+----------
+- looked into tls 1.3 data w/ ekr and felipe
+    - small percentage of users keeping 1.3 on longer than expected
+    - was able to reproduce using theory from felipe - "load" listeners are not called on timeout but they are on "loadend".
+        - used xcode "link conditioner" to simulate super lossy connection
+    - ckprice setting up post-mortem
+- reviews
+
+2017-03-01
+----------
+- converted tls1.3 telemetry experiment to system add-on
+    - https://github.com/mozilla/one-off-system-add-ons/commit/928d617ab8a5cf10158717bcde7168ace10df35a
+- wrote better docs on system add-ons, waiting for gecko.rtd push
+- investigated building+hosting jsdocs somewhere (probably GH pages, RTD can't do it :/)
+
+2017-02-25
+----------
+- helped QA test restartless system addon patch on beta (52)
+    - https://bugzil.la/1204156
+- looked at SHA1 deprecation issue QA was seeing
+        - got them to send profile, couldn't repro
+    - turns out to be using unexpected builds
+
+2017-02-24
+----------
+- worked w/ Telemetry team to vet (and correct) system add-on uptake graphs
+
 2017-02-21
 ----------
 - reviews
