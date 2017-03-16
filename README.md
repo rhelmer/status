@@ -36,6 +36,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-03-15
+----------
+- pointed felipe at place to add preferences button for Flash in about:addons
+- chatted w/ ekr about system add-on experiments
+- put up patch to send old version along with upgrade data for temporary add-on reloads
+  - https://bugzil.la/1347971
+- worked on sphinx+jsdoc integration
+  - http://foxdocs.org/toolkit/mozapps/extensions/addon-manager/AddonManager.html
+
+2017-03-15
+----------
+- PTO
+
+2017-03-14
+----------
+- PTO
+
 2017-03-03
 ----------
 - pushed PR with proposed fix for tls 1.3 add-on
