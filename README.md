@@ -36,6 +36,22 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-03-24
+----------
+- doing some self-triage, lots of old bugs hanging around.
+- started working on refactoring to reduce the amount of code needed for new install locations in addons manager
+  - https://bugzil.la/1314177
+  - tl;dr move to ES6 class and use extends, instead of current approach which requires lots of duplication.
+
+2017-03-23
+----------
+- helped w/ review and push of tls-comparison system add-on update
+  - https://bugzil.la/1349076
+- pushed fix for system add-on update regression in 52
+  - https://bugzil.la/1350064
+  - tl;dr - updates are not removed on app update
+  - took a look at Telemetry and minimal impact, easy to work around but good to be aware of.
+
 2017-03-15
 ----------
 - pointed felipe at place to add preferences button for Flash in about:addons
