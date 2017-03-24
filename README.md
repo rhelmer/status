@@ -52,6 +52,12 @@ Daily(ish) log
   - tl;dr - updates are not removed on app update
   - took a look at Telemetry and minimal impact, easy to work around but good to be aware of.
 
+2017-03-22
+----------
+- sent intent-to-remove standalone about:addons UI to dev-platform list
+  - https://groups.google.com/forum/#!topic/mozilla.dev.platform/qbIYmhzA_w4
+  - https://bugzil.la/1349723
+
 2017-03-15
 ----------
 - pointed felipe at place to add preferences button for Flash in about:addons
