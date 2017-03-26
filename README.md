@@ -6,15 +6,7 @@ Currently working on
     - https://bugzil.la/1323547
   - faster notifications for available updates
   - improving the system add-on process
-    - use monotonically increasing version number from update server
-      - https://bugzil.la/1292031
     - working with teams on automated signing, better dev process etc.
-  - telemetry for system add-ons
-    - Why not UITelemetry from inside extensions?
-      - http://gecko.readthedocs.io/en/latest/browser/browser/UITelemetry.html
-      - Used by Fennec
-      - Used by Desktop, example:
-        - https://dxr.mozilla.org/mozilla-central/source/browser/modules/BrowserUITelemetry.jsm
 - learning
   - C++
   - Rust
@@ -36,12 +28,20 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-03-26
+----------
+- pushed patch to add unregister method for update timer manager
+  - https://bugzil.la/1350471
+  - needed because currently there's no way for add-ons to unregister
+  - will likely uplift for shield use
+    -https://github.com/mozilla/normandy/issues/588
+
 2017-03-24
 ----------
 - doing some self-triage, lots of old bugs hanging around.
 - started working on refactoring to reduce the amount of code needed for new install locations in addons manager
   - https://bugzil.la/1314177
-  - tl;dr move to ES6 class and use extends, instead of current approach which requires lots of duplication.
+  - tl;dr move to ES6 class and use extends, instead of current approach which has a fair amount of duplication.
 
 2017-03-23
 ----------
