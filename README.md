@@ -30,10 +30,15 @@ Daily(ish) log
 ==============
 2017-03-26
 ----------
+- landed unregister for update timer manager
+  - https://bugzil.la/1350471
+
+2017-03-26
+----------
 - pushed patch to add unregister method for update timer manager
   - https://bugzil.la/1350471
   - needed because currently there's no way for add-ons to unregister
-  - will likely uplift for shield use
+  - will likely uplift for shield-recipe-client use
     -https://github.com/mozilla/normandy/issues/588
 
 2017-03-24
