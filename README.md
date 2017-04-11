@@ -28,6 +28,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-04-10
+----------
+- reviewed and answered addons-related questions for shield-recipe-client
+  - https://github.com/mozilla/normandy/pull/670
+- closed bug about revealing system add-ons in about:addons
+  - reasoning in https://bugzil.la/1231202#c9
+- worked on bug to validate built-in system add-ons against list of known IDs
+  - https://bugzil.la/1348981
+  - this will eliminate one of the dirs we need to scan at startup, which
+    we are trying to eliminate from AddonManager for 55.
+
+
 2017-03-26
 ----------
 - landed unregister for update timer manager
