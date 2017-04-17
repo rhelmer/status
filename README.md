@@ -28,6 +28,15 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-04-17
+----------
+- so, so many AddonManager perf-related reviews
+  - lazy-loading, eliminating directory scanning, etc.
+  - ex. https://bugzil.la/1356826
+- helped track down screenshots bustage on nightly
+  - https://bugzil.la/1357137
+  - also chatted w/ screenshots folks about more testing to catch this
+
 2017-04-10
 ----------
 - reviewed and answered addons-related questions for shield-recipe-client
@@ -44,6 +53,7 @@ Daily(ish) log
 ----------
 - landed unregister for update timer manager
   - https://bugzil.la/1350471
+  - this is for shield-recipe-client and other add-ons
 
 2017-03-26
 ----------
