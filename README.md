@@ -28,6 +28,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-04-19
+----------
+- r+ on adding whether add-on is a webextension to telemetry
+  - https://bugzil.la/1357460
+- looked into why screenshots loaded as temp addon does not seem to
+  override the built-in
+  - https://github.com/mozilla-services/screenshots/pull/2704
+  - turned out this was due to the webextension not being shut down
+    by bootstrap shutdown()
+
+2017-04-18
+----------
+- working on adding whether add-on is a webextension to telemetry
+  - https://bugzil.la/1357460
+- more reviews
+
+
 2017-04-17
 ----------
 - so, so many AddonManager perf-related reviews
