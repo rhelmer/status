@@ -28,6 +28,26 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-05-03
+----------
+- reviewing https://bugzil.la/1356826
+    - has a controversial bit that I was holding off on while discussing
+- further work to re-enable test that started breaking for screenshots when
+  enabled
+  - https://bugzil.la/1355998
+  - taking lots of time due to waiting for tryserver...
+- more investigatory work on moving system add-ons into omni jar
+  - https://bugzil.la/1357205
+  - this will help startup perf and make malware dropping in a new XPI
+    less trivial.
+
+2017-05-03
+----------
+- tried to re-enable test that started breaking for screenshots when enabled
+  - https://bugzil.la/1355998
+  - not able to repro, standard8 thinks it might be due to broken tests
+    on m-c, going to try rebasing tmrw,
+
 2017-04-19
 ----------
 - r+ on adding whether add-on is a webextension to telemetry
