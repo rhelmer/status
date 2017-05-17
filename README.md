@@ -28,6 +28,29 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-05-16
+----------
+- too busy to keep on this lately, some highlights from the last few weeks:
+  - lots of perf-related addons manager reviews
+  - helping to get crash reporting going for extension process
+    - https://bugzil.la/1353168
+  - Firefox arch review meetings and discussion
+  - helped out w/ Screenshots landing
+    - also helping to look into perf issues - there are some perf problems
+      with using a WebExtension, they may put a bit more of the add-on
+      into the bootstrap.js side to mitigate
+  - worked on update proposal
+  - learning how to better use the gecko profiler
+
+2017-05-08
+----------
+- finally able to reproduce screenshots bug
+  - https://bugzil.la/1355998
+  - looks like it only happens on win7 opt, nowhere else
+  - also it's in the about:addons windowed code, which is known to
+    be buggy and we've announced support to remove anyway \o/
+- PTO in afternoon
+
 2017-05-03
 ----------
 - reviewing https://bugzil.la/1356826
@@ -40,6 +63,8 @@ Daily(ish) log
   - https://bugzil.la/1357205
   - this will help startup perf and make malware dropping in a new XPI
     less trivial.
+- made suggestions for shipping mortar and pdf.js side-by-side
+  - https://bugzil.la/1360494
 
 2017-05-03
 ----------
