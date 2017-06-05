@@ -28,6 +28,20 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-06-05
+----------
+- Worked on update proposal
+- Resolved bug that was blocking screenshots being enabled by default
+  - https://bugzil.la/1355998
+
+2017-05-22
+----------
+- Responded to QA needinfo on captive portal detection hotfix for 52
+  - https://bugzil.la/1365732#c7
+- Reviewed test change to enable privileged add-ons
+  - Things like Test Pilot will need this post-57 to install
+  - https://bugzil.la/1357948
+
 2017-05-16
 ----------
 - too busy to keep on this lately, some highlights from the last few weeks:
