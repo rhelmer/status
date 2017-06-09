@@ -32,6 +32,7 @@ Daily(ish) log
 ----------
 - reviewed change to always show flash preferences button in about:addons
   - https://bugzil.la/1357300
+  - r+'d after a few rounds
 - worked on bug involving race condition between uninstall and add-on initialization
   - this is only a problem for internal code using the AddonManager API
   - https://bugzil.la/1371363
@@ -234,7 +235,6 @@ Daily(ish) log
 ----------
 - reviews
 - PageShot meeting
-- wrote docs on 
 - discussed toolkit/browser split for discopane
     - update messages must be loaded into browser
 
@@ -365,7 +365,7 @@ Daily(ish) log
   - looks like it stuck this time \o/
 - re-ran try for browser.runtime.oninstalled temporary add-on fix
   - https://bugzil.la/1323938
-  - should be ready, but hopefully try is less busted now 
+  - should be ready, but hopefully try is less busted now
 - investigated using re:dash for tracking distribution of system add-on versions
   - https://bugzil.la/1323547
 
@@ -391,7 +391,7 @@ Daily(ish) log
 - feedback on markh's work on getting sync to reliably tell which addons
   came from AMO and are therefore eligible for syncing
   - https://bugzil.la/1285866
-  - tl;dr - we should keep the list of add-ons installed from AMO more 
+  - tl;dr - we should keep the list of add-ons installed from AMO more
     consistent, AFAICT we only populate this "DB" (really a JSON file)
     once per day along with the addons check.
 - 1:1
