@@ -28,6 +28,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-06-09
+----------
+- reviewed change to always show flash preferences button in about:addons
+  - https://bugzil.la/1357300
+- worked on bug involving race condition between uninstall and add-on initialization
+  - this is only a problem for internal code using the AddonManager API
+  - https://bugzil.la/1371363
+- worked on hotfix/system add-ons showing up during update
+  - https://bugzil.la/1367800
+
+2017-06-08
+----------
+- landed string change in time for beta
+  - https://bugzil.la/1360777
+
 2017-06-05
 ----------
 - Worked on update proposal
