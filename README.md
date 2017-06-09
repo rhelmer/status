@@ -15,16 +15,26 @@ Currently working on
 - investigating
   - using Rust to replace internal Firefox JS/C++
     - for instance WebIDL, JSMs, XPCOM implementations, etc.
+      - might be best to wait until <script type="module"> support works
+        for chrome content, vs. trying to integrate w/ proprietary moz stuff...
     - wasm might be an option here
-      - Rust has (preliminary) support via emcripten
-      - much easier to hot-reload than binary code (depending on platform)
+      - Rust has (preliminary) support via Emcripten
+      - generally much easier to hot-reload than binary code (depending on platform)
       - virtual file system access might be good enough for most things
-        - (backed by indexeddb or whatever is good for large blobs)
+        - (backed by IndexedDB or whatever is good for large blobs)
+        - in other cases, can call out to the existing JS APIs
     - toy add-on manager implemented in Rust
       - http://rhelmer.org/blog/toy-add-on-manager-in-rust
   - Moving Firefox features to React
     - toy about:addons UI implemented in React
       - http://rhelmer.org/blog/aboutaddons-in-react.html
+  - Using Rust with node/python
+    - both have decent wrappers for the respective native module APIs
+      - https://crates.io/crates/cpython
+      - https://www.neon-bindings.com/
+    - Could be a good way to more gradually introduce Rust to existing projects
+      that are overall fine in Python/JS but have perf problems, need better
+      parallelism, better deal with platform integration etc.
 
 Daily(ish) log
 ==============
