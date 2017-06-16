@@ -13,6 +13,13 @@ Currently working on
   - ES6
   - React
 - investigating
+  - Using Rust with node/python
+    - both have decent wrappers for the respective native module APIs
+      - https://crates.io/crates/cpython
+      - https://www.neon-bindings.com/
+    - Could be a good way to more gradually introduce Rust to existing projects
+      that are overall fine in Python/JS but have perf problems, need better
+      parallelism, better deal with platform integration etc.
   - using Rust to replace internal Firefox JS/C++
     - for instance WebIDL, JSMs, XPCOM implementations, etc.
       - might be best to wait until <script type="module"> support works
@@ -28,16 +35,40 @@ Currently working on
   - Moving Firefox features to React
     - toy about:addons UI implemented in React
       - http://rhelmer.org/blog/aboutaddons-in-react.html
-  - Using Rust with node/python
-    - both have decent wrappers for the respective native module APIs
-      - https://crates.io/crates/cpython
-      - https://www.neon-bindings.com/
-    - Could be a good way to more gradually introduce Rust to existing projects
-      that are overall fine in Python/JS but have perf problems, need better
-      parallelism, better deal with platform integration etc.
 
 Daily(ish) log
 ==============
+2017-06-15
+----------
+- filed bug about showing permissions UI on about: pages
+  - https://bugzil.la/1373487
+- investigated disappearing system add-ons in artifact (dev) build
+  - https://bugzil.la/1371273
+  - turned out to be profile switching which isn't really well supported :/
+    - might disable or strongly encourage profile switching instead...
+    - probably will fix it anyway
+- participated in browser-arch discussion around multi-process and updates
+- worked on bug where system add-on and hotfix updates show up in about:addons
+  if it is open during update
+  - https://bugzil.la/1367800
+  - users still can't disable or remove, so not harmful just looks glitchy
+  - again, simple code fix, complex test :/
+
+
+2017-06-14
+----------
+- worked on refining updates proposal
+- reviewed bug showing unsigned legacy extensions in legacy section
+  - https://bugzil.la/1371752
+  - this is only for builds that allow disabling signing so pretty minor impact
+- worked on bug about race in addons manager module
+  - https://bugzil.la/1371363
+  - this only happens for firefox-internal callers doing it in the wrong order
+    - telemetry was bit by this but fixed it in their code
+    - it's a footgun we should remove
+  - have it done other than the dang xpcshell test :/
+
+
 2017-06-09
 ----------
 - reviewed change to always show flash preferences button in about:addons
