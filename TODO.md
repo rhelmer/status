@@ -1,22 +1,35 @@
 Things to follow up on
 ======================
 
-- write up plan for unifying updaters 
+- Follow up on Ted's pointers about running updater as standalone rust process
+  - look into windows service wrappers
+  - find folks to ask about sandboxing
+  - useful IPC pointers:
+    - probably need different approaches per-OS:
+      - Windows - named pipes
+      - macOS - mach ports
+      - Linux - named pipes or maybe sockets
+    - when the update process is started by the app, it's pretty easy
 
-- do system add-on updates show up in about:addons if it happens to be loaded?
-  - saw it on release (52.0.1) but went away when page reloaded
+Done
+====
+- Follow up with Ted re: pingsender
+  - e.g. https://bugzil.la/1310703
+  - specifically - how about writing an update client in rust,
+    that can run standalone on startup, or as a windows service?
+    - server based on omaha
+    - starting with safer targets like blocklist
+    - need to IPC w/ Firefox to notify that updates have landed
+      - mach ports on osx
+      - unix sockets on linux
+      - named pipes (?) on windows
+      - if Firefox isn't running, just drop them in
+      - what if Firefox is running but doesn't respond?
+        - maybe stage updates and install later, when it's back or totally gone?
+      - what if there are multiple Firefoxes running under different
+        accounts on the same machine?
+        - standalone client can handle this but what about the service?
 
 - pre-57 perf wins
-  - kill dir scanning
-    - prereq is that there's only one way to install/register addons
-      - e.g. windows sideload must use registry
-    - linux/mac global dirs can go last, figure something out there
-    - bake in list of built-in add-ons (system addons etc)
   - kill checkForChanges
     - look more specifically at what it does...
-  - shrink prefs
-    - hardcoded abs paths errwhere...
-
-- post-57 perf wins
-  - no more loading XUL add-ons
-  - kill extensions.ini

@@ -22,10 +22,10 @@ Currently working on
       parallelism, better deal with platform integration etc.
   - using Rust to replace internal Firefox JS/C++
     - for instance WebIDL, JSMs, XPCOM implementations, etc.
-      - might be best to wait until <script type="module"> support works
-        for chrome content, vs. trying to integrate w/ proprietary moz stuff...
     - wasm might be an option here
       - Rust has (preliminary) support via Emcripten
+        - might be best to wait until <script type="module"> support works
+          for chrome content, vs. trying to integrate w/ proprietary moz stuff...
       - generally much easier to hot-reload than binary code (depending on platform)
       - virtual file system access might be good enough for most things
         - (backed by IndexedDB or whatever is good for large blobs)
@@ -38,6 +38,11 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-06-21
+----------
+- took over cache invalidation patch when using embedded webextensions for aswan (pto)
+  - https://bugzil.la/1372750
+
 2017-06-15
 ----------
 - filed bug about showing permissions UI on about: pages
