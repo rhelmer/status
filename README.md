@@ -38,6 +38,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-07-05
+----------
+- started review on moving blocklist into addons DB
+  - https://bugzil.la/1377538
+  - this should keep the (expensive!) blocklist service from being parsing the whole blocklist at startup
+- worked on moving system add-ons to omni jar
+  - https://bugzil.la/1357205
+  - figuring out exactly where Addon Path Service is used, and if passing omni.ja to it is appropriate...
+- looked at addons background update check that fails when new RCWN feature is enabled
+  - https://bugzil.la/1358038
+  - posted with some thoughts on where the problem might be, needinfo'd network folks offering help making a minimal test case if my suggestions don't pan out
+
 2017-06-21
 ----------
 - took over cache invalidation patch when using embedded webextensions for aswan (pto)
