@@ -38,6 +38,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-07-17
+----------
+- worked on making shield download+run recipes in early post-startup
+  - https://github.com/mozilla/normandy/issues/889
+- reviewed pre-publication browser-arch docs
+
+2017-07-06
+----------
+- Attended browser-arch meeting
+- reviewed update-only tls measurement add-on
+  - https://github.com/mozilla/one-off-system-add-ons/pull/46
+
 2017-07-05
 ----------
 - started review on moving blocklist into addons DB
