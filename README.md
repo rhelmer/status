@@ -38,6 +38,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-07-20
+----------
+- reviewed + landed patch to hide telemetry experiments from legacy menu in about:addons
+  - https://bugzil.la/1371762
+
+2017-07-18
+----------
+- investigated spurious system add-on related issue found by QA
+  - https://bugzil.la/1382037
+- worked on making shield download+run recipes in early post-startup
+  - https://github.com/mozilla/normandy/issues/889
+- reviews
+  - don't show optional legacy pane in about:addons if no disabled legacy add-ons
+    - https://bugzil.la/1374637
+  - legacy page shows an experiment
+    - https://bugzil.la/1371762
+
 2017-07-17
 ----------
 - worked on making shield download+run recipes in early post-startup
