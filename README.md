@@ -38,10 +38,37 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-07-27
+----------
+- investigated temporary add-on loading issue
+  - happens when temp installing an add-on over an existing one, then uninstalling
+  - aswan agreed to take a look
+  - https://bugzil.la/1359558
+- reviews
+  - highlight legacy pane when showing details for legacy add-on
+    - https://bugzil.la/1372645
+
+2017-07-26
+----------
+- landed work on making shield download+run recipes in early post-startup
+  - https://bugzil.la/1383338
+  - also uplifted to beta (55)
+
+2017-07-21
+----------
+- meetings
+- worked on making shield download+run recipes in early post-startup
+  - https://github.com/mozilla/normandy/pull/895
+  - I *think* it's just about done
+  - will have to uplift this into the intended release... 55?
+
 2017-07-20
 ----------
 - reviewed + landed patch to hide telemetry experiments from legacy menu in about:addons
   - https://bugzil.la/1371762
+- worked on making shield download+run recipes in early post-startup
+  - https://github.com/mozilla/normandy/pull/895
+  - addressed review feedback
 
 2017-07-18
 ----------
