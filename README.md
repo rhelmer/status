@@ -38,6 +38,17 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-08-01
+----------
+- bisected regression range for unwanted system add-on first-run behavior
+  - https://bugzil.la/1386295
+  - was broken by one of the perf improvements in 55
+  - causes brand-new system add-ons to not appear on first-run in a new profile
+
+2017-07-31
+----------
+- meetings at SF office
+
 2017-07-27
 ----------
 - investigated temporary add-on loading issue
@@ -47,6 +58,9 @@ Daily(ish) log
 - reviews
   - highlight legacy pane when showing details for legacy add-on
     - https://bugzil.la/1372645
+  - mentored bug about moving error codes to public AddonManager class
+    - https://bugzil.la/553869
+    - running into lots of bustage on m-c :/
 
 2017-07-26
 ----------
