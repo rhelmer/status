@@ -38,6 +38,39 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-08-30
+----------
+- highlights from the last few weeks:
+  - fixed addon manager bug when user has unicode in profile names
+    - https://bugzil.la/1389160
+    - turns out we don't test this case at all! filed a few test harness
+      bugs
+      - https://bugzil.la/1392308
+      - https://bugzil.la/1395414
+  - put up patch to pass Flow null check violations Mossop found
+    - https://bugzil.la/1395425
+    - nice opportunity to rewrite to async/await to make this sort of bug
+      less likely
+      - https://reviewboard.mozilla.org/r/174764/diff/1#file5137262
+  - worked on tracking protection study
+    - https://github.com/rhelmer/tracking-protection-study/
+    - refactored existing study to make more configurable at runtime
+      - https://github.com/rhelmer/tracking-protection-study/blob/master/extension/Config.jsm
+    - used embedded webextension for UI
+      - requires message passing to bootstrap.js
+      - https://github.com/rhelmer/tracking-protection-study/tree/master/extension/webextension
+      - https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Embedded_WebExtensions
+    - found some problems with current tracking protection impl for our purposes:
+      - onSecurityChange is only sent if the nsIChannel is connected to the document loaded in the currently-focused tab. This means that we can get an accurate count of blocked resources only if the tab is focused - otherwise the onSecurityChange event is only observed once per focus
+        - https://bugzil.la/1388916 is filed to fix this
+      - lots of known breakage on real-world sites
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=1101005
+      - API isn't very amenable to adding a WE API, but I think that's the right
+        thing to do long-term.
+    - resurrected old sphinx-js patches to land in mozilla-central, now that
+      Mozilla infra can handle building and hosting sphinx docs
+      - https://bugzil.la/1389341
+
 2017-08-01
 ----------
 - bisected regression range for unwanted system add-on first-run behavior
