@@ -1,43 +1,39 @@
 Currently working on
 =====================
+- Building tracking protection study
+- Improving overall privileged add-on process
 - Add-ons Manager and WebExtension related work and reviews
-- Firefox Updates
-  - tracking uptake of all Firefox update mechanisms
-    - https://bugzil.la/1323547
-  - faster notifications for available updates
-  - improving the system add-on process
-    - working with teams on automated signing, better dev process etc.
-- learning
-  - C++
-  - Rust
-  - ES6
-  - React
 - investigating
-  - Using Rust with node/python
-    - both have decent wrappers for the respective native module APIs
-      - https://crates.io/crates/cpython
-      - https://www.neon-bindings.com/
-    - Could be a good way to more gradually introduce Rust to existing projects
-      that are overall fine in Python/JS but have perf problems, need better
-      parallelism, better deal with platform integration etc.
-  - using Rust to replace internal Firefox JS/C++
-    - for instance WebIDL, JSMs, XPCOM implementations, etc.
-    - wasm might be an option here
-      - Rust has (preliminary) support via Emcripten
-        - might be best to wait until <script type="module"> support works
-          for chrome content, vs. trying to integrate w/ proprietary moz stuff...
-      - generally much easier to hot-reload than binary code (depending on platform)
-      - virtual file system access might be good enough for most things
-        - (backed by IndexedDB or whatever is good for large blobs)
-        - in other cases, can call out to the existing JS APIs
-    - toy add-on manager implemented in Rust
-      - http://rhelmer.org/blog/toy-add-on-manager-in-rust
-  - Moving Firefox features to React
-    - toy about:addons UI implemented in React
-      - http://rhelmer.org/blog/aboutaddons-in-react.html
+  - Moving Firefox features to Rust
+    - toy update client/server
+      - https://github.com/rhelmer/update-client
+      - https://github.com/rhelmer/update-server
 
 Daily(ish) log
 ==============
+2017-10-24
+----------
+- highlights from the last few weeks:
+  - only load system add-ons from a built-in list
+    - https://bugzil.la/1348981
+    - list is generated at build time and packaged into omni jar
+    - required some C++ changes, mostly to test properly
+- tracking protection study
+  - rewrote as legacy-style bootstrapped add-on, using XUL etc
+    - not really possible to get the desired UX via webextensions, yet
+      - page action restrictions for example (image only, 16x16)
+    - blending in with the Firefox UI becomes much simpler
+    - it is possible to share enough underlying code with webextension
+      impl that there isnt an advantage to having the overhead of communicating
+      with an embedded webext
+  - started developing this in-tree so mochitest can be used and mozilla
+    "try" infra can produce builds
+  - probably can't use shield since this needs to run so early in startup
+    to be useful... funnelcake will work here and we can test builds from
+    the "try" infra (see above)
+- reviews on add-ons manager, shield, helped out with various studies
+  
+
 2017-08-30
 ----------
 - highlights from the last few weeks:
