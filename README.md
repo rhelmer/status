@@ -11,6 +11,22 @@ Currently working on
 
 Daily(ish) log
 ==============
+2017-11-03
+----------
+- highlights from the last few weeks:
+  - tracking protection study
+    - this is on hold til post-57, still working on tests
+      - webrequest onBeforeRequest doesn't seem to be firing for the local
+        test page
+  - trying determine what the post-57 future of bootstrapped add-ons will be
+  - thinking about how to make gofaster less of a niche and more of a
+    basic part of mozilla
+  - soliciting mozillian's opinions on what they'd like to see in etherpad
+  - looking at what we can remove post-57 from addons manager
+    - old-style hotfix
+    - telemetry experiments
+    - ???
+
 2017-10-24
 ----------
 - highlights from the last few weeks:
