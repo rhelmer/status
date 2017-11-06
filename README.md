@@ -9,8 +9,23 @@ Currently working on
       - https://github.com/rhelmer/update-client
       - https://github.com/rhelmer/update-server
 
+faster update interval
+out of process updater
+independent system addon shipping
+better uptake telemetry of system addons
+dashboards of version uptake
+
 Daily(ish) log
 ==============
+2017-11-06
+----------
+- helped francois test system add-on update to roll back TP UI changes, if needed
+  - https://gist.github.com/rhelmer/b392e97d0b6ff81c06c205c760050c2b
+- discussed removing telemetry experiments w/ add-ons folks
+- reviewed system add-on update (TLS middlebox experiment)
+  - https://github.com/mozilla/one-off-system-add-ons/pull/70
+- worked on tests for tracking protection study
+
 2017-11-03
 ----------
 - highlights from the last few weeks:
