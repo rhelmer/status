@@ -17,6 +17,15 @@ dashboards of version uptake
 
 Daily(ish) log
 ==============
+2017-11-07
+----------
+- filed bug to remove client-side Telemetry Experiments support
+  - https://bugzil.la/1415284
+- reviewed system add-on update to fix search engine geo prefs
+  - https://github.com/mozilla/one-off-system-add-ons/pull/71#pullrequestreview-74915429
+- discussed w/ shield and AMO folks which suffix to use for shield addon IDs
+  - AMO blocks @mozilla.org/com, probably want @\*.mozilla.org/com as well
+
 2017-11-06
 ----------
 - helped francois test system add-on update to roll back TP UI changes, if needed
