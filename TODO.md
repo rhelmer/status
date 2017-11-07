@@ -1,6 +1,12 @@
 Things to follow up on
 ======================
 
+- Follow changes related to bootstrapped add-ons
+  - ideally these are going away
+    - system add-ons could pretty easily move to regular Firefox components
+      - no more out-of-band updates, but Firefox updates could be better
+    - Shield studies could still work with the right internal webext APIs
+
 - Follow up on Ted's pointers about running updater as standalone rust process
   - look into windows service wrappers
   - find folks to ask about sandboxing

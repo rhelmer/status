@@ -25,6 +25,9 @@ Daily(ish) log
 - reviewed system add-on update (TLS middlebox experiment)
   - https://github.com/mozilla/one-off-system-add-ons/pull/70
 - worked on tests for tracking protection study
+- filed bug about page action icons being too restrictive
+  - https://bugzil.la/1414966
+  - this would make tracking protection study much easier to do as a webext
 
 2017-11-03
 ----------
