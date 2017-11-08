@@ -25,6 +25,7 @@ Daily(ish) log
   - https://github.com/mozilla/one-off-system-add-ons/pull/71#pullrequestreview-74915429
 - discussed w/ shield and AMO folks which suffix to use for shield addon IDs
   - AMO blocks @mozilla.org/com, probably want @\*.mozilla.org/com as well
+- 1:1
 
 2017-11-06
 ----------
