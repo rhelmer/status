@@ -17,6 +17,23 @@ dashboards of version uptake
 
 Daily(ish) log
 ==============
+2017-11-08
+----------
+- followed up on sandboxing bug that might prevent some system add-ons
+  from updating out-of-cycle on 57.0
+  - https://bugzil.la/1376814
+  - specifically would affect framescripts and contentaccessible chrome/resource
+    URLs
+  - mythmon is running a test today to see if shield about: page works
+    correctly after an update on 57 beta
+- discussed tor meeting minutes w/ add-ons folks
+  - https://lists.torproject.org/pipermail/tbb-dev/2017-November/000652.html
+  - tl;dr - they might not need to be an extension at all; if they do,
+    it might not be as complex as it appears (Tor works over HTTPS AFAICT,
+    and there are APIs for the proxy stuff).
+    - native connect to a standalone app is also doable
+    - or, not be an extension at all and spin up a separate firefox process...
+
 2017-11-07
 ----------
 - filed bug to remove client-side Telemetry Experiments support
