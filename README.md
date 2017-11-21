@@ -21,6 +21,7 @@ Daily(ish) log
 2017-11-21
 ----------
 - wrote firefox-dev post about jsdoc+sphinx integration
+  - https://mail.mozilla.org/pipermail/firefox-dev/2017-November/005955.html
 - review for high-priority telemetry/addons manager crash
   - aswan is out and kmag is busy
   - https://bugzil.la/1381633
