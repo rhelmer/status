@@ -26,6 +26,13 @@ Daily(ish) log
   - https://bugzil.la/1381633
 - learned a bit more about constructing proofs using arithmetic circuits
   and multi-party computation, for a prototype
+- reviewed one-off experiment
+- looked into how to enable legacy add-ons in local beta build
+  - `ac_add_options "MOZ_ALLOW_LEGACY_EXTENSIONS=1"`
+  - waiting for unbranded builds to be fixed
+    - https://bugzil.la/1414450
+- coordinated w/ relman about shipping hotfix color distortion in video on AMD
+  - https://bugzil.la/1418556
 
 2017-11-20
 ----------
@@ -41,6 +48,8 @@ Daily(ish) log
 - investigated using nacl in rust code
   - the crypto lib aka "salt", via the libsodium fork
   - https://cr.yp.to/highspeed/naclcrypto-20090310.pdf
+- prepared hotfix for color distortion in video on AMD cards for 57
+  - https://bugzil.la/1418556
 
 
 2017-11-07
