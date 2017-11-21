@@ -9,14 +9,31 @@ Currently working on
       - https://github.com/rhelmer/update-client
       - https://github.com/rhelmer/update-server
 
-faster update interval
-out of process updater
-independent system addon shipping
-better uptake telemetry of system addons
-dashboards of version uptake
+Looking at stuff in Q1:
+  - faster update interval
+  - out of process updater
+  - independent system addon shipping
+  - better uptake telemetry of system addons
+  - ensure dashboards of version uptake (mission control, etc)
 
 Daily(ish) log
 ==============
+2017-11-20
+----------
+- landed jsdoc+sphinx+firefox integration \o/
+  - https://bugzil.la/1389341
+- investigated options for calling standalone rust code
+  - Firefox subprocess module can call standalone binaries
+    - https://firefox-source-docs.mozilla.org/toolkit/modules/subprocess/toolkit\_modules/subprocess/index.html
+  - jsctypes can load a library into an existing process
+    - can introduce stability problems and other weird bugs...
+  - launching rust when Firefox starts, and IPCing to it
+  - launching rust as OS process, and IPCing to it
+- investigated using nacl in rust code
+  - the crypto lib aka "salt", via the libsodium fork
+  - https://cr.yp.to/highspeed/naclcrypto-20090310.pdf
+
+
 2017-11-07
 ----------
 - filed bug to remove client-side Telemetry Experiments support
