@@ -18,6 +18,15 @@ Looking at stuff in Q1:
 
 Daily(ish) log
 ==============
+2017-11-21
+----------
+- wrote firefox-dev post about jsdoc+sphinx integration
+- review for high-priority telemetry/addons manager crash
+  - aswan is out and kmag is busy
+  - https://bugzil.la/1381633
+- learned a bit more about constructing proofs using arithmetic circuits
+  and multi-party computation, for a prototype
+
 2017-11-20
 ----------
 - landed jsdoc+sphinx+firefox integration \o/
