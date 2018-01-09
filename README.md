@@ -1,23 +1,40 @@
 Currently working on
 =====================
-- Building tracking protection study
-- Improving overall privileged add-on process
-- Add-ons Manager and WebExtension related work and reviews
-- investigating
-  - Moving Firefox features to Rust
-    - toy update client/server
-      - https://github.com/rhelmer/update-client
-      - https://github.com/rhelmer/update-server
-
-Looking at stuff in Q1:
-  - faster update interval
-  - out of process updater
-  - independent system addon shipping
-  - better uptake telemetry of system addons
-  - ensure dashboards of version uptake (mission control, etc)
+- faster update interval
+- out of process updater
+- moving system add-on update to normandy
+    - independent system addon shipping
+    - better uptake telemetry of system addons
+- availability of dashboards for uptake (mission control, etc)
 
 Daily(ish) log
 ==============
+2017-01-09
+----------
+
+2017-01-08
+----------
+- went over feedback from faster update interval proposal
+- solicted feedback about out-of-process updater concept
+
+2017-01-05
+----------
+- meeting possibility of using push for triggering updates
+- met w/ bdanforth about TP study
+
+2017-11-29
+----------
+- met w/ bdanforth who is taking over the TP study
+- prototyping
+
+2017-11-28
+----------
+- meetings
+- started working on prototype
+- pushed old bug w/ cleanup of issues found in AddonsManager found
+  with Flow over the finish line
+  - https://bugzil.la/1395425
+
 2017-11-21
 ----------
 - wrote firefox-dev post about jsdoc+sphinx integration
