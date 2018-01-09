@@ -1,6 +1,11 @@
 Things to follow up on
 ======================
 
+- pref
+  - does the way we flip prefs in hotfixes ("defaultBranch") get synced?
+
+- message ursula and marina about prio
+
 - Follow changes related to bootstrapped add-ons
   - ideally these are going away
     - system add-ons could pretty easily move to regular Firefox components

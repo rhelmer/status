@@ -12,6 +12,15 @@ Daily(ish) log
 ==============
 2017-01-09
 ----------
+- start working on enabling system add-on updates on Fennec
+    - https://bugzil.la/1260213
+- 1:1
+- q1 normandy client planning
+- spent some time breaking out various update proposals
+    - short-term Q1/Q2 SAO->normandy
+    - medium-to-long-term allow update of omni jar
+    - medium-to-long-term move normandy client to Rust
+
 
 2017-01-08
 ----------
