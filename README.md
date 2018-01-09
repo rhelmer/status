@@ -1,10 +1,11 @@
 Currently working on
 =====================
-- faster update interval
 - out of process updater
 - moving system add-on update to normandy
     - independent system addon shipping
-    - better uptake telemetry of system addons
+    - faster update interval
+    - free up janky addons manager timer
+- better uptake telemetry of system addons
 - availability of dashboards for uptake (mission control, etc)
 
 Daily(ish) log
@@ -14,7 +15,7 @@ Daily(ish) log
 
 2017-01-08
 ----------
-- went over feedback from faster update interval proposal
+- went over feedback from faster feature update proposal
 - solicted feedback about out-of-process updater concept
 
 2017-01-05
