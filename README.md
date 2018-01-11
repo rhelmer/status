@@ -1,22 +1,103 @@
 Currently working on
 =====================
-- Building tracking protection study
-- Improving overall privileged add-on process
-- Add-ons Manager and WebExtension related work and reviews
-- investigating
-  - Moving Firefox features to Rust
-    - toy update client/server
-      - https://github.com/rhelmer/update-client
-      - https://github.com/rhelmer/update-server
-
-faster update interval
-out of process updater
-independent system addon shipping
-better uptake telemetry of system addons
-dashboards of version uptake
+- shipping faster and more deliberately
+- moving system add-on update to normandy
+    - independent system addon shipping
+    - faster update interval
+    - free up janky addons manager timer
+- better uptake telemetry of system addons
+- ensuring availability of dashboards for uptake (mission control, etc)
+- out of process updater
 
 Daily(ish) log
 ==============
+2018-01-11
+----------
+- worked on enabling system add-on updates on Fennec
+    - https://bugzil.la/1260213
+- responded to review request about flipping the `app.update.enabled` pref to false when updater is disabled at build time
+    - https://bugzil.la/1427471
+- responded to feedback request in bug from cliqz about how we're using built-in list of system-addons
+    - https://bugzil.la/1426088
+- responded to review request about removing all hotfix code from Firefox
+    - https://bugzil.la/1356331
+    - I think we need to get Fennec to system add-on updates first
+        - https://bugzil.la/1260213
+
+2018-01-10
+----------
+- worked on enabling system add-on updates on Fennec
+    - https://bugzil.la/1260213
+- advised on tracking protection study
+
+2018-01-09
+----------
+- start working on enabling system add-on updates on Fennec
+    - https://bugzil.la/1260213
+- 1:1
+- q1 normandy client planning
+- spent some time breaking out various update proposals
+    - short-term Q1/Q2 move SAO from balrog to normandy
+    - medium-to-long-term allow update of omni jar
+    - medium-to-long-term move normandy client to Rust
+
+2018-01-08
+----------
+- went over feedback from faster feature update proposal
+- solicted feedback about out-of-process updater concept
+
+2018-01-05
+----------
+- meeting possibility of using push for triggering updates
+- met w/ bdanforth about TP study
+
+2017-11-29
+----------
+- met w/ bdanforth who is taking over the TP study
+- prototyping
+
+2017-11-28
+----------
+- meetings
+- started working on prototype
+- pushed old bug w/ cleanup of issues found in AddonsManager found
+  with Flow over the finish line
+  - https://bugzil.la/1395425
+
+2017-11-21
+----------
+- wrote firefox-dev post about jsdoc+sphinx integration
+  - https://mail.mozilla.org/pipermail/firefox-dev/2017-November/005955.html
+- review for high-priority telemetry/addons manager crash
+  - aswan is out and kmag is busy
+  - https://bugzil.la/1381633
+- learned a bit more about constructing proofs using arithmetic circuits
+  and multi-party computation, for a prototype
+- reviewed one-off experiment
+- looked into how to enable legacy add-ons in local beta build
+  - `ac_add_options "MOZ_ALLOW_LEGACY_EXTENSIONS=1"`
+  - waiting for unbranded builds to be fixed
+    - https://bugzil.la/1414450
+- coordinated w/ relman about shipping hotfix color distortion in video on AMD
+  - https://bugzil.la/1418556
+
+2017-11-20
+----------
+- landed jsdoc+sphinx+firefox integration \o/
+  - https://bugzil.la/1389341
+- investigated options for calling standalone rust code
+  - Firefox subprocess module can call standalone binaries
+    - https://firefox-source-docs.mozilla.org/toolkit/modules/subprocess/toolkit\_modules/subprocess/index.html
+  - jsctypes can load a library into an existing process
+    - can introduce stability problems and other weird bugs...
+  - launching rust when Firefox starts, and IPCing to it
+  - launching rust as OS process, and IPCing to it
+- investigated using nacl in rust code
+  - the crypto lib aka "salt", via the libsodium fork
+  - https://cr.yp.to/highspeed/naclcrypto-20090310.pdf
+- prepared hotfix for color distortion in video on AMD cards for 57
+  - https://bugzil.la/1418556
+
 2017-11-10
 ----------
 - discussed signing options for XPIs
