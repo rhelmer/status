@@ -17,6 +17,7 @@ Daily(ish) log
     - https://bugzil.la/1260213
 - responded to review request about flipping the `app.update.enabled` pref to false when updater is disabled at build time
     - https://bugzil.la/1427471
+    - r+'d after a few questions to make sure we wouldn't bust blocklist or SAO updates for desktop or fennec (distro builds do their own thing but I think we'll be OK in this case too)
 - responded to feedback request in bug from cliqz about how we're using built-in list of system-addons
     - https://bugzil.la/1426088
 - responded to review request about removing all hotfix code from Firefox
