@@ -17,6 +17,20 @@ dashboards of version uptake
 
 Daily(ish) log
 ==============
+2017-11-10
+----------
+- discussed signing options for XPIs
+  - in-app vs. profile dir
+- read/responded to email
+
+2017-11-09
+----------
+- met w/ aswan, discussed webextension and shield/system add-ons/etc.
+- read/responded to email
+- followed up on sandboxing bug that might prevent some system add-ons
+  from updating out-of-cycle on 57.0
+  - https://bugzil.la/1376814
+
 2017-11-08
 ----------
 - followed up on sandboxing bug that might prevent some system add-ons
