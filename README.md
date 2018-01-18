@@ -11,6 +11,28 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-01-17
+----------
+- chatted w/ glind re: shield experiment reviews and moving to webextensions
+- chatted w/ mythmon more about normandy client as Firefox component
+- set up meeting w/ bdanforth re: tracking protection study
+
+2018-01-16
+----------
+- chatted w/ mythmon about how to start up normandy Firefox component
+  - will live in toolkit/
+  - probably started up in nsBrowserGlue.js for desktop, browser.js for fennec
+- worked on enabling system add-on updates on Fennec
+    - https://bugzil.la/1260213
+
+2018-01-15
+----------
+- holiday (MLK)
+
+2018-01-12
+----------
+- PTO (out sick)
+
 2018-01-11
 ----------
 - worked on enabling system add-on updates on Fennec
