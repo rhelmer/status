@@ -11,6 +11,11 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-01-18
+----------
+- review addons manager bug with invalid langpacks breaking things in 59
+  - https://bugzil.la/1420775
+
 2018-01-17
 ----------
 - chatted w/ glind re: shield experiment reviews and moving to webextensions
