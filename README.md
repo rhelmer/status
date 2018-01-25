@@ -11,6 +11,12 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-01-24
+----------
+- met w/ bdanforth re: TP shield study
+- put up patch for review enabling system add-on updates on Fennec
+    - https://bugzil.la/1260213
+
 2018-01-17
 ----------
 - chatted w/ glind re: shield experiment reviews and moving to webextensions
