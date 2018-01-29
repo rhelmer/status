@@ -13,11 +13,13 @@ Daily(ish) log
 ==============
 2018-01-27
 ----------
+- tested and reviewed TP study
 - setting up GH repo for prio
   - https://github.com/rhelmer/gecko-dev/tree/prio-proto
 
 2018-01-26
 ----------
+- tested and reviewed TP study
 - meeting w/ stanford folks
   - rhelmer to follow up:
     - w/ NSS folks on crypto\_box and fast polynomial libs
