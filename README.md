@@ -11,6 +11,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-01-27
+----------
+- setting up GH repo for prio
+  - https://github.com/rhelmer/gecko-dev/tree/prio-proto
+
+2018-01-26
+----------
+- meeting w/ stanford folks
+  - rhelmer to follow up:
+    - w/ NSS folks on crypto\_box and fast polynomial libs
+    - set up github to collab
+
+2018-01-25
+----------
+- finished testing and landing patch for system add-on updates on Fennec
+    - https://bugzil.la/1260213
+
 2018-01-24
 ----------
 - met w/ bdanforth re: TP shield study
