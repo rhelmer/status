@@ -11,6 +11,15 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-01-30
+----------
+- push meeting
+- prio
+  - sent quick-start Firefox+github instructions to Stanford folk
+  - worked on prio webidl c++ boilerplate
+- worked up SQL query for tracking system add-ons on main summary
+  - https://sql.telemetry.mozilla.org/queries/4262/source#table
+
 2018-01-27
 ----------
 - tested and reviewed TP study
