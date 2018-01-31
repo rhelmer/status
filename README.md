@@ -11,6 +11,20 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-01-31
+----------
+- super-blue-blood-moon edition
+- met w/ bdanforth and figured out tryserver test plan for TP study
+  - running all unit+func+perf tests
+  - quickly found a few issues
+    - TP study add-on makes outbound connections
+    - TP study randomly picks control or treatment branches
+    - bdanforth will land workarounds in hg.m.o/try for both
+- prio progress
+  - enough C++ implemented to compile + show up in Browser Console
+    - https://github.com/mozilla/gecko-dev/compare/master...rhelmer:bug1421501-prio-prototype?expand=1
+    - need to figure out constructor and show stanford folk where to plug into
+
 2018-01-30
 ----------
 - push meeting
