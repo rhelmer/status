@@ -14,6 +14,12 @@ Daily(ish) log
 2018-02-02
 ----------
 - met w/ bdanforth re: tryserver results
+  - tracked down why artifact builds weren't working for release branches
+    - https://bugzil.la/1435403
+  - looked into leaked windows and remaining perf issues
+    - trying one last tweak to improve perf, some small known regressions
+      are expected since this is not the same approach as the final feature
+      will take
 
 2018-02-01
 ----------
