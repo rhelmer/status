@@ -11,6 +11,19 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-02
+----------
+- met w/ bdanforth re: tryserver results
+
+2018-02-01
+----------
+- gave moar explicit r+ on TAAR shield study
+  - https://bugzil.la/1428308
+- tested fix for browserAction + webext API bustage
+  - https://bugzil.la/1434076
+- put some thoughts on SAO update automated testing bug, based on bdanforth's work so far
+  - https://bugzil.la/1427858
+
 2018-01-31
 ----------
 - super-blue-blood-moon edition
