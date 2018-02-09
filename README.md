@@ -11,6 +11,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-08
+----------
+- solicited feedback on off-train perf/correctness testing
+  - https://bugzil.la/1427858
+  - chatted w/ mythmon re: the taskcluster/github integration and
+    testing work he did for shield-recipe-client
+
+2018-02-07
+----------
+- worked on email re: deprecating bootstrapped add-ons
+  - r? aswan
+- chatted w/ bdanforth re: tryserver
+  - referred her to other folks to dig into memory leaks, not sure what
+    the most expedient way to track them down is
+
 2018-02-02
 ----------
 - met w/ bdanforth re: tryserver results
