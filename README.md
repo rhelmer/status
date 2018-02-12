@@ -11,12 +11,19 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-09
+----------
+- chatted w/ bdanforth re: channel testing requirements for shield studies
+- investigating ActivityStream's TC/github integration per Standard8
+
 2018-02-08
 ----------
 - solicited feedback on off-train perf/correctness testing
   - https://bugzil.la/1427858
-  - chatted w/ mythmon re: the taskcluster/github integration and
-    testing work he did for shield-recipe-client
+- chatted w/ mythmon re: the taskcluster/github integration and
+  testing work he did for shield-recipe-client
+  - https://tools.taskcluster.net/quickstart/
+    
 
 2018-02-07
 ----------
