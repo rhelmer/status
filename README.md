@@ -11,6 +11,19 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-20
+----------
+- chatted w/ bdanforth re: final unit test failure for TP study
+    - doesn't happen during manual testing
+    - test only happens when WebRequest is being used
+    - tl;dr - shouldn't block, but worth investigating (would be interesting to see if webextension using `browser.webRequest`
+      triggers it as well)
+- chatted w/ prio folks re: firefox integration
+    - going to do it as a standalone library and server/client examples
+    - we can either ship this inside Firefox or possibly as an add-on via shield
+        - could either js-ctypes or (maybe safer) just call the standalone
+        client executable
+
 2018-02-09
 ----------
 - chatted w/ bdanforth re: channel testing requirements for shield studies
@@ -19,10 +32,10 @@ Daily(ish) log
 2018-02-08
 ----------
 - solicited feedback on off-train perf/correctness testing
-  - https://bugzil.la/1427858
+    - https://bugzil.la/1427858
 - chatted w/ mythmon re: the taskcluster/github integration and
   testing work he did for shield-recipe-client
-  - https://tools.taskcluster.net/quickstart/
+    - https://tools.taskcluster.net/quickstart/
     
 
 2018-02-07
