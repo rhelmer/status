@@ -16,8 +16,8 @@ Daily(ish) log
 - chatted w/ bdanforth re: final unit test failure for TP study
     - doesn't happen during manual testing
     - test only happens when WebRequest is being used
-    - tl;dr - shouldn't block, but worth investigating (would be interesting to see if webextension using `browser.webRequest`
-      triggers it as well)
+    - tl;dr - shouldn't block, but worth investigating (would be
+      interesting to see if webextension using `browser.webRequest` triggers it as well)
 - chatted w/ prio folks re: firefox integration
     - going to do it as a standalone library and server/client examples
     - we can either ship this inside Firefox or possibly as an add-on via shield
