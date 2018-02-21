@@ -11,6 +11,17 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-21
+----------
+- looked at quirk of lazy-loading in TP shield study
+- reviewed one of the patches on bug about controlling system add-ons with
+  enterprise policies
+    - https://bugzil.la/1436851
+- chatted w/ tor folks about porting legacy add-on to mobile
+    - tl;dr - might be OK in the short-term, not really the right thing
+      long-term. maybe either make native messaging work on mobile, or
+      switch to something android-specific
+
 2018-02-20
 ----------
 - chatted w/ bdanforth re: final unit test failure for TP study

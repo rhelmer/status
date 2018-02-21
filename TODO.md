@@ -1,10 +1,18 @@
 Things to follow up on
 ======================
 
+- ping jimm about updater stuff
+  - fill him in on normandy etc.
+- get involved w/ pioneer stuff
+- ping benson about normandy / kinto
+  - would like to understand relationship between updaters
+- GeckoView
+- take a look at why lazy-loaded stuff doesn't work outside of bootstrap.js
+  startup method.
+  - also does `Cu.import` work with variables?
+
 - pref
   - does the way we flip prefs in hotfixes ("defaultBranch") get synced?
-
-- message ursula and marina about prio
 
 - Follow changes related to bootstrapped add-ons
   - ideally these are going away
