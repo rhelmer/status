@@ -11,10 +11,118 @@ Currently working on
 
 Daily(ish) log
 ==============
-2018-01-18
+2018-02-21
 ----------
-- review addons manager bug with invalid langpacks breaking things in 59
-  - https://bugzil.la/1420775
+- looked at quirk of lazy-loading in TP shield study
+- reviewed one of the patches on bug about controlling system add-ons with
+  enterprise policies
+    - https://bugzil.la/1436851
+- chatted w/ tor folks about porting legacy add-on to mobile
+    - tl;dr - might be OK in the short-term, not really the right thing
+      long-term. maybe either make native messaging work on mobile, or
+      switch to something android-specific
+
+2018-02-20
+----------
+- chatted w/ bdanforth re: final unit test failure for TP study
+    - doesn't happen during manual testing
+    - test only happens when WebRequest is being used
+    - tl;dr - shouldn't block, but worth investigating (would be
+      interesting to see if webextension using `browser.webRequest` triggers it as well)
+- chatted w/ prio folks re: firefox integration
+    - going to do it as a standalone library and server/client examples
+    - we can either ship this inside Firefox or possibly as an add-on via shield
+        - could either js-ctypes or (maybe safer) just call the standalone
+        client executable
+
+2018-02-09
+----------
+- chatted w/ bdanforth re: channel testing requirements for shield studies
+- investigating ActivityStream's TC/github integration per Standard8
+
+2018-02-08
+----------
+- solicited feedback on off-train perf/correctness testing
+    - https://bugzil.la/1427858
+- chatted w/ mythmon re: the taskcluster/github integration and
+  testing work he did for shield-recipe-client
+    - https://tools.taskcluster.net/quickstart/
+    
+
+2018-02-07
+----------
+- worked on email re: deprecating bootstrapped add-ons
+  - r? aswan
+- chatted w/ bdanforth re: tryserver
+  - referred her to other folks to dig into memory leaks, not sure what
+    the most expedient way to track them down is
+
+2018-02-02
+----------
+- met w/ bdanforth re: tryserver results
+  - tracked down why artifact builds weren't working for release branches
+    - https://bugzil.la/1435403
+  - looked into leaked windows and remaining perf issues
+    - trying one last tweak to improve perf, some small known regressions
+      are expected since this is not the same approach as the final feature
+      will take
+
+2018-02-01
+----------
+- gave moar explicit r+ on TAAR shield study
+  - https://bugzil.la/1428308
+- tested fix for browserAction + webext API bustage
+  - https://bugzil.la/1434076
+- put some thoughts on SAO update automated testing bug, based on bdanforth's work so far
+  - https://bugzil.la/1427858
+
+2018-01-31
+----------
+- super-blue-blood-moon edition
+- met w/ bdanforth and figured out tryserver test plan for TP study
+  - running all unit+func+perf tests
+  - quickly found a few issues
+    - TP study add-on makes outbound connections
+    - TP study randomly picks control or treatment branches
+    - bdanforth will land workarounds in hg.m.o/try for both
+- prio progress
+  - enough C++ implemented to compile + show up in Browser Console
+    - https://github.com/mozilla/gecko-dev/compare/master...rhelmer:bug1421501-prio-prototype?expand=1
+    - need to figure out constructor and show stanford folk where to plug into
+
+2018-01-30
+----------
+- push meeting
+- prio
+  - sent quick-start Firefox+github instructions to Stanford folk
+  - worked on prio webidl c++ boilerplate
+- worked up SQL query for tracking system add-ons on main summary
+  - https://sql.telemetry.mozilla.org/queries/4262/source#table
+
+2018-01-27
+----------
+- tested and reviewed TP study
+- setting up GH repo for prio
+  - https://github.com/rhelmer/gecko-dev/tree/prio-proto
+
+2018-01-26
+----------
+- tested and reviewed TP study
+- meeting w/ stanford folks
+  - rhelmer to follow up:
+    - w/ NSS folks on crypto\_box and fast polynomial libs
+    - set up github to collab
+
+2018-01-25
+----------
+- finished testing and landing patch for system add-on updates on Fennec
+    - https://bugzil.la/1260213
+
+2018-01-24
+----------
+- met w/ bdanforth re: TP shield study
+- put up patch for review enabling system add-on updates on Fennec
+    - https://bugzil.la/1260213
 
 2018-01-17
 ----------
