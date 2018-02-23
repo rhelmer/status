@@ -11,6 +11,12 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-23
+----------
+- finished review for system add-on enterprise policy
+  - https://bugzil.la/1436851
+- out for part of day with vet emergency
+
 2018-02-21
 ----------
 - looked at quirk of lazy-loading in TP shield study
