@@ -16,6 +16,12 @@ Daily(ish) log
 - finished review for system add-on enterprise policy
   - https://bugzil.la/1436851
 - out for part of day with vet emergency
+- chatted w/ tor folk re: system add-ons on fennec
+  - https://bugzil.la/1440789
+  - tl;dr - moz build folks would prefer a better packaging mechanism
+    such as https://bugzil.la/988938
+- responded to willkg question regarding hive ADI socorro fetcher
+  - https://bugzil.la/1440745
 
 2018-02-21
 ----------
