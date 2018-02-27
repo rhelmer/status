@@ -11,6 +11,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-26
+----------
+- discussed slow roll-out for a few features w/ folks
+  - normandy not ready til ~61
+    - https://github.com/mozilla/normandy/projects/23
+  - system add-on probably the way to go in the meantime
+
 2018-02-23
 ----------
 - finished review for system add-on enterprise policy
