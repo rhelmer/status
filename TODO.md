@@ -3,10 +3,13 @@ Things to follow up on
 
 - ping jimm about updater stuff
   - fill him in on normandy etc.
+
 - set up time to chat w/ benson about normandy / kinto
   - would like to understand relationship between updaters
 - get involved w/ pioneer stuff
+
 - GeckoView
+
 - take a look at why lazy-loaded stuff doesn't work outside of bootstrap.js
   startup method.
   - also does `Cu.import` work with variables?

@@ -11,15 +11,41 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-02-28
+----------
+- advised prio folks on technical issues integrating w/ Firefox
+  - C vs. C++, memory allocation, etc.
+- filed bug for TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+- worked on exposing `fetch` interface from ServiceRequest.jsm
+  - first attempt was to polyfill w/ already-subclassed XHR
+    - original bug just subclasses XHR
+      - https://bugzil.la/1325501
+    - however, `fetch` cannot be subclassed, as it is just a function
+      and not a class such as XMLHttpRequest. providing a proxy
+      function which calls it is probably the way to go.
+
+      The only problem with this is that built-in `fetch` does not
+      expose the underlying network channel (for settings things such
+      as conservative TLS settings), so Fetch.webidl would need to be
+      modified to do so (XHR has a chrome-only mechanism for doing this)
+- looked at panel issue with TP study, where it is staying open due to
+  the `blur` event acting on panels as well as regular windows (panels
+  are a type of `ChromeWindow`) - bdanforth is looking at how to detect
+  these, so the intro panel gets closed only if users either accept
+  or explicitly switch windows
+  - https://github.com/biancadanforth/tracking-protection-shield-study/issues/111
+  - regressed by https://github.com/biancadanforth/tracking-protection-shield-study/pull/109/files
+
 2018-02-27
 ----------
 - looked at window-closing panel issue on TP study
   - https://github.com/biancadanforth/tracking-protection-shield-study/issues/103
 - re-investigated and commented on bug about moving built-in add-ons to omni jar
   - https://bugzil.la/1357205
-- looked into wrapping fetch for ServiceRequest.jsm
+- worked into wrapping fetch for ServiceRequest.jsm
   - this is so we use consistent settings for requests coming from Firefox
-  - original bug just wraps XHR
+  - original bug just subclasses XHR
     - https://bugzil.la/1325501
 
 2018-02-26
