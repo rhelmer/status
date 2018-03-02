@@ -11,6 +11,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-02
+----------
+- addressed review comments on add-on for TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - https://github.com/mozilla/one-off-system-add-ons/pull/96
+
+2018-03-01
+----------
+- worked on add-on for TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - https://github.com/mozilla/one-off-system-add-ons/pull/96
+- attended update meeting
+  - caught people up on system add-on, gmp, normandy, etc. plans
+  - also mentioned ServiceRequest so folks know it exists
+
 2018-02-28
 ----------
 - advised prio folks on technical issues integrating w/ Firefox
@@ -43,7 +58,7 @@ Daily(ish) log
   - https://github.com/biancadanforth/tracking-protection-shield-study/issues/103
 - re-investigated and commented on bug about moving built-in add-ons to omni jar
   - https://bugzil.la/1357205
-- worked into wrapping fetch for ServiceRequest.jsm
+- worked on wrapping fetch for ServiceRequest.jsm
   - this is so we use consistent settings for requests coming from Firefox
   - original bug just subclasses XHR
     - https://bugzil.la/1325501
