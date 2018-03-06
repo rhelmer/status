@@ -28,6 +28,16 @@ Daily(ish) log
 - addressed review comments on add-on for TLS 1.3 gradual roll-out
   - https://bugzil.la/1442042
   - https://github.com/mozilla/one-off-system-add-ons/pull/96
+- figured out plan w/ add-on folks for moving built-in add-ons to omni jar
+  - https://bugzil.la/1357205
+  - going to start moving away from "system add-on" naming
+    - something like "built-in"
+    - updates in the future will come as normandy-installed hidden add-ons,
+      again moving away from "system add-on" nomenclature
+- met w/ benson
+- finished up review changes on add-on for TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - https://github.com/mozilla/one-off-system-add-ons/pull/96
 
 2018-03-01
 ----------
