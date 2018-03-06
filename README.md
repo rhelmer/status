@@ -11,6 +11,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-05
+----------
+- packaged up XPI and put in PI request for TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+- last-minute TAAR help + review
+  - went over options to exclude private browsing windows
+    - specifically, *any* open browser windows, not just the most
+      recently active
+  - https://github.com/motin/taar-experiment-v2-shield-study/pull/18
+  - https://bugzil.la/1428308
+- attended TP study review meeting / demo
+
 2018-03-02
 ----------
 - addressed review comments on add-on for TLS 1.3 gradual roll-out
