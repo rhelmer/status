@@ -11,6 +11,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-07
+----------
+- added steps for QA for TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - looks like we're still waiting on the pref to be rolled back on beta...
+- did some testing for ulfr
+- tested standalone prio
+  - got building on macOS and sent PR etc.
+
+2018-03-06
+----------
+- chatted w/ QA re: TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+- took a look at latest prio work
+
 2018-03-05
 ----------
 - packaged up XPI and put in PI request for TLS 1.3 gradual roll-out
