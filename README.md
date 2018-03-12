@@ -11,6 +11,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-12
+----------
+- followed up w/ QA re: TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - need to make instructions more explicit.. maybe host on balrog test channel
+- worked a bit on getting built-in add-ons into the omni jar
+  - https://bugzil.la/1357205
+
+2018-03-09
+----------
+- PTO
+
 2018-03-07
 ----------
 - added steps for QA for TLS 1.3 gradual roll-out
