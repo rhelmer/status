@@ -18,6 +18,8 @@ Daily(ish) log
   - need to make instructions more explicit.. maybe host on balrog test channel
 - worked a bit on getting built-in add-ons into the omni jar
   - https://bugzil.la/1357205
+- emailed followup re: system add-on compat to dev-firefox/platform
+  - https://mail.mozilla.org/pipermail/firefox-dev/2018-March/006186.html
 
 2018-03-09
 ----------
