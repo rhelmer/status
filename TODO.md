@@ -1,14 +1,50 @@
 Things to follow up on
 ======================
 
+- q1 2018 updates
+  - tls 1.3 roll-out
+    - pretty smooth
+    - some QA snags testing
+    - plan to use normandy for this in the future (simple pref-flip cases)
+      - won't be ready til 61
+      - in the meantime started working on webextension SAO update
+        - https://github.com/rhelmer/one-off-system-add-ons/tree/webext-experiment
+        - we'll still use these in the future most likely but will be installed by normandy
+
+  - prio
+    - henry @ stanford 
+
+  - updates
+    - caught up w/ jimm and benson re: updater plans
+    - mentored bdanforth on tp shield study
+    - reviewed TaaR study
+      - hit some UX snags
+    - worked out plan w/ aswan re: normandy futures
+      - moving away from "system add-on" naming
+      - instead, privileged add-ons may be one or more of the following:
+        - hidden
+        - built-in
+        - override existing add-ons
+
+    - picked up some update-related bugs from last year
+      - move built-in add-ons into omni jar
+        - perf improvemen t, avoids tampering
+        - https://bugzil.la/1357205
+      - make update timers use idle dispatch
+        - this is a blocker to increasing update timers
+        - https://bugzil.la/1373408
+      - exposing `fetch` from `ServiceRequest.jsm`
+        - most JS updaters in Firefox today don't use appropriate
+          settings, make it easy for them to do so
+
+
 - ping jimm about updater stuff
   - fill him in on normandy etc.
 
-- set up time to chat w/ benson about normandy / kinto
-  - would like to understand relationship between updaters
 - get involved w/ pioneer stuff
 
 - GeckoView
+  - find out more about it
 
 - take a look at why lazy-loaded stuff doesn't work outside of bootstrap.js
   startup method.
