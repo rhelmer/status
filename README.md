@@ -15,6 +15,15 @@ Daily(ish) log
 ----------
 - followed up w/ QA re: TLS 1.3 gradual roll-out
   - https://bugzil.la/1442042
+  - working correctly now
+  - ekr asked if we can use 1% instead of 10% for initial roll-out,
+    should be fine but will require the add-on to be modified and re-signed
+    which I'll do today
+
+2018-03-14
+----------
+- followed up w/ QA re: TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
   - full test instructions used this time
   - add-on itself works, but logic that chooses 10% of profiles
     does not seem to be working for QA when creating new profiles.
