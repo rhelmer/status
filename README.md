@@ -11,6 +11,17 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-14
+----------
+- followed up w/ QA re: TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - full test instructions used this time
+  - add-on itself works, but logic that chooses 10% of profiles
+    does not seem to be working for QA when creating new profiles.
+    I'll try it again myself today
+- met w/ bdanforth re: final tryserver result review for TP study
+  - https://github.com/biancadanforth/tracking-protection-shield-study/issues/26#issuecomment-372816318
+
 2018-03-13
 ----------
 - followed up w/ QA re: TLS 1.3 gradual roll-out
