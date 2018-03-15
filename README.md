@@ -18,7 +18,7 @@ Daily(ish) log
   - working correctly now
   - ekr asked if we can use 1% instead of 10% for initial roll-out,
     should be fine but will require the add-on to be modified and re-signed
-    which I'll do today
+  - attached new XPI to bug for testing and ping'd QA
 
 2018-03-14
 ----------
