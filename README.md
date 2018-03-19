@@ -20,10 +20,18 @@ Daily(ish) log
     and also to measure effect more directly
 - reviewed bug re: directory service overrides for add-ons manager tests
   - https://bugzil.la/1446833
+
+2018-03-16
+----------
+- followed up w/ QA re: TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - tried shipping but no relman support available
+    - also QA 
+    - updated ekr on status, ETA for shipping monday
 - made decision on Prio prototype
   - taking the original course - webidl
 
-2018-03-14
+2018-03-15
 ----------
 - followed up w/ QA re: TLS 1.3 gradual roll-out
   - https://bugzil.la/1442042
