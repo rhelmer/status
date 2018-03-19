@@ -11,6 +11,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-19
+----------
+- followed up w/ QA re: TLS 1.3 gradual roll-out
+  - https://bugzil.la/1442042
+  - shipped to release \o/
+  - putting together telemetry report, both to check uptake of add-om
+    and also to measure effect more directly
+- reviewed bug re: directory service overrides for add-ons manager tests
+  - https://bugzil.la/1446833
+- made decision on Prio prototype
+  - taking the original course - webidl
+
 2018-03-14
 ----------
 - followed up w/ QA re: TLS 1.3 gradual roll-out
