@@ -18,6 +18,9 @@ Daily(ish) log
   - shipped to release \o/
   - putting together telemetry report, both to check uptake of add-om
     and also to measure effect more directly
+    - ekr has an ipython notebook from previous experiments that can be
+      adapted for this purpose
+      - forked https://github.com/rhelmer/telemetry_utils
 - reviewed bug re: directory service overrides for add-ons manager tests
   - https://bugzil.la/1446833
 
