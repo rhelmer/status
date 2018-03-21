@@ -16,9 +16,9 @@ Things to follow up on
 
   - updates
     - caught up w/ jimm and benson re: updater plans
-    - mentored bdanforth on tp shield study
-    - reviewed TaaR study
-      - hit some UX snags
+  - mentored bdanforth on tp shield study
+  - reviewed TaaR study
+    - hit some UX snags
     - worked out plan w/ aswan re: normandy futures
       - moving away from "system add-on" naming
       - instead, privileged add-ons may be one or more of the following:
@@ -26,17 +26,18 @@ Things to follow up on
         - built-in
         - override existing add-ons
 
-    - picked up some update-related bugs from last year
-      - move built-in add-ons into omni jar
-        - perf improvemen t, avoids tampering
-        - https://bugzil.la/1357205
-      - make update timers use idle dispatch
-        - this is a blocker to increasing update timers
-        - https://bugzil.la/1373408
-      - exposing `fetch` from `ServiceRequest.jsm`
-        - most JS updaters in Firefox today don't use appropriate
-          settings, make it easy for them to do so
+  - mission control, experimenter
 
+  - picked up some update-related bugs from last year
+    - move built-in add-ons into omni jar
+      - perf improvemen t, avoids tampering
+      - https://bugzil.la/1357205
+    - make update timers use idle dispatch
+      - this is a blocker to increasing update timers
+      - https://bugzil.la/1373408
+    - exposing `fetch` from `ServiceRequest.jsm`
+      - most JS updaters in Firefox today don't use appropriate
+        settings, make it easy for them to do so
 
 - ping jimm about updater stuff
   - fill him in on normandy etc.

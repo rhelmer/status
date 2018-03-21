@@ -11,6 +11,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-20
+----------
+- followed up w/ QA re: TLS 1.3 gradual roll-out
+  - put together telemetry query to track
+    - https://sql.telemetry.mozilla.org/queries/52077
+  - attached v5 for signing, which bumps from 1% to 5% per ekr
+
 2018-03-19
 ----------
 - followed up w/ QA re: TLS 1.3 gradual roll-out
