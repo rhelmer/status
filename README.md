@@ -11,6 +11,15 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-21
+----------
+- looked into issue w/ TP study not working on restart
+  - bug in Firefox (RecentWindow.jsm), appears to be fixed in 60+
+    - study is running on 59
+  - bdanforth changed add-on to use RecentWindow.jsm consistently
+    which works around it
+  - study paused while we looked at it and will be relaunched shortly
+
 2018-03-20
 ----------
 - followed up w/ QA re: TLS 1.3 gradual roll-out
