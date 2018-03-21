@@ -17,6 +17,9 @@ Daily(ish) log
   - put together telemetry query to track
     - https://sql.telemetry.mozilla.org/queries/52077
   - attached v5 for signing, which bumps from 1% to 5% per ekr
+    - also tested, hosted and needinfo'd relman
+- 1:1
+  - discussed topics from TODO.md
 
 2018-03-19
 ----------
