@@ -11,6 +11,28 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-22
+----------
+- reviewed testing strategy for shield studies w/ bdanforth
+  - we both took copious notes
+    - tl;dr - we want to make dev workflow the basic github workflow -
+      add-ons are developed using normal add-on tools, and the mozilla
+      TaskCluster CI bits are integrated via GH webhooks etc.
+      as in CircleCI/Travis
+  - followup action items
+    - bdanforth to set up meeting w/ jmaher and myself
+      also, invite me to shield dev workflow meeting next week
+    - I will contact myk melez re: github working group
+      - done, will catch up on their progress and attend
+- Updated TLS 1.3 release channel roll-out add-on to 10%
+  - https://bugzil.la/1442042
+- Created new bug to roll out TLS 1.3 fallback-limit to Beta
+  - https://bugzil.la/1448176
+  - this is basically the same as above, but different pref and
+    targeted at Beta only. Beta already has TLS 1.3 enabled, this
+    stops fallback.
+- Worked a bit on Prio webidl
+
 2018-03-21
 ----------
 - looked into issue w/ TP study not working on restart
