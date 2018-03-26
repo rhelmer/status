@@ -11,6 +11,20 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-03-26
+----------
+- got basic Prio example working \o/
+  - https://github.com/mozilla/gecko-dev/compare/master...rhelmer:bug1421501-prio-prototype
+  - vendoring and linking libprio, using it from webidl impl code
+  - emailed folks
+- chatted w/ rdalal re: pioneer
+  - chrome manifest resource:// registration removed on nightly
+    - use current approach + test on unbranded builds for 59+60
+    - work on webextension approach for 61
+- chatted w/ rstrong re: pref flip on older Fx
+  - sysaddon support first landed in 43 so might be enough, need to test
+  - rstrong to file bug
+
 2018-03-22
 ----------
 - reviewed testing strategy for shield studies w/ bdanforth
