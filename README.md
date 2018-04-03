@@ -2,15 +2,62 @@ Currently working on
 =====================
 - shipping faster and more deliberately
 - moving system add-on update to normandy
-    - independent system addon shipping
+    - do pref flips via recipe rather than extension
+    - independent extension shipping
     - faster update interval
     - free up janky addons manager timer
 - better uptake telemetry of system addons
 - ensuring availability of dashboards for uptake (mission control, etc)
-- out of process updater
+- prototyping
+    - out-of-process updater for normandy
+    - 
 
 Daily(ish) log
 ==============
+2018-04-01
+----------
+- read PHD docs for upcoming study
+- updated gradual TLS 1.3 release channel roll-out for 50%
+  - https://bugzil.la/1442042
+  - verified XPIs and asked relman for sign-off
+- reviewed normandy pref flip
+  - https://bugzil.la/1443940
+- walked QA through testing the beta TLS fallback-limit (beta) pref flip
+  - https://bugzil.la/1442042
+
+2018-03-28
+----------
+- finished review on pioneer news study 2
+  - followed up on GH issue re: browser console warnings when installing extension
+    - https://github.com/mozilla/pioneer-study-online-news-2/issues/25
+- needinfo'd relman on TLS 1.3 for beta
+  - https://bugzil.la/1448176
+- followed up w/ activitystream folks on availability of API for messaging in newtab
+- worked more on prio prototype
+    - turns out there's a location in-tree for chrome-only
+      webidl, allows for slightly nicer webidl
+    - opened a PR to wrap `extern C {}` around prio's header file, so I can get it out
+      of moz code (already put this in the vendored version too)
+        - https://github.com/henrycg/libprio/pull/2
+    - https://github.com/mozilla/gecko-dev/compare/master...rhelmer:bug1421501-prio-prototype
+
+
+2018-03-27
+----------
+- TLS 1.3 release channel roll-out shipped at 20%
+- pretty close to an actual working prio impl now! most of the right types are wired up now,
+  and the prio code actually runs when you call `.encode()`
+    - https://github.com/mozilla/gecko-dev/compare/master...rhelmer:bug1421501-prio-prototype
+
+2018-03-27
+----------
+- reviewed pioneer news study 2
+- sent (late) intent-to-ship emails for TLS roll-outs
+- asked for TLS 1.3 release roll-out to ship
+- emailed about prio
+  - have the actual prio code running inside the PrioEncoder DOM method now
+  - https://github.com/mozilla/gecko-dev/compare/master...rhelmer:bug1421501-prio-prototype
+
 2018-03-26
 ----------
 - got basic Prio example working \o/
