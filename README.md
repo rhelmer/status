@@ -46,7 +46,7 @@ Daily(ish) log
 - walked QA through testing the beta TLS fallback-limit (beta) pref flip
   - https://bugzil.la/1442042
 
-2018-03-28
+2018-03-29
 ----------
 - finished review on pioneer news study 2
   - followed up on GH issue re: browser console warnings when installing extension
@@ -63,7 +63,7 @@ Daily(ish) log
     - https://github.com/mozilla/gecko-dev/compare/master...rhelmer:bug1421501-prio-prototype
 
 
-2018-03-27
+2018-03-28
 ----------
 - TLS 1.3 release channel roll-out shipped at 20%
 - pretty close to an actual working prio impl now! most of the right types are wired up now,
