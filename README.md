@@ -10,10 +10,31 @@ Currently working on
 - ensuring availability of dashboards for uptake (mission control, etc)
 - prototyping
     - out-of-process updater for normandy
-    - 
 
 Daily(ish) log
 ==============
+2018-04-09
+----------
+- hacked on prio dom integration
+  - made closer to mozilla c++ style guide
+  - starting working on testing
+    - adding a JS test for the `PrioEncoder` DOM method should be easy, but actually testing
+      that prio is returning the right result is trickier... might just do that bit in C++
+      so I can use the verification code that's already in libprio
+  - upgraded MBP to high sierra, had to re-install a bunch of build tools (xcode, rust, etc)
+- out most of afternoon getting iphone repaired and new cord for MBP
+
+2018-04-05
+----------
+- review normandy client related bug
+  - https://bugzil.la/1451911
+- chatted w/ henrycg re: prio
+  - libprio should do its own (de)serialization in C, so callers don't have to deal with it
+    - henry suggested a few third-party libs like msgpack and flatbuffers, I think the licenses are probably OK
+      - henry decided on msgpack
+  - also asked henry if it's easy enough to relicense libprio as MPL 2.0 to make our legal review smoother
+    - he will do so!
+
 2018-04-01
 ----------
 - read PHD docs for upcoming study

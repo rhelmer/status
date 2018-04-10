@@ -51,9 +51,6 @@ Things to follow up on
   startup method.
   - also does `Cu.import` work with variables?
 
-- pref
-  - does the way we flip prefs in hotfixes ("defaultBranch") get synced?
-
 - Follow changes related to bootstrapped add-ons
   - ideally these are going away
     - system add-ons could pretty easily move to regular Firefox components
