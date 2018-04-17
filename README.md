@@ -13,6 +13,26 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-04-18
+----------
+- attended github integration meeting
+  - other than vendoring from upstream projects, mostly interested in how test integration should
+    work for things like studies and system add-ons that never land in m-c but nevertheless get shipped
+    to some subset of users
+
+2018-04-17
+----------
+- made plans re: Normandy arch docs
+  - firefox-source-docs.m.o (built from m-c source) is probably the most discoverable right now
+  - GH pages or google docs also an option, maybe linked from above
+  - good support for diagrams (ideally something like graphviz) might make the choice for us
+  - regardless of actual hosting would be ideal to have an authoritation mozilla.org URL or at least link to it from one
+
+2018-04-11
+----------
+- reviewed bug cleaning up Cert.jsm exports
+  - https://bugzil.la/1453123
+
 2018-04-09
 ----------
 - hacked on prio dom integration
@@ -34,6 +54,10 @@ Daily(ish) log
       - henry decided on msgpack
   - also asked henry if it's easy enough to relicense libprio as MPL 2.0 to make our legal review smoother
     - he will do so!
+
+2018-04-03
+----------
+- so many meetings
 
 2018-04-01
 ----------
