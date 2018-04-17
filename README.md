@@ -19,6 +19,8 @@ Daily(ish) log
   - other than vendoring from upstream projects, mostly interested in how test integration should
     work for things like studies and system add-ons that never land in m-c but nevertheless get shipped
     to some subset of users
+- reviewed re-launch of ESPR study
+  - https://bugzil.la/1450951
 
 2018-04-17
 ----------
