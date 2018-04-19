@@ -13,8 +13,24 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-04-19
+----------
+- spent the morning dealing with aftermath of MBP upgrade
+  - got my apple ID working and downloading xcode so I could actually build firefox locally again
+
 2018-04-18
 ----------
+- hacked on prio integration
+  - henrycg pushed new version w/ some API changes that needed to be imported
+  - pretty close to feature complete!
+- prepared TLS 1.3 system add-on updates
+  - https://bugzil.la/1448176
+  - https://bugzil.la/1448176
+
+
+2018-04-17
+----------
+- met re: updates
 - attended github integration meeting
   - other than vendoring from upstream projects, mostly interested in how test integration should
     work for things like studies and system add-ons that never land in m-c but nevertheless get shipped
@@ -22,7 +38,7 @@ Daily(ish) log
 - reviewed re-launch of ESPR study
   - https://bugzil.la/1450951
 
-2018-04-17
+2018-04-16
 ----------
 - made plans re: Normandy arch docs
   - firefox-source-docs.m.o (built from m-c source) is probably the most discoverable right now
