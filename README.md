@@ -17,6 +17,14 @@ Daily(ish) log
 ----------
 - spent the morning dealing with aftermath of MBP upgrade
   - got my apple ID working and downloading xcode so I could actually build firefox locally again
+- hacked on prio and reported status to group
+  - imported latest prio and start working with the newest API
+  - todo:
+    - hooking up the right public keys
+    - adding some error checking that's compatible with the way our C++/JS bindings work
+    - some simple tests to make sure the integration is working
+    - actually return `ArrayBuffers` in the `Promise` that `encode()` returns
+      - right now it is just a pair of strings
 
 2018-04-18
 ----------
