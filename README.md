@@ -1,18 +1,36 @@
 Currently working on
 =====================
-- shipping faster and more deliberately
-- moving system add-on update to normandy
-    - do pref flips via recipe rather than extension
-    - independent extension shipping
-    - faster update interval
-    - free up janky addons manager timer
-- better uptake telemetry of system addons
-- ensuring availability of dashboards for uptake (mission control, etc)
-- prototyping
-    - out-of-process updater for normandy
+- finish up prio integration
+  - hooking up the right public keys
+  - adding some error checking that's compatible with the way our C++/JS bindings work
+    - need to check the result code of libprio function calls and either throw (if from a regular JS function) or reject promise
+  - some simple tests to make sure the integration is working
+  - actually return `ArrayBuffers` in the `Promise` that `encode()` returns
 
 Daily(ish) log
 ==============
+2018-04-26
+----------
+- figured out my libprio string problem, batchID is passed to libprio correctly now \o/
+- helped bdanforth figure out where to start up their code
+  - https://searchfox.org/mozilla-central/source/browser/components/nsBrowserGlue.js is probably the best place - this is per-session rather than per-window, like browser.js
+  - the trick is to init after the observer notification you want is observed, ideally as late in browser startup as possible: https://developer.mozilla.org/en-US/docs/Observer_Notifications
+    - by-the-by, that page would probably be a good candidate to move to https://firefox-source-docs.mozilla.org/ and use autodoc to generate
+
+2018-04-25
+----------
+- attended Normandy brain-dump meeting, took notes
+- put together beginning of architecture doc based on normandy notes
+- chatted w/ bdanforth re: integration of the savant study
+  - going to land it in-tree vs. using an extension
+
+2018-04-24
+----------
+- spent most of the day trying to figure out how strings work in mozilla C++ code
+  - https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Guide/Internal_strings
+  - context is needing to convert an `nsString` to `const unsigned char*` to use w/ libprio
+    C code
+
 2018-04-19
 ----------
 - spent the morning dealing with aftermath of MBP upgrade
