@@ -3,9 +3,10 @@ Currently working on
 - finish up prio integration
   - hooking up the right public keys
   - adding some error checking that's compatible with the way our C++/JS bindings work
-    - need to check the result code of libprio function calls and either throw (if from a regular JS function) or reject promise
+    - need to check the result code of libprio function calls and either throw (if from a regular     JS function) or reject promise
   - some simple tests to make sure the integration is working
   - actually return `ArrayBuffers` in the `Promise` that `encode()` returns
+- working on experiment engineering/architecture and process
 
 Daily(ish) log
 ==============
