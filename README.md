@@ -1,15 +1,35 @@
 Currently working on
 =====================
+- experiment engineering/architecture and process
 - finish up prio integration
-  - hooking up the right public keys
-  - adding some error checking that's compatible with the way our C++/JS bindings work
-    - need to check the result code of libprio function calls and either throw (if from a regular     JS function) or reject promise
+  - hook up the right public keys
   - some simple tests to make sure the integration is working
   - actually return `ArrayBuffers` in the `Promise` that `encode()` returns
-- working on experiment engineering/architecture and process
 
 Daily(ish) log
 ==============
+2018-05-02
+----------
+- looked into why espr study isn't seeing as many pings as expected
+  - wondering if it's due to a missing `await` on an `async` function that gets
+    called during early return of `startup()`...
+  - https://github.com/motin/esper-pioneer-shield-study/issues/26#issuecomment-386145068
+- looked into sentry exception coming from activity stream
+  - https://bugzil.la/1458621
+- reviewed bug about moving dictionaries into the omni jar
+  - https://bugzil.la/1457321
+  - r+'d with a question about why this even needs to use the terrible build system
+    hack I put in for system add-ons in 57 to generate a list of acceptable add-on IDs,
+    versus just using the index of the JAR...
+
+2018-04-27
+----------
+- hooked up error checking for PrioEncoder and pushed to github
+  - promise rejects now if there's any error in underlying libprio calls
+- spent the rest of the day on wrapping libprio's output in an Array of
+  ArrayBuffers. Having unexpected problems with the ToJSValue() template
+  
+
 2018-04-26
 ----------
 - figured out my libprio string problem, batchID is passed to libprio correctly now \o/
