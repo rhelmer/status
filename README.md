@@ -4,10 +4,32 @@ Currently working on
 - finish up prio integration
   - hook up the right public keys
   - some simple tests to make sure the integration is working
-  - actually return `ArrayBuffers` in the `Promise` that `encode()` returns
 
 Daily(ish) log
 ==============
+2018-05-07
+----------
+- needinfo'd folks on bug about whether SAO updates should be active in safe-mode
+  - https://bugzil.la/1459186
+  - built-ins are not deactivated, and updates are. this was done on purpose, but
+    worth reconsidering.
+
+2018-05-04
+----------
+- reviewed SAO for UA override on Fennec
+  - https://bugzil.la/1453691
+  - patch lgtm; made some suggestions for bullet-proofing it more, like the ability
+    to sync data and not require a code update just to add/remove domains/UA strings
+  - needinfo'd kmag because I know he's working on some build system cleanup which
+    should be reused by this, so they will either wait for him to land or take that
+    part of his patch now.
+
+2018-05-03
+----------
+- decided to just return array-of-arrays from `PrioEncoder.encode()` for now, since
+  we're only encoding two 8-bit bytes right now. Will bring this up in code review,
+  but don't think it should block testing.
+
 2018-05-02
 ----------
 - looked into why espr study isn't seeing as many pings as expected
