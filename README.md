@@ -29,6 +29,15 @@ Daily(ish) log
 - decided to just return array-of-arrays from `PrioEncoder.encode()` for now, since
   we're only encoding two 8-bit bytes right now. Will bring this up in code review,
   but don't think it should block testing.
+- clarified the use of the release-sysaddon test channel for QA
+  - https://bugzil.la/1458579
+- looked into push of Google search fix SAO update, working overall but not seeing
+  it in super old versions like Firefox 43
+  - https://bugzil.la/1454443
+  - looking into the history of system add-on feature, looks like we have built-in
+    extensions working in this timeframe but not updates, so won't work for this
+    version
+  - pushing a classic Hotfix add-on would work if this is important enough to bother
 
 2018-05-02
 ----------
