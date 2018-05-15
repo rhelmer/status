@@ -1,18 +1,52 @@
 Currently working on
 =====================
-- experiment engineering/architecture and process
-- finish up prio integration
+- helping out with engineering/architecture and process for experiments program
+  - working with studies and test infra folk to make perf/correctness testing for studies
+    simple and easy
+  - writing up proposal on the above and also how to build+test webextension experimental
+    APIs
+- finishing up prio integration
+  - https://bugzil.la/1421501
   - hook up the right public keys
   - some simple tests to make sure the integration is working
+    - an HTML DOM test to ensure that the chrome-only PrioEncoder basically works
+    - a C++ unit test to actually verify the output with a known set of keys and
 
 Daily(ish) log
 ==============
+2018-05-15
+----------
+- reviewed bug about divorcing SAO update from app.update.enabled pref
+  - https://bugzil.la/1428459
+  - second round, r+
+- responded to needinfo about signing built-in extensions
+- corresponding w/ henrycg about using the prio API correctly
+  - I wasn't collecting all of the output from `PrioClient_encode`, getting closer
+    to the expected result except the number of elements in the "forServerA" array
+    is larger than "forServerB"... clarifying whether this is expected or a sign I
+    am doing something wrong
+- merged AES removal from libprio vendoring
+  - https://github.com/rhelmer/gecko-dev/pull/1
+  - fixed some merge conflicts
+  - made sure that henry landed the same change in the upstream libprio github repo,
+    as we're probably going to automate vendoring and checking for updates etc. in Firefox
+    eventually.
+
+2018-05-14
+----------
+- sent some questions from prelim review to henrycg
+  - pointer ownership and cleanup questions
+  - quick question about simplifying the JS API
+- helped bdanforth test the easier XPI loading integration for mochitest
+  - seems to work
+
 2018-05-07
 ----------
 - needinfo'd folks on bug about whether SAO updates should be active in safe-mode
   - https://bugzil.la/1459186
   - built-ins are not deactivated, and updates are. this was done on purpose, but
     worth reconsidering.
+    - ended up wontfix'ing, not worth changing as it matches current user expectation
 
 2018-05-04
 ----------
