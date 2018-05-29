@@ -14,6 +14,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-05-24
+----------
+- reviewed bug for bdanforth's Savant shield study
+  - needs to ship w/ Firefox behind a pref
+- started working on testing for Fennec system add-on update bug
+  - https://bugzil.la/1260213
+
 2018-05-15
 ----------
 - reviewed bug about divorcing SAO update from app.update.enabled pref
