@@ -7,6 +7,10 @@ Currently working on
     APIs
 - finishing up prio integration
   - https://bugzil.la/1421501
+    - turn this into tracker with 3 dependent bugs:
+      1. land platform support (PrioEncoder DOM)
+      2. use PrioEncoder from Telemetry JS
+      3. set up telemetry-server decrypt infra
   - hook up the right public keys
   - some simple tests to make sure the integration is working
     - an HTML DOM test to ensure that the chrome-only PrioEncoder basically works
@@ -14,6 +18,22 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-05-30
+----------
+- kicked off perf+correctness testing for new shield study utils, as
+  part of reviewing
+  - https://treeherder.mozilla.org/#/jobs?repo=try&revision=f3d72bddf60c5ae496ed186a139644ac7cd60150
+
+2018-05-29
+----------
+- 1:1
+- filed bugs splitting up prio work, so I can land the DOM bit sooner
+- helped out bdanforth w/ savant study-related questions
+
+2018-05-28
+----------
+- PTO (US Holiday)
+
 2018-05-24
 ----------
 - reviewed bug for bdanforth's Savant shield study
