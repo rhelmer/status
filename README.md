@@ -18,11 +18,23 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-06-05
+----------
+- met about new shield utils webext experiments review
+  - glind already split out commits for me, should be done reviewing today
+  - meeting next week to talk about engineering, not going to sweat
+  the details or block them shipping right now
+
+2018-06-01
+----------
+- looked at results of beta fallback-limit push, so far so good
+
 2018-05-30
 ----------
 - kicked off perf+correctness testing for new shield study utils, as
   part of reviewing
   - https://treeherder.mozilla.org/#/jobs?repo=try&revision=f3d72bddf60c5ae496ed186a139644ac7cd60150
+- pushed TLS 1.3 fallback-limit on release (SAO) and beta (normandy)
 
 2018-05-29
 ----------
