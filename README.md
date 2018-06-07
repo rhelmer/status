@@ -18,6 +18,24 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-06-07
+----------
+- debugged why my local build is broken
+  - some XPI generation issue, both artifact and full builds
+- landed savant bug for bdanforth
+  - autoland kicked back due to merge issue
+  - she looked into and was an issue where hg bookmark needed to be updated
+- moved my prio work from git over to hg
+  - old moz-git-tools repo has a handy tool for taking a git format-patch
+  output to something hg import can handle
+    - https://github.com/mozilla/moz-git-tools/blob/master/git-patch-to-hg-patch
+
+2018-06-06
+----------
+- talked to ursula re: split up work for prio
+  - suggested reviewer for my part, contacted and lined that up
+- pushed new version of TLS 1.3 roll-out to bug (for release)
+
 2018-06-05
 ----------
 - met about new shield utils webext experiments review
