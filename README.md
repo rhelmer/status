@@ -7,14 +7,14 @@ Currently working on
     APIs
 - finishing up prio integration
   - https://bugzil.la/1421501
-    - turn this into tracker with 3 dependent bugs:
+    - turned this into tracker with 3 dependent bugs:
       1. land platform support (PrioEncoder DOM)
       2. use PrioEncoder from Telemetry JS
       3. set up telemetry-server decrypt infra
   - hook up the right public keys
   - some simple tests to make sure the integration is working
     - an HTML DOM test to ensure that the chrome-only PrioEncoder basically works
-    - a C++ unit test to actually verify the output with a known set of keys and
+    - a C++ unit test to actually verify the output with a known public/private keypair
 
 Daily(ish) log
 ==============
@@ -22,7 +22,18 @@ Daily(ish) log
 ----------
 - PTO in morning
 - working on generating test private/public keypairs for this prio code so I can get it up for review
+  - found it easiest to just make a little python script use libsodium for generating CURVE25519 keypairs
+    - https://gist.github.com/rhelmer/3331ca166bcc9ee05c21a1834fa58cea
+  - this is fine for testing purposes but will make sure the sec folks generate and handle this key as
+  part of review for the version we actually ship.. can put the public key in a pref
 - still working on that python telemetry notebook too
+  - mythmon helped with this so now have the basic query working at least
+- chatted w/ add-ons and experiments folks about upcoming shield study
+  - tl;dr is that it's been prototyped as a legacy extension, I actually already chatted in person w/ folks
+  last week about converting this over to bundled webext experiment, should be nbd
+  - sent some docs and examples to interested folks
+- reviewed patch to re-enable temporary extension unit tests on windows followin race condition fix
+  - https://bugzil.la/1469686
 
 2018-06-18
 ----------
