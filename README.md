@@ -18,6 +18,27 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-06-19
+----------
+- PTO in morning
+- working on generating test private/public keypairs for this prio code so I can get it up for review
+- still working on that python telemetry notebook too
+
+2018-06-18
+----------
+- worked on python telemetry notebook for tracking TLS fallback-limit via normandy on beta
+  - https://dbc-caf9527b-e073.cloud.databricks.com/#notebook/16917/command/16952
+- talked w/ henry @ stanford re: prio next steps
+  - henry suggested putting public key somewhere we can easily change; using a pref or passing
+  to the C++ constructor would work
+  - henry is working on command-line encrypt/decrypt tools for Telemetry server's use
+- sent prio status to ekr's intern
+  - meeting set up later in the week
+
+2018-06-11 -> 2018-06-15
+------------------------
+- mozilla all-hands
+
 2018-06-07
 ----------
 - debugged why my local build is broken
