@@ -6,18 +6,33 @@ Currently working on
   - writing up proposal on the above and also how to build+test webextension experimental
     APIs
 - finishing up prio integration
+  - currently up for review
   - https://bugzil.la/1421501
-    - turned this into tracker with 3 dependent bugs:
-      1. land platform support (PrioEncoder DOM)
-      2. use PrioEncoder from Telemetry JS
-      3. set up telemetry-server decrypt infra
-  - hook up the right public keys
-  - some simple tests to make sure the integration is working
-    - an HTML DOM test to ensure that the chrome-only PrioEncoder basically works
-    - a C++ unit test to actually verify the output with a known public/private keypair
+  - henrycg is working on making a simple encrypt/decrypt command-line tool, that we could repurpose
+  both for a C++ unit test and also to use on telemetry server
 
 Daily(ish) log
 ==============
+2018-06-20
+----------
+- fwd'd review for libprio-specific bits to henrycg
+- helped out w/ intern shield study
+- reviewed shield pref flip study patch
+  - https://bugzil.la/1465195
+  - nothing really for me to do here
+- reviewed new TAAR study
+  - https://bugzil.la/1469546
+- took a look w/ chutten at TLS 1.3 telemetry notebooks
+- chatted w/ bdanforth about testing strategy for study extensions, ahead of test infra meeting
+
+2018-06-20
+----------
+- started exploring on better experiments + firefox integration for shield study needs
+- chatted w/ relman re: tls roll-out plans for next few releases
+  - need to send intent-to-ship emails for next round soon
+- put prio prototype patches up for review \o/
+  - https://bugzil.la/1421501
+
 2018-06-19
 ----------
 - PTO in morning
