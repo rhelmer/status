@@ -13,7 +13,16 @@ Currently working on
 
 Daily(ish) log
 ==============
-2018-06-20
+2018-06-22
+----------
+- finished reviewing new TAAR study
+  - https://bugzil.la/1469546
+- set up mozilla repo for libprio, so henrycg can do a PR and get NSS peer to look at it that way
+  - some confusion in the bug because upstream lib has both client and server parts, would be better
+  to resolve all of this in the repo, and have a mozilla-controlled upstream repo anyway
+  - https://github.com/mozilla/libprio
+
+2018-06-21
 ----------
 - fwd'd review for libprio-specific bits to henrycg
 - helped out w/ intern shield study
@@ -24,6 +33,7 @@ Daily(ish) log
   - https://bugzil.la/1469546
 - took a look w/ chutten at TLS 1.3 telemetry notebooks
 - chatted w/ bdanforth about testing strategy for study extensions, ahead of test infra meeting
+- met w/ intern working on prio
 
 2018-06-20
 ----------
