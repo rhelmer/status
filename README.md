@@ -10,9 +10,36 @@ Currently working on
   - https://bugzil.la/1421501
   - henrycg is working on making a simple encrypt/decrypt command-line tool, that we could repurpose
   both for a C++ unit test and also to use on telemetry server
+- Shield Study PRD for Prio
+- Intent-to-ship for TLS 1.3 fallback-limit
 
 Daily(ish) log
 ==============
+2018-06-28
+----------
+- prio sec review (client-side)
+  - https://bugzil.la/1421501#c17
+- filed bug + submitted patch for normandy to use ServiceRequest instead of raw fetch()
+  - https://bugzil.la/1471946
+
+2018-06-27
+----------
+- so many meetings
+  - prio RRA (server side stuff mostly, little early for it)
+  - telemetry for normandy pref-flip roll-outs
+  - other follow up from yesterday
+- kept working through review feedback for prio impl
+
+2018-06-26
+----------
+- worked on review feedback for prio impl
+- more meetings than usual
+- investigated update history
+
+2018-06-25
+----------
+- helped w/ florian's study
+
 2018-06-22
 ----------
 - finished reviewing new TAAR study
