@@ -14,6 +14,13 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-07-12
+----------
+- responded to henry's email re: recent prio PR
+- reviewed idle callback patch for nsUpateTimerManager
+  - waaay simpler than I thought it was going to be
+  - https://bugzil.la/1373408
+
 2018-07-11
 ----------
 - shipped TLS fallback limit to 25%
@@ -30,7 +37,8 @@ Daily(ish) log
 
 2018-07-09
 ----------
-- out sick
+- pushed TLS fallback limit to release 61 at 10%
+- didn't get as much done as I'd like, starting feeling sick
 
 2018-07-06
 ----------
@@ -42,7 +50,7 @@ Daily(ish) log
 
 2018-07-04
 ----------
-- holiday
+- US holiday
 
 2018-07-03
 ----------
