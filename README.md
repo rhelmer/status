@@ -11,10 +11,44 @@ Currently working on
   - henrycg is working on making a simple encrypt/decrypt command-line tool, that we could repurpose
   both for a C++ unit test and also to use on telemetry server
 - Shield Study PRD for Prio
-- Intent-to-ship for TLS 1.3 fallback-limit
 
 Daily(ish) log
 ==============
+2018-07-11
+----------
+- shipped TLS fallback limit to 25%
+  - did a little telemetry notebook debugging first
+- got back to henry re: hex-to-bin library
+  - had looked into it last (holiday) week but not followed up yet
+  - tl;dr nothing easily reusable, just utility functions in skia / nss
+  - henry is going to do it in prio and expose function to import hex-encoded keys
+- rebased prio client against latest m-c
+
+2018-07-10
+----------
+- PTO (still out sick)
+
+2018-07-09
+----------
+- out sick
+
+2018-07-06
+----------
+- met w/ mreid re: prio telemetry
+
+2018-07-05
+----------
+- worked on prio client
+
+2018-07-04
+----------
+- holiday
+
+2018-07-03
+----------
+- went to MV for meetings
+- figured out plan for landing prio client
+
 2018-06-28
 ----------
 - prio sec review (client-side)
