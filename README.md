@@ -14,6 +14,18 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-07-17
+----------
+- back after being out w/ flu for a week
+- reviewed+merged outstanding libprio PRs
+  - https://github.com/rhelmer/gecko-dev/pull/2
+  - https://github.com/mozilla/libprio/pull/1
+- https://github.com/mozilla/libprio/ is now the official upstream \o/
+- followed up on TLS 1.3 fallback-limit roll-out
+  - there's a hotfix we might want to block on to make the analysis cleaner, unsure.
+- emailed nika about prio review
+- sought out engineering design/architecture advice
+
 2018-07-12
 ----------
 - responded to henry's email re: recent prio PR
