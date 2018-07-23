@@ -14,6 +14,24 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-07-23
+----------
+- worked on adding ArrayBuffer support for PrioEncoder
+  - this is more important now, since we're talking about sending
+  way more Telemetry through.
+  - getting hung up on silly issue with `nsCOMPtr<nsIGlobalObject>`
+  being easily available but not the `JSContext` (which would be accessible from the global passed to the constructor via `aGlobal.Context()`).
+    - this is one of those issues where it's easy to fix (keep a reference to the JS context around) but more about trying to figure out how the existing code does it so it's more likely to pass review
+- responded to bug about making Normandy use ServiceRequest vs
+raw fetch
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1471946#c19
+  - I filed this because I noticed Normandy wasn't doing NSS beConservative, since we're using it for hotfixes and we only serve signed content
+  - I wrote up a patch to wrap XHR (which is what ServiceRequest is
+  built on top of) but expose it with a fetch-like API, however per comment above I think we should just go a few levels deeper and
+  1. expose underlying network channel from fetch to system JS
+  2. expose simple fetch wrapper from `ServiceRequest.jsm` that sets all the right network channels
+  3. get sec review on this
+
 2018-07-17
 ----------
 - back after being out w/ flu for a week
