@@ -14,6 +14,37 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-08-06
+----------
+- worked through build integration problems from last friday:
+  - vendored msgpack + integrated
+  - used in-tree NSS mpi lib
+  - need to do a few supporting changes in libprio but nothing major
+  - getting further on tryserver, hitting some cross-platform issues like:
+    - linux is unhappy with multiple main functions, this is because we're building an NSS mpi file that we just don't need, this can be fixed in the libprio moz.build integration in my patch
+    - windows doesn't provide `<strings.h>` but does provide `<string.h>`, if that's not enough for libprio then I'll need to make some further changes but initial results on macOS (which is my primary dev environment) look good
+
+2018-08-03
+----------
+- got back prio review responses
+  - little more work to do on the DOM bit
+  - turned up some build system integration problems (one turned up by tryserver and one found by NSS reviewer):
+    - need to vendor msgpack
+    - need to use in-tree private NSS mpi lib not the copy in libprio
+
+2018-08-02
+----------
+- got buy-in on prio plan mentioned yesterday
+  - pushed latest patches for review
+    - I wasn't able to resolve some of the DOM concerns (was crashing trying to use suggested Mozilla string libraries when passing to C etc) so asked for help on those
+
+2018-08-01
+----------
+- started working through Prio DOM review
+  - going to try to land current approach and then follow-up with new requirements from the meeting a few weeks ago
+- followed up on github mentions
+  - https://github.com/mozilla/shield-studies-addon-utils/issues/254#issuecomment-408998204
+
 2018-07-23
 ----------
 - worked on adding ArrayBuffer support for PrioEncoder
