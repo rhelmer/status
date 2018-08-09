@@ -22,6 +22,9 @@ Daily(ish) log
 2018-08-08
 ----------
 - focused on libprio+firefox cross-platform build issues w/ help from Henry and Franziskus
+- reviewed OpenWPM-WebExtension-Experiment
+  - https://github.com/mozilla/OpenWPM-WebExtension-Experiment/pull/4/files
+  - don't see anything concerning, will take another look tomorrow
 
 2018-08-07
 ----------
