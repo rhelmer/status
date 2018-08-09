@@ -14,6 +14,22 @@ Currently working on
 
 Daily(ish) log
 ==============
+- reviewed WebCompat GoFaster extension to Fennec
+  - https://phabricator.services.mozilla.com/D3012
+- I *think* all cross-platform Prio build issues are resolved, and my patch is ready for review, waiting for a full tryserver+test run
+  - https://treeherder.mozilla.org/#/jobs?repo=try&revision=5da61e100e5d5e021b0893ba44452624f3c6ef98
+
+2018-08-08
+----------
+- focused on libprio+firefox cross-platform build issues w/ help from Henry and Franziskus
+
+2018-08-07
+----------
+- pushed new patch, few questions for DOM reviewer but feeling close now
+- started working on linux/windows build problems for libprio
+  - https://github.com/mozilla/libprio/issues/4
+  - https://github.com/mozilla/libprio/issues/3
+
 2018-08-06
 ----------
 - worked through build integration problems from last friday:
