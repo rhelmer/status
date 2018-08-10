@@ -19,6 +19,14 @@ Daily(ish) log
 - I *think* all cross-platform Prio build issues are resolved, and my patch is ready for review, waiting for a full tryserver+test run
   - https://treeherder.mozilla.org/#/jobs?repo=try&revision=5da61e100e5d5e021b0893ba44452624f3c6ef98
 
+2018-08-09
+----------
+- I *think* I've ironed out the last of the blockers for the Prio prototype landing in Firefox
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1421501
+  - have a good cross-platform try run now
+- put up example usage of Prio for client
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1465251#c7
+
 2018-08-08
 ----------
 - focused on libprio+firefox cross-platform build issues w/ help from Henry and Franziskus
