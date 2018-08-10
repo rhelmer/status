@@ -23,6 +23,9 @@ Daily(ish) log
   - have a good cross-platform try run now
 - put up example usage of Prio for client
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1465251#c7
+- starting rewriting prio integration test for latest API
+  - https://github.com/mozilla/libprio/issues/7
+  - got some nice modern JS digs in too
 
 2018-08-08
 ----------
