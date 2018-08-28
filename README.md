@@ -8,7 +8,7 @@ Currently working on
 
 Daily(ish) log
 ==============
-2018-08-09 -> 2018-08-27
+2018-08-09 -> 2018-09-01
 ------------------------
 - super busy the last few weeks, catching up:
   - landed libprio + PrioEncoder, shipped in Nightly \o/
