@@ -13,11 +13,17 @@ Daily(ish) log
 - super busy the last few weeks, catching up:
   - landed libprio + PrioEncoder, shipped in Nightly \o/
     - some followup work
-      - provided easy way to disable
+      - provided easy way to disable building libprio + PrioEncoder, via MOZ_LIBPRIO flag
         - hit this issue with MSVC which is tier-2 and which we will almost certainly never ship again,has an ancient C compiler (C90). Encouraging upstream to make Clang the first-class compiler, since folks like Firefox and Chromium are moving that way anyway.
           - https://bugzilla.mozilla.org/show_bug.cgi?id=1485946
         - set up travis-ci for upstream libprio, so we don't have to wait until we re-vendor the thing into Firefox to find problems.
-
+          - https://github.com/mozilla/libprio/pull/22
+      - re-implemented some ASCII-only versions of std functions like toupper/isxdigit, due to these being locale-dependent
+        - https://github.com/mozilla/libprio/pull/24
+      - started looking at moving the libprio (manually run) browser-test over to a proper Firefox unit test
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=1485620
+        - asking for advice from DOM folks, thinking that we'll probably want to expose this to JS (for the xpcshell unit test runner) via some new DOM functions which are behind a test-only pref.
+          - browser-test is C code that invokes xpcshell, but for Firefox what we need is for xpcshell to be able to invoke the native code.
     - passed the ball over to Telemetry folks
       - client integration should be simple, provided sample code
         - https://bugzilla.mozilla.org/show_bug.cgi?id=1465251
