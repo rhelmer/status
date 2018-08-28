@@ -1,19 +1,35 @@
 Currently working on
 =====================
-- helping out with engineering/architecture and process for experiments program
-  - working with studies and test infra folk to make perf/correctness testing for studies
-    simple and easy
-  - writing up proposal on the above and also how to build+test webextension experimental
-    APIs
-- finishing up prio integration
-  - currently up for review
-  - https://bugzil.la/1421501
-  - henrycg is working on making a simple encrypt/decrypt command-line tool, that we could repurpose
-  both for a C++ unit test and also to use on telemetry server
+- engineering/architecture/reviews/process for experiments program
+- polishing prio integration
+  - moving libprio automated tests into tree, etc.
+  - helping out Telemetry folk w/ integration
 - Shield Study PRD for Prio
 
 Daily(ish) log
 ==============
+2018-08-09 -> 2018-08-27
+------------------------
+- super busy the last few weeks, catching up:
+  - landed libprio + PrioEncoder, shipped in Nightly \o/
+    - some followup work
+      - provided easy way to disable
+        - hit this issue with MSVC which is tier-2 and which we will almost certainly never ship again,has an ancient C compiler (C90). Encouraging upstream to make Clang the first-class compiler, since folks like Firefox and Chromium are moving that way anyway.
+          - https://bugzilla.mozilla.org/show_bug.cgi?id=1485946
+        - set up travis-ci for upstream libprio, so we don't have to wait until we re-vendor the thing into Firefox to find problems.
+
+    - passed the ball over to Telemetry folks
+      - client integration should be simple, provided sample code
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=1465251
+      - server integration + analysis probably a bit more involved, pointed to some example code there as well but likely we'll want to build some standalone tools using libprio. I don't think this should be a blocker on getting the client code shipped and starting to collect the data.
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=1465252
+  - working on Telemetry Coverage
+    - https://blog.mozilla.org/data/2018/08/20/effectively-measuring-search-in-firefox/
+    - taking a bit more time than expected but trying to do it right
+  - investigated problems with OpenWPM study
+    - https://github.com/mozilla/OpenWPM-WebExtension-Experiment/pull/4
+    - reached out to rpl and devtools folks, they just missed their GH mentions, on the case now
+
 2018-08-09
 ----------
 - reviewed WebCompat GoFaster extension to Fennec
