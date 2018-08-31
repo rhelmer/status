@@ -17,6 +17,11 @@ Daily(ish) log
 - created public bug for Telemetry Coverage project
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1487578
   - we now have a way for users to opt-out, and sent instructions to QA with this info.
+- Finished up some little PRs to move standalone libprio to Clang (turned out to be a lot of work because Travis uses Ubuntu Trust which is super old! I ended up setting up a local Travis docker install which was worth it), fix opt/debug build config in SCons, and to clean up some undefined behavior in an ASCII version of a stdlib function I added.
+  - https://github.com/mozilla/libprio/pulls?q=is%3Apr+is%3Aclosed
+- that dang MSVC PrioEncoder patch caused prio to not be built on *all* platforms, because apparently I forgot how to python
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1485946
+  - easy fix, just embarassing
 - PTO rest of the day
 
 2018-08-09 -> 2018-08-29
