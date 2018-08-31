@@ -8,7 +8,18 @@ Currently working on
 
 Daily(ish) log
 ==============
-2018-08-09 -> 2018-09-01
+2018-08-31
+----------
+- PTO
+
+2018-08-30
+----------
+- created public bug for Telemetry Coverage project
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1487578
+  - we now have a way for users to opt-out, and sent instructions to QA with this info.
+- PTO rest of the day
+
+2018-08-09 -> 2018-08-29
 ------------------------
 - super busy the last few weeks, catching up:
   - landed libprio + PrioEncoder, shipped in Nightly \o/
