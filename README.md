@@ -8,6 +8,34 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-09-10
+----------
+- responded to reviewer comments for telemetry coverage extension
+  - https://github.com/mozilla/one-off-system-add-ons/pull/123
+  - confirmed that we don't need to send a special UUID or anything, might do this later if we add retry ability
+    - rewriting this to work on 64+ (webextension-only) and also for old releases will be tricky... maybe factor out the common stuff into scripts that can be run with content privileges. Really only things that need to be privileged are:
+      1. the pref read to see if Telemetry is enabled and
+      2. to grab the update channel and
+      3. the Telemetry UUID (to pass to the sampling function
+      The actual sampling function and the connection to mozilla servers could all be done from content and script could be shared across legacy/webextension+experiments
+- landed PrioEncoder + Telemetry client patch \o/
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1465251
+  - jumped the gun a little on Telemetry review; talked w/ reviewer and worked it out, Telemetry folks want more formal review process for their module which is totally reasonable, will wait for explicit r+ next time (I had addressed the comments and then landed with a secondary reviewer's r+)
+  - only macOS and Linux for now, will start sending data as soon as Nightly goes out around 10 PM Pacific
+    - windows blocked on https://bugzilla.mozilla.org/show_bug.cgi?id=1489691
+      - I am helping out with this, getting everything going on Windows to test has been a bear..
+        - instructions are very outdated: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Building
+        - readme is a little more modern but build.sh requires a lot of variables to be set up which is really obnoxious
+          - turns out https://bugzilla.mozilla.org/show_bug.cgi?id=1434943 has a nice patch for Windows + MSVC!
+          - libprio requires clang though, MSVC C compiler is too old (C90 vs. C99 standard)
+          - might have to figure out how to get standalone nss+nspr building w/ clang-cl on Windows. This is how the mozilla-central build system does it though so must be doable :)
+  - server work happening in https://bugzilla.mozilla.org/show_bug.cgi?id=1465252
+    - chatted w/ server folk to make sure they know it will be coming in
+
+2018-09-03
+----------
+- Holiday (Labor day)
+
 2018-08-31
 ----------
 - PTO
