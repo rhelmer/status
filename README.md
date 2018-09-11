@@ -31,6 +31,9 @@ Daily(ish) log
           - might have to figure out how to get standalone nss+nspr building w/ clang-cl on Windows. This is how the mozilla-central build system does it though so must be doable :)
   - server work happening in https://bugzilla.mozilla.org/show_bug.cgi?id=1465252
     - chatted w/ server folk to make sure they know it will be coming in
+- looked into snag for open-wpm
+  - https://github.com/devtools-html/har-export-trigger/issues/13#issuecomment-418694386
+  - this is... pretty involved. I think we'll probably need to lean on devtools and addons folks for help here.
 
 2018-09-03
 ----------
