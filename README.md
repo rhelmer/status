@@ -10,6 +10,8 @@ Daily(ish) log
 ==============
 2018-09-17
 ----------
+- Telemetry Coverage extension passed QA, all ready to ship:
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1487578
 - rewriting PrioEncoder standalone manually-run browser-test as unit test
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1485620
   - turned out to be quite easy to do as a googletest
