@@ -29,6 +29,11 @@ Daily(ish) log
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1491737
   - these are in prefs so we can set remotely, PrioEncoder is supposed to be able to
   handle it but the problem is that it is a singleton and it fails correctly the first time, but it instantiates the singleton too soon. added a test as well not that we have a basic gtest for it.
+- chatted w/ ted re: replacing msgpack dependency on libprio
+  - libprio only uses it internally for serializing binary data, not used on the wire
+  - msgpack doesn't support aarch64 at least, probably other bugs / missing things we'll need to fix if we stick with it
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1486478
+  - using Rust + Serde from C is an option! We might even be able to move libprio's build system over to Cargo and away from SCons which'd be super cool
 
 2018-09-10
 ----------
