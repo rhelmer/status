@@ -8,6 +8,28 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-09-17
+----------
+- rewriting PrioEncoder standalone manually-run browser-test as unit test
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1485620
+  - turned out to be quite easy to do as a googletest
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1485620#c5
+    - waiting for review
+    - having Travis-CI
+- helped with JAWS-ESR SAO update
+- reviewed planned back-out of Fennec GWS/FB UA spoofing SAO
+  - https://phabricator.services.mozilla.com/D6065
+- looked at why Fedora builds are failing w/ libprio enabled
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1491289
+  - just include header path shenanigans... would be nice to re-vendor libprio anyway
+- met w/ bdanforth re: experiment perf testing in the field
+  - we could probably do an experiment just around this and help Firefox out as a whole
+- let mobile folks know about libprio and size impact
+- attached patch to fix PrioEncoder crash on bad public keys in prefs
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1491737
+  - these are in prefs so we can set remotely, PrioEncoder is supposed to be able to
+  handle it but the problem is that it is a singleton and it fails correctly the first time, but it instantiates the singleton too soon. added a test as well not that we have a basic gtest for it.
+
 2018-09-10
 ----------
 - responded to reviewer comments for telemetry coverage extension
