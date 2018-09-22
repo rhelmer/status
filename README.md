@@ -5,9 +5,29 @@ Currently working on
   - moving libprio automated tests into tree, etc.
   - helping out Telemetry folk w/ integration
 - Shield Study PRD for Prio
+- Catch up + participate more in experiments infra leads
 
 Daily(ish) log
 ==============
+2018-09-19 -> 2018-09-21
+------------------------
+- followed up on active projects
+  - NSS bug blocking Prio on Windows fixed \o/
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1489691
+- fielded questions internally on Telemetry Coverage projet
+  - https://blog.mozilla.org/data/2018/08/20/effectively-measuring-search-in-firefox/
+  - responded to folks on HN, reddit forums seem largely OK
+  - looking at how we can communicate more effectively in future.
+
+2018-09-18
+----------
+- shipped Telemetry Coverage \o/
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1487578
+  - going to do a post-mortem on where we can invest and move faster / estimate better next time
+- more advice for JAWS-ESR project
+  - since ESR is about to do a point-release, going to just land in-tree so advised on that.
+  - also reviewed https://phabricator.services.mozilla.com/D6191
+
 2018-09-17
 ----------
 - Telemetry Coverage extension passed QA, all ready to ship:
