@@ -9,11 +9,57 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-09-21 -> 2019-10-01
+------------------------
+- shipped Telemetry Coverage SAO to Fx 45-60
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1492356
+- reviewed change to bump GMP (video and DRM plugins)
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1308251
+- looked into webcompat WE conversion android build problems
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1451484
+- got coverage ping ready to land in-tree
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1492656
+  - doing secondary data review just to make sure
+- reviewed autoplay shield study
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1475099
+- re-visited issue about having so many different client- and
+  server-side update mechanisms
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1323547
+- looked into providing telemetry http fallback (after discussion in slack)
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1494571
+  - considered providing a generic mechanism for this in ServerRequest.jsm,
+    but it's probably too special-purpose to worry too much about it.
+- Prio-related
+  - looked into automated Windows tests
+    - https://github.com/mozilla/libprio/issues/42
+    - bit of a slog, flagged issue as "good first issue" though
+  - filed issue about setting up macOS tests
+    - https://github.com/mozilla/libprio/issues/43
+    - also a "good first issue"
+  - filed issue about replacing msgpack
+    - https://github.com/mozilla/libprio/issues/41
+    - low-priority
+  - met w/ Henry CG, chatted generally and also about maybe Rust for libprio 2.0
+  - chatted w/ motin re: openwpm experiment
+    - sent some examples, will put together something more illustrative
+  - reviewed PRs
+    - https://github.com/mozilla/libprio/pull/50
+    - https://github.com/mozilla/libprio/pull/46
+    - https://github.com/mozilla/libprio/pull/49
+    - https://github.com/mozilla/libprio/pull/45
+  - landed PRs
+    - https://github.com/mozilla/libprio/pull/40
+    - https://github.com/mozilla/libprio/pull/39
+  - filed bug about moving libprio init out of static method, to make cleanup simpler
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1493584
+  - worked w/ Telemetry server folks on documentation
+
 2018-09-19 -> 2018-09-21
 ------------------------
 - followed up on active projects
   - NSS bug blocking Prio on Windows fixed \o/
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1489691
+    - will be vendored into m-c soon
 - fielded questions internally on Telemetry Coverage projet
   - https://blog.mozilla.org/data/2018/08/20/effectively-measuring-search-in-firefox/
   - responded to folks on HN, reddit forums seem largely OK
