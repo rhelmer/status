@@ -29,6 +29,9 @@ Daily(ish) log
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1494571
   - considered providing a generic mechanism for this in ServerRequest.jsm,
     but it's probably too special-purpose to worry too much about it.
+- chatted w/ motin re: openwpm experiment
+  - sent some examples, will put together something more illustrative
+
 - Prio-related
   - looked into automated Windows tests
     - https://github.com/mozilla/libprio/issues/42
@@ -40,8 +43,6 @@ Daily(ish) log
     - https://github.com/mozilla/libprio/issues/41
     - low-priority
   - met w/ Henry CG, chatted generally and also about maybe Rust for libprio 2.0
-  - chatted w/ motin re: openwpm experiment
-    - sent some examples, will put together something more illustrative
   - reviewed PRs
     - https://github.com/mozilla/libprio/pull/50
     - https://github.com/mozilla/libprio/pull/46
