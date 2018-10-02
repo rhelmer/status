@@ -31,7 +31,6 @@ Daily(ish) log
     but it's probably too special-purpose to worry too much about it.
 - chatted w/ motin re: openwpm experiment
   - sent some examples, will put together something more illustrative
-
 - Prio-related
   - looked into automated Windows tests
     - https://github.com/mozilla/libprio/issues/42
