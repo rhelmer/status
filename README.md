@@ -1,15 +1,22 @@
 Currently working on
 =====================
-- engineering/architecture/reviews/process for experiments program
-- polishing prio integration
-  - moving libprio automated tests into tree, etc.
+- working on experiments architecture engineering plan for 2019 H1
+- triage shield-utils / pioneer utils
+- testing prio integration
   - helping out Telemetry folk w/ integration
-- Shield Study PRD for Prio
-- Catch up + participate more in experiments infra leads
 
 Daily(ish) log
 ==============
-2018-09-21 -> 2019-10-01
+2018-10-01 -> 2018-10-15
+------------------------
+- testing Prio, good initial results for Telemetry shutdown ping
+  - looks like we have a problem handling subsession splits
+    - helping out w/ Telemetry patch to fix
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1497365
+    - landed on m-c \o/ will verify tomorrow, once it goes to Nightly.
+- helping out with shield study extension issues
+
+2018-09-21 -> 2018-10-01
 ------------------------
 - shipped Telemetry Coverage SAO to Fx 45-60
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1492356
