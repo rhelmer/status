@@ -7,6 +7,17 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-10-16
+----------
+- meetings, 1:1
+- first draft at experiments engineering plan
+  - responded to comments
+- figured out problem w/ privileged code in shield study
+  - only when in XPI form, the panel in the content loads slower from XPI than from file apparently, so need to listen for `DOMContentLoaded` or so
+- followup to pref off Prio telemetry tests if `prio.enabled` is false, so it doesn't bust beta
+  - prio is on by default for Nightly, off everywhere else.
+
+
 2018-10-01 -> 2018-10-15
 ------------------------
 - testing Prio, good initial results for Telemetry shutdown ping
