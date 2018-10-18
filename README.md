@@ -7,6 +7,14 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-10-18
+----------
+- meetings
+- finished reviewing webcompat fennec webextension conversion
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1451484
+- landed coverage ping in-tree
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1492656
+
 2018-10-16
 ----------
 - meetings, 1:1
