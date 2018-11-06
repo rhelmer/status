@@ -2,11 +2,37 @@ Currently working on
 =====================
 - working on experiments architecture engineering plan for 2019 H1
 - triage shield-utils / pioneer utils
-- testing prio integration
-  - helping out Telemetry folk w/ integration
+- talk to folks about experiments case study for next year
+- move shield utils to tree (probably under Normandy component)
 
 Daily(ish) log
 ==============
+2018-10-19 -> 2018-11-02
+------------------------
+- Prio Pilot launched
+  - published on hacks blog
+    - https://hacks.mozilla.org/2018/10/testing-privacy-preserving-telemetry-with-prio/
+  - filed + fixed a followups to make it easier for other folks to add more data from
+    Telemetry
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1500791
+    -
+- reviewed JESTER pioneer study
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1496154
+- provided review/feedback on putting search plugins in omni jar
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1496075
+- reviewed Block Autoplay study
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1475099
+- reviewed Side View study
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1501431
+- looked into problems with old test_system_update_fail test
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1501879
+- investigated feature gate C++ suppport
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1501030
+- looked at review feedback for using base64 for prio-encoded data
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1501366
+- filed bug to allow `PrioEncoder.encode()` to accept public keys in constructor
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1501132
+
 2018-10-18
 ----------
 - meetings
@@ -14,6 +40,10 @@ Daily(ish) log
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1451484
 - landed coverage ping in-tree
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1492656
+
+2018-10-15
+----------
+- responded to comments in client experiments engineering plan
 
 2018-10-16
 ----------
@@ -24,6 +54,7 @@ Daily(ish) log
   - only when in XPI form, the panel in the content loads slower from XPI than from file apparently, so need to listen for `DOMContentLoaded` or so
 - followup to pref off Prio telemetry tests if `prio.enabled` is false, so it doesn't bust beta
   - prio is on by default for Nightly, off everywhere else.
+- filed bug
 
 
 2018-10-01 -> 2018-10-15
