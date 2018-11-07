@@ -7,7 +7,14 @@ Currently working on
 
 Daily(ish) log
 ==============
-2018-10-19 -> 2018-11-02
+2018-11-07
+----------
+- triaged one-off-system-add-ons GH repo open PRs
+  - https://github.com/mozilla/one-off-system-add-ons/pulls
+- reviewed libprio PR to fix bool limit
+  - https://github.com/mozilla/libprio/pull/58/files
+
+2018-10-19 -> 2018-11-07
 ------------------------
 - Prio Pilot launched
   - published on hacks blog
