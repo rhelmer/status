@@ -7,6 +7,21 @@ Currently working on
 
 Daily(ish) log
 ==============
+2018-11-16
+----------
+- reviewed indexedDB shield study
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1502111
+
+2018-11-13 -> 2018-11-15
+------------------------
+- Prio-related meetings and planning
+- H1 '19 experiments infra planning
+
+2018-11-12
+----------
+- build problems w/ `baldrdash` crashing on m-c w/ macOS Mojave
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1495610#c13 seemed to do the trick
+
 2018-11-07
 ----------
 - triaged one-off-system-add-ons GH repo open PRs
@@ -22,7 +37,6 @@ Daily(ish) log
   - filed + fixed a followups to make it easier for other folks to add more data from
     Telemetry
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1500791
-    -
 - reviewed JESTER pioneer study
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1496154
 - provided review/feedback on putting search plugins in omni jar
