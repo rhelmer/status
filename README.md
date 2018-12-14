@@ -17,6 +17,10 @@ Daily(ish) log
   - discussing w/ taskcluster folks how we could satisfy our requirements
   for having a smooth extensions workflow
 
+2018-12-03 -> 2018-12-07
+------------------------
+- all-hands
+
 2018-11-16
 ----------
 - reviewed indexedDB shield study
