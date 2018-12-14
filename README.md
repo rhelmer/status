@@ -7,6 +7,16 @@ Currently working on
 
 Daily(ish) log
 ==============
+
+2018-12-13
+----------
+- reviewed UA spoofing system add-on update
+  - https://phabricator.services.mozilla.com/D14047
+- worked with bdanforth on using Mozilla CI for testing experiments extensions
+  - https://github.com/biancadanforth/taskcluster-integration-poc/pull/2
+  - discussing w/ taskcluster folks how we could satisfy our requirements
+  for having a smooth extensions workflow
+
 2018-11-16
 ----------
 - reviewed indexedDB shield study
