@@ -1,12 +1,33 @@
 Currently working on
 =====================
-- working on experiments architecture engineering plan for 2019 H1
-- triage shield-utils / pioneer utils
+- experiments architecture engineering plan for 2019 H1
+- triaging shield-utils / pioneer utils
 - talk to folks about experiments case study for next year
 - move shield utils to tree (probably under Normandy component)
 
 Daily(ish) log
 ==============
+
+2019-01-10
+----------
+- experiments-related meeting
+  - started sharing the experiments client impl guidelines with folks
+- requested review on libprio update in Firefox to pick up 1.4 release
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1518728
+
+2018-12-15 -> 2019-01-09
+------------------------
+- prepared document for experiments engineering guidelines.
+- filed bug to check omni jars and system add-on XPIs for corruption
+  - bug 1515712
+- reviewed bdanforth's work getting TC+GH integration working with extensions, so mozilla tryserver pushes can be triggered from github PRs
+  - https://github.com/biancadanforth/taskcluster-integration-poc/
+- reviewed security bug in proof-checking code for libprio
+  - https://github.com/mozilla/libprio/pull/60
+  - also fixed minor CI issue https://github.com/mozilla/libprio/pull/61
+    - filed mozilla bug to pull in latest libprio
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=1518728
+        - we're not using it on release or beta yet, but should be uplifted to beta just in case.
 
 2018-12-13
 ----------
