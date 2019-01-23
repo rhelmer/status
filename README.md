@@ -8,6 +8,14 @@ Currently working on
 Daily(ish) log
 ==============
 
+2019-01-22
+----------
+- looked at potential bug
+- landed old bug about hiding system add-ons from `about:addons` during updates
+    - https://bugzil.la/1367800
+- started reviewing bdanforth's PR for github+tc support
+    - https://github.com/biancadanforth/taskcluster-integration-poc/pull/9
+
 2019-01-10
 ----------
 - experiments-related meeting
