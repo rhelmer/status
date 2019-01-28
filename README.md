@@ -8,6 +8,17 @@ Currently working on
 Daily(ish) log
 ==============
 
+2019-01-28
+----------
+- still recovering from sickness somewhat
+- attached patch to bug to stop exporting msgpack outside of libxul
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1523312
+- working on defining Q2 goals
+
+2019-01-25
+----------
+- PTO (out sick)
+
 2019-01-22
 ----------
 - looked at potential bug
