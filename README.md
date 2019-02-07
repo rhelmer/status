@@ -8,6 +8,18 @@ Currently working on
 Daily(ish) log
 ==============
 
+2019-02-03 -> 2019-02-07
+------------------------
+- catching up after flu
+- reviewed an upcoming extension
+- reviewed bdanforth's github+taskcluster integration for testing extensions
+- followed up on omni.jar signing bug
+  - COSE signatures for langpack doesn't seem to be working, needinfo'd aswan
+- followed up on a few Prio issues and emails
+  - details on signing
+  - responded to needinfos about moving Prio from main ping to its own in Telemetry
+  - reviewed doc for upcoming proposal
+
 2019-01-28
 ----------
 - still recovering from sickness somewhat
