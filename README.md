@@ -7,6 +7,19 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-02-11
+----------
+- client impl guidelines for experiments PR up for review
+  - https://github.com/mozilla/firefox-data-docs/pull/248
+  - this includes bdanforth's work on using Mozilla CI to test extensions, mentioned previously in this status doc
+- testing optimizations for tryserver+extension tests
+  - minimal set of perf tests
+  - leak tests
+  - use artifact builds for above if all possible ^
+- commented on Prio+Telemetry implementation
+  - chatted w/ chutten a bit, leaving ultimate decisions up to him and Telemetry client folks, but I am available to chat whenever they need. Discussed some C++ vs. JS implementation details
+    - libprio is flexible enough to accomodate both, probably this will be behind the nsITelemetry (C++) and Prio will then be behind Telemetry, Prio probably does not need to be exposed to any other components.
+- reached out to folks implementing upcoming experiments, making them aware of above and also answering questions and concerns from folks running it.
 
 2019-02-03 -> 2019-02-07
 ------------------------
