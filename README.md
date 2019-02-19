@@ -7,6 +7,19 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-02-19
+----------
+- planning upcoming work landing shield utils in-tree
+  - https://github.com/mozilla/shield-studies-addon-utils/issues/278
+
+2019-02-14
+----------
+- opened PR for libprio security fix
+  - https://github.com/mozilla/libprio/pull/65
+  - had to fix a bug causing travis failures
+    - https://github.com/mozilla/libprio/pull/66
+    - need to make this more robust, although it's just an occasional annoyance so not the biggest deal. tl;dr is that libprio needs a newer NSS than Travis-CI's ubuntu distro (trusty) provides, so the latest packages are downloaded and installed, and these URLs can change over time.
+
 2019-02-11
 ----------
 - client impl guidelines for experiments PR up for review
