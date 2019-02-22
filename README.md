@@ -7,6 +7,14 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-02-22
+----------
+- followed up on omni jar/xpi corruption bug
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1515173#c21
+- commented in bdanforth's proposal to use options page and browser storage instead of prefs
+  - https://github.com/biancadanforth/webextensions-examples/pull/2
+  - lgtm overall, have a few questions/suggestions to see if we can not have to bundle anything with extension
+
 2019-02-19
 ----------
 - planning upcoming work landing shield utils in-tree
