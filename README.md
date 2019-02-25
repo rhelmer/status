@@ -9,6 +9,8 @@ Daily(ish) log
 ==============
 2019-02-25
 ----------
+- figured out a path forward for exposing debugging UI for experiments extensions to devs/QA
+  - https://github.com/biancadanforth/webextensions-examples/pull/2#issuecomment-467189806
 - doing some self-triage on open bugs
   - ask chutten if he is planning to use `libprio` directly in a few bugs so I could potentially just close out a few `PrioEncoder`-specific bugs
   - managed to close out this old "off-train updates should get perf/correctness testing" bug \o/
