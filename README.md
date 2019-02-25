@@ -7,6 +7,15 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-02-25
+----------
+- doing some self-triage on open bugs
+  - ask chutten if he is planning to use `libprio` directly in a few bugs so I could potentially just close out a few `PrioEncoder`-specific bugs
+  - managed to close out this old "off-train updates should get perf/correctness testing" bug \o/
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1427858#c5
+- untangled some build issues with `libprio` and `msgpack` so we can stop exporting `msgpack` in `xul.dll`
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1523312
+
 2019-02-22
 ----------
 - followed up on omni jar/xpi corruption bug
