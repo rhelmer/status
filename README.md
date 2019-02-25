@@ -15,8 +15,11 @@ Daily(ish) log
   - ask chutten if he is planning to use `libprio` directly in a few bugs so I could potentially just close out a few `PrioEncoder`-specific bugs
   - managed to close out this old "off-train updates should get perf/correctness testing" bug \o/
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1427858#c5
-- untangled some build issues with `libprio` and `msgpack` so we can stop exporting `msgpack` in `xul.dll`
-  - https://bugzilla.mozilla.org/show_bug.cgi?id=1523312
+  - (finally) followed up on old bug about improving feedback mechanisms for experiments
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1454425
+  - untangled some build issues with `libprio` and `msgpack` so we can stop exporting `msgpack` in `xul.dll`
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1523312
+  - unassigned a bunch of old non-critical Add-ons Manager related bugs and set myself as mentor
 
 2019-02-22
 ----------
