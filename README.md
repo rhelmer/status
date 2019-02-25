@@ -20,6 +20,7 @@ Daily(ish) log
   - untangled some build issues with `libprio` and `msgpack` so we can stop exporting `msgpack` in `xul.dll`
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1523312
   - unassigned a bunch of old non-critical Add-ons Manager related bugs and set myself as mentor
+- spent some time watching a talk from All Hands about upcoming Fission changes and how they impact working on frontend Firefox
 
 2019-02-22
 ----------
