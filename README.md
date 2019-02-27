@@ -7,6 +7,14 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-02-26
+----------
+- stuck inside all day from flooded roads
+- put up patch to clean up msgpack build so we can stop exporting symbols from libxul.dll
+    - currently, libprio's `moz.build` just reaches into msgpack's vendored dir
+    - new patch makes it so msgpack gets built separately and exports header files properly
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1523312
+
 2019-02-25
 ----------
 - figured out a path forward for exposing debugging UI for experiments extensions to devs/QA
