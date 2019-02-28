@@ -7,6 +7,16 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-02-27
+----------
+- asked to review part of a change to how search extensions will be loaded as built-in add-ons
+  - good opportunity to evolve the "system add-on" support we have now
+  - https://phabricator.services.mozilla.com/D17212#578569
+- responded to mentor request on good-first-bug I filed on an add-ons manager test:
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1230688#c6
+- landed fix for bug to stop public export of C++ symbols from msgpack (libprio dependency) from libxul.dll
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1523312
+
 2019-02-26
 ----------
 - stuck inside all day from flooded roads
