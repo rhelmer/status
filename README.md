@@ -7,6 +7,20 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-03-01
+----------
+- responded to another incoming outreachy request
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1353934#c9
+- chatted with outreachy person (via email) working on bug 1230688 about build failure problems
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1230688
+- reviewed bdanforth's experiments extension storage proposal
+- reviewed federated learning extension
+  - https://github.com/mozilla/federated-learning-v2-study-addon/pull/5
+
+2019-02-28
+----------
+- planned transition for current system add-on from update to default
+
 2019-02-27
 ----------
 - asked to review part of a change to how search extensions will be loaded as built-in add-ons
