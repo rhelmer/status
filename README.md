@@ -19,7 +19,7 @@ Daily(ish) log
 
 2019-02-28
 ----------
-- planned transition for current system add-on from update to default
+- planned transition for current system add-on update (Firefox Monitor) to built-in default
 
 2019-02-27
 ----------
