@@ -7,6 +7,32 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-03-05
+----------
+- PTO
+
+2019-03-04
+----------
+- finished reviewing latest federated learning experiment PR
+  - https://github.com/mozilla/federated-learning-v2-study-addon/pull/5/files
+  - lgtm,just a few nits
+- discussed devtools issues w/ bdanforth
+- followed along on some existing and upcoming experiments
+  - it's working now, need to see if this can land pre-Fission
+- drive-by look at upcoming Telemetry Origin (uses Prio)
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1530481
+
+2019-03-04
+----------
+- continued reviewing latest federated learning experiment PR
+  - https://github.com/mozilla/federated-learning-v2-study-addon/pull/5/files
+- discussed devtools issues w/ bdanforth
+  - need this for inspecting the built-in, and better, k/v storage for extensions (`browser.storage.local`)
+  - currently prefs are used for generic k/v which is bad and wrong
+  - these get automatically wiped on extension uninstall too which is nice
+  - experiments extensions will still need to be able to flip prefs, but at least this way we'll have to hardcode and limit the prefs it has access to at build/packaging time
+- followed along on some existing and upcoming experiments
+
 2019-03-01
 ----------
 - responded to another incoming outreachy request
@@ -14,8 +40,11 @@ Daily(ish) log
 - chatted with outreachy person (via email) working on bug 1230688 about build failure problems
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1230688
 - reviewed bdanforth's experiments extension storage proposal
-- reviewed federated learning extension
+- started reviewing federated learning extension
   - https://github.com/mozilla/federated-learning-v2-study-addon/pull/5
+- reviewed new search extension code
+  - mainly just a question about whether these should be considered "system add-ons" or not
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1496075#c49
 
 2019-02-28
 ----------
