@@ -7,7 +7,17 @@ Currently working on
 
 Daily(ish) log
 ==============
-2019-03-05
+2019-03-08
+----------
+- quick meeting about omni jar corruption, manual test being run
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1533818
+
+2019-03-07
+----------
+- pre-review of Prio+Telemetry integration
+  - https://phabricator.services.mozilla.com/D22605
+
+2019-03-06
 ----------
 - PTO
 
