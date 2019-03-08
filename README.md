@@ -1,8 +1,5 @@
 Currently working on
 =====================
-- experiments architecture engineering plan for 2019 H1
-- triaging shield-utils / pioneer utils
-- talk to folks about experiments case study for next year
 - move shield utils to tree (probably under Normandy component)
 
 Daily(ish) log
