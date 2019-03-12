@@ -4,10 +4,19 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-03-11
+----------
+- worked on moving shield-addon-utils in-tree
+  - showed preliminary patch to Rehan who has been looking at this too
+  - https://gist.github.com/rhelmer/b18f50f668b0d6336997c30f6727dcfd
+  - starts up OK, could use help testing it though.
+
 2019-03-08
 ----------
 - quick meeting about omni jar corruption, manual test being run
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1533818
+- worked on moving shield-addon-utils in-tree
+  - going pretty well, should be able to re-use quite a bit. Was hoping to be able to load the existing commonjs modules from JSMs but there just isn't great support for that for window-less code like this.
 
 2019-03-07
 ----------
