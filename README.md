@@ -4,6 +4,28 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-03-19
+----------
+- finished "make PrioEncoder usable from C++" review
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1530481
+- consulted with folks for a few issues
+  - mozilla-signed extensions
+  - addon updater timer frequency and testing
+
+2019-03-19
+----------
+- reviews
+  - rename price-wise to price-tracker
+    - https://github.com/mozilla/price-tracker/pull/308
+  - make PrioEncoder usable from C++
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1530481
+- consulted about potential issues with upcoming experiments
+
+2019-03-18
+----------
+- responded to questions on upcoming experiment
+- research for upcoming project
+
 2019-03-11
 ----------
 - worked on moving shield-addon-utils in-tree
