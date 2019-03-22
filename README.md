@@ -4,6 +4,14 @@ Currently working on
 
 Daily(ish) log
 ==============
+2019-03-22
+----------
+- Prio discussons
+- reviewed import of WebCompat
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1536767
+- responded to needinfo about removing Prio pilot ping
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1538245
+
 2019-03-19
 ----------
 - finished "make PrioEncoder usable from C++" review
