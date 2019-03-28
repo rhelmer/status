@@ -1,12 +1,38 @@
-Currently working on
-=====================
-- move shield utils to tree (probably under Normandy component)
-
 Daily(ish) log
 ==============
+2019-03-26
+----------
+- meetings
+- some upstream Prio work
+  -  merged PR to remove precomputed table of roots
+    - https://github.com/mozilla/libprio/pull/69
+  - also tagged release 1.5 and filed bug + review request to vendor in m-c
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1539715
+
+2019-03-27
+----------
+- PTO (half-day)
+- proposal writing
+
+2019-03-25
+----------
+- proposal writing
+- started tracking down intermitten in prio tests, but Henry found it first
+  - https://github.com/mozilla/libprio/issues/71
+  - deferred further questions to Franziskus
+
 2019-03-22
 ----------
-- Prio discussons
+- proposal writing
+- some upstream Prio work
+  - started reviewing PR to remove precomputed table of roots
+    - https://github.com/mozilla/libprio/pull/69
+  - noticed an existing intermittent in the prio tests
+    - https://github.com/mozilla/libprio/issues/71
+
+2019-03-22
+----------
+- meetings
 - reviewed import of WebCompat
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1536767
 - responded to needinfo about removing Prio pilot ping
