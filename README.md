@@ -1,5 +1,32 @@
 Daily(ish) log
 ==============
+2019-04-02
+----------
+- reviewed a few upcoming SAO extensions
+- advised on architecture for upcoming experiment
+- testing signed omni jar
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1515712
+- landed version 1.5 of libprio in m-c
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1539715
+
+2019-04-01
+----------
+- worked on proposals
+
+2019-03-29
+----------
+- worked on proposals
+
+2019-03-28
+----------
+- checking out c2rust, tried converting libprio
+  - https://github.com/mozilla/libprio/compare/master...rhelmer:rust?expand=1
+  - links and compiles, test suite close to passing
+
+2019-03-27
+----------
+- worked on proposals
+
 2019-03-26
 ----------
 - meetings
