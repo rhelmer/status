@@ -1,5 +1,29 @@
 Daily(ish) log
 ==============
+2019-04-05 -> 2019-04-19
+------------------------
+- worked on proposals
+- preparing to land omnijar/system add-on corruption patch
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1515712
+  - try run, more local testing, etc.
+  - slightly modified data collection request
+    - decided to expire in 67 and then re-evaluate
+
+2019-04-04
+----------
+- manual test for xpi/jar corruption patch with test signed ommnijar
+  - https://bugzilla.mozilla.org/show_bug.cgi?id=1515712
+- worked on upcoming system add-on
+
+2019-04-03
+----------
+- reviewed patch to remove prio pilot ping
+  - https://phabricator.services.mozilla.com/D26004
+  - the actual libprio and PrioEncoder implementations remain, this is just the test data we put in the main ping.
+- meetings
+- reviewed bdanforth's WIP devtools patch
+  - https://github.com/biancadanforth/bug_1292234/pull/8
+
 2019-04-02
 ----------
 - reviewed a few upcoming SAO extensions
@@ -11,10 +35,12 @@ Daily(ish) log
 
 2019-04-01
 ----------
+- meetings
 - worked on proposals
 
 2019-03-29
 ----------
+- meetings
 - worked on proposals
 
 2019-03-28
@@ -25,6 +51,7 @@ Daily(ish) log
 
 2019-03-27
 ----------
+- meetings
 - worked on proposals
 
 2019-03-26
