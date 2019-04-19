@@ -7,7 +7,7 @@ Daily(ish) log
   - https://bugzilla.mozilla.org/show_bug.cgi?id=1515712
   - try run, more local testing, etc.
   - slightly modified data collection request
-    - decided to expire in 67 and then re-evaluate
+    - decided to expire in 71 and then re-evaluate
 
 2019-04-04
 ----------
