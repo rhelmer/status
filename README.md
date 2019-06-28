@@ -12,7 +12,7 @@ Daily(ish) log
 2019-04-04
 ----------
 - manual test for xpi/jar corruption patch with test signed ommnijar
-  - https://bugzilla.mozilla.org/show_bug.cgi?id=1515712
+  - https://bugzilla.mozill a.org/show_bug.cgi?id=1515712
 - worked on upcoming system add-on
 
 2019-04-03
