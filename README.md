@@ -1,5 +1,21 @@
 Daily(ish) log
 ==============
+2019-07-05 -> 2019-07-09
+------------------------
+- started learning about new RISC-V open-source CPU
+    - got linux built and running in qemu
+    - https://risc-v-getting-started-guide.readthedocs.io/
+- started exploring Zephyr (RTOS) vs. FreeRTOS
+    - FreeRTOS has AWS support which is interesting:
+        - https://aws.amazon.com/freertos/
+        - Amazon has been contributing quite a bit for the past few years,
+        including RISC-V support
+    - FreeRTOS code is pretty small and simple, Zephyr seems like a more modern project but not as mature. Going to check out both.
+- continued Hackerrank "30 days of code"
+    - Day 20, although I need to go back and pick up a few I've missed
+-  Signed up for Coursera Algorithms course
+    - still on week 1, going well so far.
+
 2019-04-05 -> 2019-04-19
 ------------------------
 - worked on proposals
