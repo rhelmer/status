@@ -1,5 +1,25 @@
+TODO
+----
+- report type on RV asm site
+
 Daily(ish) log
 ==============
+2019-07-12 -> 2019-07-16
+------------------------
+- reading through RISC-v asm manual
+    - https://rv8.io/asm.html
+        - noticed typo in "Section Header", "Section Headers provice size [...]"
+- starting reading Tock real-time OS manual
+    - https://www.tockos.org/
+    - written in Rust
+    - event driven execution model that uses no heap allocation, so the kernel won’t run out of memory
+    - has interesting model to protect programs from each other and only allow them to talk to the peripherals they should have access to
+        - no resource overhead
+        - process memory isolated using MPU
+    - seamlessly put the hardware into the lowest possible sleep state based on application requirements
+        - No explicit power-management is required from the application
+    - supports only Cortex-M so far (I think?)
+
 2019-07-05 -> 2019-07-09
 ------------------------
 - started learning about new RISC-V open-source CPU
