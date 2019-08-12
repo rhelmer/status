@@ -19,6 +19,9 @@ Daily(ish) log
     - seamlessly put the hardware into the lowest possible sleep state based on application requirements
         - No explicit power-management is required from the application
     - supports only Cortex-M so far (I think?)
+- caught up on older hackerrank "30 days of code"
+    - linked list, ugh
+    - still 4 days behind :)
 
 2019-07-05 -> 2019-07-09
 ------------------------
