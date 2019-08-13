@@ -1,6 +1,6 @@
 TODO
 ----
-- report type on RV asm site
+- report typo on RV asm site
 
 Daily(ish) log
 ==============
