@@ -4,6 +4,12 @@ TODO
 
 Daily(ish) log
 ==============
+2019-09
+-------
+- auditing MIT 6.004 Computation Structures class
+    - https://6004.mit.edu/web/fall19/
+    - pretty great so far, starts with basics of binary and asm for RISC-V, goes through desiging a simple CPU
+
 2019-07-12 -> 2019-07-16
 ------------------------
 - reading through RISC-v asm manual
@@ -12,6 +18,7 @@ Daily(ish) log
 - starting reading Tock real-time OS manual
     - https://www.tockos.org/
     - written in Rust
+    - uses type system to provide safety since there's no MMU on most embedded platforms
     - event driven execution model that uses no heap allocation, so the kernel won’t run out of memory
     - has interesting model to protect programs from each other and only allow them to talk to the peripherals they should have access to
         - no resource overhead
