@@ -2,8 +2,8 @@ TODO
 ----
 - report typo on RV asm site
 
-Daily(ish) log
-==============
+Monthly log
+===========
 2019-09
 -------
 - auditing MIT 6.004 Computation Structures class
